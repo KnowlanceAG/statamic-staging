@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Ghostwriting Agentur
   - type: paragraph
     content:
@@ -32,7 +32,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
@@ -48,17 +48,17 @@ replicator:
               jemand für das Verfassen eben dieser Vorlage einer Hausarbeit,
               Seminararbeit, Bachelorarbeit, Doktorarbeit bzw. Dissertation oder
               Diplomarbeit gesucht oder eine Unterstützung bei dem Geschäftsplan
-              oder dem Geschäftsbericht. Es wird ein 
+              oder dem Geschäftsbericht. Es wird ein
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
           - type: text
-            text: ' gesucht.'
+            text: " gesucht."
       - type: heading
         attrs:
           level: 2
@@ -74,7 +74,7 @@ replicator:
               Forschungsergebnisse textlich auswertet oder eine ganze
               Mustervorlage für einen wissenschaftlichen Text für diese
               erstellt. Die Gründe hierfür sind mannigfaltig. Ein wichtiger
-              Grund ist der 
+              Grund ist der
           - type: text
             marks:
               - type: link
@@ -85,13 +85,13 @@ replicator:
                   rel: noopener noreferrer nofollow
             text: Zeitdruck in einem modernen Studium
           - type: text
-            text: ' im Bachelor- und Mastersystem nach der Bolognareform. '
+            text: " im Bachelor- und Mastersystem nach der Bolognareform. "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Aber es gibt auch andere Gründe, wie etwa fehlende
               Sprachkenntnisse, falscher Schreibstil, eine Schreibschwäche oder
@@ -103,7 +103,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Grade die Studienarbeiten wie Hausarbeiten und Seminararbeiten
               sind eine gute Vorbereitung auf die Abschlussarbeit
@@ -118,7 +118,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Durch die fehlende Unterstützung im Universitätsalltag haben viele
               Studenten Problemen bei der Themenfindung, der Forschungsfrage und
@@ -130,7 +130,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Daher bieten '
+            text: "Daher bieten "
           - type: text
             marks:
               - type: link
@@ -140,7 +140,7 @@ replicator:
                   rel: null
             text: Ghostwriting
           - type: text
-            text: ' Agenturen einen Service, der diese auf diese Art von Problemen zugeschnitten ist. Sie suchen im Idealfall einen auf die Bedürfnisse des Auftraggebers zugeschnittenen akademischen Autor, der ihnen dabei hilft Ihre wissenschaftliche Arbeit zu verfassen.'
+            text: " Agenturen einen Service, der diese auf diese Art von Problemen zugeschnitten ist. Sie suchen im Idealfall einen auf die Bedürfnisse des Auftraggebers zugeschnittenen akademischen Autor, der ihnen dabei hilft Ihre wissenschaftliche Arbeit zu verfassen."
       - type: paragraph
         content:
           - type: text
@@ -148,7 +148,7 @@ replicator:
               - type: bold
             text: >-
               Wenn Sie bei Ihrer akademischen Arbeit Unterstützung benötigen,
-              dann können Sie uns gerne sofort eine 
+              dann können Sie uns gerne sofort eine
           - type: text
             marks:
               - type: bold
@@ -168,7 +168,7 @@ replicator:
               Selbstverständlich können und dürfen wir Ihnen keine
               Abschlussarbeiten (
           - type: text
-            text: 'Bachelorarbeit, Masterarbeit, Doktorarbeit, Diplomarbeit) '
+            text: "Bachelorarbeit, Masterarbeit, Doktorarbeit, Diplomarbeit) "
           - type: text
             marks:
               - type: bold
@@ -190,7 +190,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Unsere seriöse Schreibagentur GWriters arbeitet mit akademischen
               Experten zusammen, die als wissenschaftlich erfahrene
@@ -207,7 +207,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: black
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               In der akademischen Biografie eines Ghostwriters findet sich eine
               Vielzahl praktischer und theoretischer Erfahrungen in der
@@ -234,7 +234,7 @@ replicator:
               werden, die die erforderlichen Qualifikationen für die jeweilige
               Aufgabe mitbringen, sei es die erforderliche fachliche Kompetenz
               oder auch das Wissen, welche akademischen Formalia eingehalten
-              werden müssen. 
+              werden müssen.
       - type: paragraph
         content:
           - type: text
@@ -249,7 +249,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Im Internet finden sich leider viele '
+            text: "Im Internet finden sich leider viele "
           - type: text
             marks:
               - type: link
@@ -263,7 +263,7 @@ replicator:
               , die eine Musterarbeit für eine akademische Arbeit nicht in der
               notwenigen Güte verfassen können. Vor diesen Kriminellen kann man
               sich durch das Beauftragen einer seriösen Agentur für Ghostwriter
-              schützen. 
+              schützen.
       - type: heading
         attrs:
           level: 3
@@ -279,11 +279,11 @@ replicator:
               Kompetenzen und Qualifikationen auf die eigenen Bedürfnisse
               zugeschnitten sind. Sie kann aus einem breiten Band von
               Mitarbeitern genau den Ghostwriter finden, der den jeweiligen
-              Ansprüchen an wissenschaftlicher Qualität genügt. 
+              Ansprüchen an wissenschaftlicher Qualität genügt.
       - type: paragraph
         content:
           - type: text
-            text: 'Meist bieten Ghostwriting Agenturen auch ein Korrektorat oder '
+            text: "Meist bieten Ghostwriting Agenturen auch ein Korrektorat oder "
           - type: text
             marks:
               - type: link
@@ -293,7 +293,7 @@ replicator:
                   rel: null
             text: Lektorat
           - type: text
-            text: ' für Ihren akademischen Text an. Auch hier ist es wichtig, seriöse Agenturen zu nutzen obwohl ein Korrektorat geringere Anforderungen an den '
+            text: " für Ihren akademischen Text an. Auch hier ist es wichtig, seriöse Agenturen zu nutzen obwohl ein Korrektorat geringere Anforderungen an den "
           - type: text
             marks:
               - type: link
@@ -303,7 +303,7 @@ replicator:
                   rel: null
             text: Korrektor
           - type: text
-            text: ' stellt als ein Lektorat an den '
+            text: " stellt als ein Lektorat an den "
           - type: text
             marks:
               - type: link
@@ -348,7 +348,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: "20"
               - type: set
                 attrs:
                   values:
@@ -367,7 +367,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: "20"
               - type: set
                 attrs:
                   values:
@@ -386,7 +386,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: "20"
               - type: set
                 attrs:
                   values:
@@ -409,7 +409,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: "20"
               - type: set
                 attrs:
                   values:
@@ -426,7 +426,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: "20"
               - type: set
                 attrs:
                   values:
@@ -442,7 +442,7 @@ replicator:
                 attrs:
                   values:
                     type: spacer
-                    padding-y: '20'
+                    padding-y: "20"
               - type: set
                 attrs:
                   values:
@@ -488,8 +488,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Eine Agentur kann ein wichtiger Ansprechpartner beim
               Universitätsabschluss sein, besonders bei einer wissenschaftlichen
@@ -510,8 +510,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Eine Ghostwriting Agentur vermittelt für jede Fachrichtung und
               Leistung professionelle Ghostwriter. Sie arbeitet mit vielen
@@ -526,8 +526,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Bei der Beauftragung eines Ghostwriters ist es wichtig vorher zu
               wissen, wann der Abgabetermin einer Abschlussarbeit ist. So kann
@@ -555,8 +555,8 @@ replicator:
             marks:
               - type: textColor
                 attrs:
-                  color: '#000!important'
-                  hex: '#000'
+                  color: "#000!important"
+                  hex: "#000"
             text: >-
               Aber auch unter anderen Umständen kann eine vertraute Agentur von
               Nutzen sein. Ist man beispielsweise mit Schreibstil oder Umsetzung
@@ -600,13 +600,13 @@ replicator:
                   href: /blog/ghostwriter-agentur
                   target: null
                   rel: null
-            text: 'Video: Worauf Du bei einer Ghostwriter Agentur achten solltest'
+            text: "Video: Worauf Du bei einer Ghostwriter Agentur achten solltest"
           - type: hard_break
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /blog/erfahrungsbericht-ghostwriter-gwriters
+                  href: /gwriters-erfahrung
                   target: null
                   rel: null
             text: Erfahrungsbericht zur Arbeit als Ghostwriter bei GWriters
@@ -650,7 +650,7 @@ updated_at: 1639420363
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

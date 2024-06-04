@@ -54,7 +54,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/qualitative-inhaltsanalyse-voraussetzungen
+                  href: /blog/qualitative-inhaltsanalyse
                   target: null
                   rel: null
             text: qualitativen Inhaltsanalyse
@@ -131,7 +131,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/statistisch-arbeiten
+                  href: /arbeiten/statistische-analysen
                   target: null
                   rel: null
             text: statistische Arbeiten mit Primär- und Sekundärdaten

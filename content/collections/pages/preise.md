@@ -4,8 +4,8 @@ blueprint: pages
 title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1711147444
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1716545080
 replicator:
   -
     id: VvunKODE
@@ -73,7 +73,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -970,7 +970,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/hausarbeit-schreiben-lassen'
+                                  href: /arbeiten/hausarbeit-schreiben-lassen
                                   rel: null
                                   target: null
                                   title: null
@@ -984,7 +984,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/bachelorarbeit-schreiben-lassen'
+                                  href: /arbeiten/bachelorarbeit-schreiben-lassen
                                   rel: null
                                   target: null
                                   title: null
@@ -998,7 +998,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/masterarbeit-schreiben-lassen'
+                                  href: /arbeiten/masterarbeit-schreiben-lassen
                                   rel: null
                                   target: null
                                   title: null
@@ -1012,7 +1012,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/doktorarbeit'
+                                  href: /arbeiten/doktorarbeit
                                   rel: null
                                   target: null
                                   title: null
@@ -1034,7 +1034,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://gwriters.de/arbeiten/statistische-analysen'
+                                  href: /arbeiten/statistische-analysen
                                   rel: null
                                   target: null
                                   title: null
@@ -1067,7 +1067,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/leistungen'
+                          href: /leistungen
                           rel: null
                           target: null
                           title: null
@@ -1086,7 +1086,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://gwriters.de/anfrage'
+                          href: /anfrage
                           rel: 'noopener noreferrer'
                           target: _blank
                           title: null
@@ -3541,9 +3541,9 @@ sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
 meta_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
-meta_description: 'Ghostwriter Preise für medizinisches, Jura- oder BWL-Ghostwriting & anderen Fachbereiche ab 100,- € | Akademische Ghostwriter zu fairen Preisen!'
+meta_description: 'Ghostwriter Preise ab 100,- € pro Normseite für medizinisches, Jura- oder BWL-Ghostwriting & andere Fachbereiche  | Akademische Ghostwriter zu fairen Preisen!'
 og_title: 'Ghostwriter Preise von GWriters • Preissicherheit & Transparenz ✓'
-og_description: 'Ghostwriter Preise für medizinisches, Jura- oder BWL-Ghostwriting & anderen Fachbereiche ab 100,- € | Akademische Ghostwriter zu fairen Preisen!'
+og_description: 'Ghostwriter Preise ab 100,- € pro Normseite für medizinisches, Jura- oder BWL-Ghostwriting & andere Fachbereiche  | Akademische Ghostwriter zu fairen Preisen!'
 og_image: GWriters-Logo.png
 sitemap_active: true
 schema_objects: |-

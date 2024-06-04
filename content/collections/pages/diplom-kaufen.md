@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Diplom kaufen
   - type: paragraph
     content:
@@ -30,7 +30,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
@@ -106,15 +106,15 @@ replicator:
             text: >-
               Das Absolvieren eines regulären Studiums ist die einzige
               ernstzunehmende Alternative zum Titelkauf über ominöse Anbieter.
-              Als unterstützende Instanz kann dem Studenten jedoch ein 
+              Als unterstützende Instanz kann dem Studenten jedoch ein
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
-            text: 'Ghostwriter '
+            text: "Ghostwriter "
           - type: text
             text: >-
               dienen. Dieser fertigt auf Wunsch Vorschläge oder Musterlösungen
@@ -122,7 +122,7 @@ replicator:
               Studenten jedoch keine abgabefertige Arbeit zur Verfügung. Der
               Ghostwriter kann auch die Literaturrecherche für den Interessenten
               durchführen und ihm eine Liste mit den für ihn relevanten Quellen
-              aushändigen. Der Verfasser der 
+              aushändigen. Der Verfasser der
           - type: text
             marks:
               - type: link
@@ -130,12 +130,12 @@ replicator:
                   href: /arbeiten/diplomarbeit
                   target: null
                   rel: null
-            text: 'Diplomarbeit '
+            text: "Diplomarbeit "
           - type: text
             text: >-
               muss die ihm gelieferten Informationen selbständig filtern, ordnen
               und in einen sinnvollen Sachzusammenhang bringen. Weiterhin kann
-              auch ein 
+              auch ein
           - type: text
             marks:
               - type: link
@@ -145,7 +145,7 @@ replicator:
                   rel: null
             text: Lektorat
           - type: text
-            text: ' oder ein '
+            text: " oder ein "
           - type: text
             marks:
               - type: link
@@ -153,11 +153,11 @@ replicator:
                   href: /korrektorat
                   target: null
                   rel: null
-            text: 'Korrektorat '
+            text: "Korrektorat "
           - type: text
             text: >-
               einer bereits verfassten wissenschaftlichen Arbeit durchgeführt
-              werden. Die Dienste von Ghostwritern, Lektoren, 
+              werden. Die Dienste von Ghostwritern, Lektoren,
           - type: text
             marks:
               - type: link
@@ -167,11 +167,11 @@ replicator:
                   rel: null
             text: Korrektoren
           - type: text
-            text: ' oder ähnlichen akademischen Freelancern stellen sich dabei als strafrechtlich unbedenklich dar. Der vom Studenten vorgegebene Inhalt und die Struktur der Arbeit werden durch die Zuhilfenahme eines Ghostwriters oder Bearbeiters nicht verändert. Der Student wird selbst aktiv und steht bei der Anfertigung seiner Arbeit im Vordergrund.'
+            text: " oder ähnlichen akademischen Freelancern stellen sich dabei als strafrechtlich unbedenklich dar. Der vom Studenten vorgegebene Inhalt und die Struktur der Arbeit werden durch die Zuhilfenahme eines Ghostwriters oder Bearbeiters nicht verändert. Der Student wird selbst aktiv und steht bei der Anfertigung seiner Arbeit im Vordergrund."
       - type: paragraph
         content:
           - type: text
-            text: 'siehe auch: '
+            text: "siehe auch: "
           - type: text
             marks:
               - type: link
@@ -203,7 +203,7 @@ replicator:
           level: 2
         content:
           - type: text
-            text: 'Besucher dieser Seite suchten nach:'
+            text: "Besucher dieser Seite suchten nach:"
       - type: paragraph
         content:
           - type: text
@@ -240,7 +240,7 @@ replicator:
                   href: /blog/ghostwriter-auftrag-tipps
                   target: null
                   rel: null
-            text: 'Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag'
+            text: "Video: Tipps für einen erfolgreichen Ghostwriter-Auftrag"
       - type: paragraph
         content:
           - type: text
@@ -279,7 +279,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

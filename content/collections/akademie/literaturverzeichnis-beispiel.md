@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Literaturverzeichnis Beispiel
   - type: paragraph
     content:
@@ -34,7 +34,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: akademie/Banner_GWAkademie_BackgroundOnly-1024x139.jpg
@@ -47,7 +47,7 @@ replicator:
             text: >-
               Ein vollständiges und korrekt dargestelltes Literaturverzeichnis
               ist in allen wissenschaftlichen Abschlussarbeiten unerlässlich.
-              Jene Quellenangaben, die gewisse Teilbereiche einer 
+              Jene Quellenangaben, die gewisse Teilbereiche einer
           - type: text
             marks:
               - type: link
@@ -55,9 +55,9 @@ replicator:
                   href: /arbeiten/bachelorarbeit-schreiben-lassen
                   target: null
                   rel: null
-            text: 'Bachelorarbeit '
+            text: "Bachelorarbeit "
           - type: text
-            text: 'oder '
+            text: "oder "
           - type: text
             marks:
               - type: link
@@ -67,7 +67,7 @@ replicator:
                   rel: null
             text: Masterarbeit
           - type: text
-            text: ' umfassen, sind in einem dafür vorgesehenen Verzeichnis zu nennen. Daher ist es für alle Studenten nicht unwesentlich, die geeignete Darstellungsform zu kennen.'
+            text: " umfassen, sind in einem dafür vorgesehenen Verzeichnis zu nennen. Daher ist es für alle Studenten nicht unwesentlich, die geeignete Darstellungsform zu kennen."
       - type: set
         attrs:
           id: GNtFfKaI
@@ -85,7 +85,7 @@ replicator:
               Literaturverzeichnis nicht einheitlich dargestellt, sondern
               umfasst einen bestimmten Zitierstil. Nutzen Sie unser
               Literaturverzeichnis Beispiel und stellen Sie eine professionelle
-              Darstellung Ihrer Literaturquellen sicher. Auch unser 
+              Darstellung Ihrer Literaturquellen sicher. Auch unser
           - type: text
             marks:
               - type: link
@@ -95,7 +95,7 @@ replicator:
                   rel: null
             text: kostenloser Zitationsgenerator
           - type: text
-            text: ' bietet Ihnen eine wertvolle Hilfestellung bei der Erstellung der Quellenangaben für Ihre wissenschaftliche Arbeit.'
+            text: " bietet Ihnen eine wertvolle Hilfestellung bei der Erstellung der Quellenangaben für Ihre wissenschaftliche Arbeit."
       - type: paragraph
         content:
           - type: text
@@ -123,15 +123,15 @@ replicator:
           - type: text
             text: >-
               Eine Literaturverzeichnis Vorlage erlaubt Ihnen einen Einblick in
-              ein professionelles, von akademischen 
+              ein professionelles, von akademischen
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
-            text: 'Ghostwritern '
+            text: "Ghostwritern "
           - type: text
             text: >-
               erstelltes Literaturverzeichnis für wissenschaftliche Arbeiten, an
@@ -144,16 +144,16 @@ replicator:
                   href: /leistungen/formatierung
                   target: null
                   rel: null
-            text: ' Formatierung'
+            text: " Formatierung"
           - type: text
-            text: ' entnehmen und ebenso demonstrieren wir, wie Sie Ihr Literaturverzeichnis in Word erstellen können.'
+            text: " entnehmen und ebenso demonstrieren wir, wie Sie Ihr Literaturverzeichnis in Word erstellen können."
       - type: paragraph
         content:
           - type: text
             text: >-
               Welche Priorität den einzelnen Verzeichnissen zugemessen wird,
               hängt oft vom jeweiligen Fachbereich ab. In jedem Fall nimmt
-              dieses Verzeichnis allerdings – von der ersten 
+              dieses Verzeichnis allerdings – von der ersten
           - type: text
             marks:
               - type: link
@@ -161,7 +161,7 @@ replicator:
                   href: /arbeiten/hausarbeit-schreiben-lassen
                   target: null
                   rel: null
-            text: 'Hausarbeit '
+            text: "Hausarbeit "
           - type: text
             text: bis hin zur Dissertation – eine wichtige Funktion ein.
       - type: heading
@@ -193,7 +193,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 academy_short_text_headline: Literaturverzeichnis Beispiel

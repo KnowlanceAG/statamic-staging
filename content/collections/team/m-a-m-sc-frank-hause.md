@@ -24,23 +24,23 @@ bard:
                   Humangenetik sowie Leib-Seele-Philosophie. Seit dem Jahr 2015
                   ist er als Wissenschaftsautor und -berater tätig. Im Zuge
                   dessen ist er heute maßgeblich auf statistische Auswertungen
-                  als 
+                  als
               - type: text
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/medizin
+                      href: /medizin
                       target: null
                       rel: null
                 text: Medizin Ghostwriter
               - type: text
                 marks: []
-                text: ' und in der Psychologie sowie naturwissenschaftlichen Fachbereichen spezialisiert, wozu auch Beratungen und Coaching im Bereich der Statistik gehören. Seine herausragende Kompetenz und Vielseitigkeit zeigt sich auch in seiner fachlichen Ausrichtung, da er nicht nur in den naturwissenschaftlichen Fachbereichen der '
+                text: " und in der Psychologie sowie naturwissenschaftlichen Fachbereichen spezialisiert, wozu auch Beratungen und Coaching im Bereich der Statistik gehören. Seine herausragende Kompetenz und Vielseitigkeit zeigt sich auch in seiner fachlichen Ausrichtung, da er nicht nur in den naturwissenschaftlichen Fachbereichen der "
               - type: text
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/biologie
+                      href: /biologie
                       target: null
                       rel: null
                 text: Biologie
@@ -51,7 +51,7 @@ bard:
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/chemie
+                      href: /chemie
                       target: null
                       rel: null
                 text: Biochemie
@@ -66,7 +66,7 @@ bard:
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false

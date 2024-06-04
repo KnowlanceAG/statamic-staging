@@ -993,7 +993,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -1046,7 +1046,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/qualitative-quantitative-methoden
+                          href: /blog/methodik-bachelorarbeit
                           rel: null
                           target: null
                           title: null
@@ -1681,7 +1681,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen"
                                           rel: null
                                           target: null
                                           title: null

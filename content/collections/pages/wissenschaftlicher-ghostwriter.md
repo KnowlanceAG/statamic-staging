@@ -108,7 +108,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   rel: null
                   target: null
                   title: null
@@ -174,7 +174,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/ghostwriter-mustervorlage
+                  href: /ghostwriting-beispielarbeiten
                   rel: null
                   target: null
                   title: null
@@ -201,7 +201,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/dissertation-schreiben-motivationstipps
+                  href: /arbeiten/doktorarbeit
                   rel: null
                   target: null
                   title: null

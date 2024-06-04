@@ -1839,7 +1839,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -2575,7 +2575,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          href: '/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen'
                                           rel: null
                                           target: null
                                           title: null
@@ -3761,7 +3761,7 @@ replicator:
                                           -
                                             type: link
                                             attrs:
-                                              href: /blog/bachelorarbeit-einleitung
+                                              href: /blog/einleitung-bachelorarbeit
                                               rel: null
                                               target: null
                                               title: null
@@ -4501,19 +4501,6 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.zeit.de/zustimmung?url=https%3A%2F%2Fwww.zeit.de%2Fcampus%2F2010%2F03%2FStudium-Master-Empfehlungsschreiben'
-                          rel: 'noopener noreferrer'
-                          target: _blank
-                          title: null
-                    text: 'Masterstudium: Nicht zu empfehlen - Zeit Online'
-                  -
-                    type: hardBreak
-                  -
-                    type: text
-                    marks:
-                      -
-                        type: link
-                        attrs:
                           href: 'https://www.faz.net/aktuell/politik/inland/hochschulreform-in-der-bologna-falle-11877689.html'
                           rel: 'noopener noreferrer'
                           target: _blank
@@ -4530,8 +4517,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
-updated_at: 1711268227
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1715174612
 template: default
 use_meta_keywords: false
 no_index_page: false

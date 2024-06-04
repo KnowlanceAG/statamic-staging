@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Lektorat Service
   - type: heading
     attrs:
@@ -29,7 +29,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: "10"
   - type: set
     attrs:
       values:
@@ -62,14 +62,14 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: "15"
   - type: set
     attrs:
       values:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
@@ -78,7 +78,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Ein '
+            text: "Ein "
           - type: text
             marks:
               - type: link
@@ -88,7 +88,7 @@ replicator:
                   rel: null
             text: Lektorat
           - type: text
-            text: ' Service bietet eine Dienstleistung am geschriebenen Wort an, das sogenannte Lektorat. Beim Lektorat handelt es sich um eine Bearbeitung eines Textes der über ein sogenanntes '
+            text: " Service bietet eine Dienstleistung am geschriebenen Wort an, das sogenannte Lektorat. Beim Lektorat handelt es sich um eine Bearbeitung eines Textes der über ein sogenanntes "
           - type: text
             marks:
               - type: link
@@ -98,14 +98,14 @@ replicator:
                   rel: null
             text: Korrektorat
           - type: text
-            text: ' weit hinausgeht. Bei einem Korrektorat Service überprüft ein Korrektor einen Text auf grammatikalische Fehler, Rechtschreib- und Tippfehler sowie auf korrekte Zeichensetzung.'
+            text: " weit hinausgeht. Bei einem Korrektorat Service überprüft ein Korrektor einen Text auf grammatikalische Fehler, Rechtschreib- und Tippfehler sowie auf korrekte Zeichensetzung."
           - type: hard_break
           - type: hard_break
           - type: text
             text: >-
               Eine Korrektur schließt an dieser Stelle auch eine Berichtigung
               solcher Unzulänglichkeiten mit ein. Ein Lektorat Service geht hier
-              weiter. Der ausführende 
+              weiter. Der ausführende
           - type: text
             marks:
               - type: link
@@ -115,7 +115,7 @@ replicator:
                   rel: null
             text: Lektor
           - type: text
-            text: ' untersucht den vorliegenden Text zuerst wie ein '
+            text: " untersucht den vorliegenden Text zuerst wie ein "
           - type: text
             marks:
               - type: link
@@ -125,7 +125,7 @@ replicator:
                   rel: null
             text: Korrektor
           - type: text
-            text: ', dann aber auch auf'
+            text: ", dann aber auch auf"
       - type: bullet_list
         content:
           - type: list_item
@@ -222,7 +222,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -240,7 +240,7 @@ replicator:
             text: >-
               “ auf. Gerade solche Angebote verfügen meist über einen
               herausragenden Pool an akademischen Schreibern, die in der Lage
-              sind ganze Texte Selbstständig zu verfassen. Diese 
+              sind ganze Texte Selbstständig zu verfassen. Diese
           - type: text
             marks:
               - type: link
@@ -250,7 +250,7 @@ replicator:
                   rel: null
             text: Ghostwriting
           - type: text
-            text: ' Agenturen haben in ihrem Angebot zumeist einen Korrektorat und Lektorat Service. Dies bietet sich für sie an, da sie ja bereits ein Team an fähigen Schreibern beschäftigen die auch einen Lektorat Service gut übernehmen können. Bei seriösen Anbietern kann man sich sicher sein, einen Lektor der eigenen Fachrichtung zu bekommen, denn wer ein erfolgreiches Ghostwriting leisten kann, muss der spezifischen Fachrichtung angehören. Als kleiner Tipp gilt hierbei: Ruhig erst nach einem Ghostwriting in seinem Fach fragen. Kann dieses angeboten werden, ist man mit Sicherheit hier, sucht man eine Korrektorat oder Lektorat Service, gut aufgehoben. Agenturen können leisten, was Einzelpersonen nicht können, den ganzen Service aus einer Hand. Benötigt man im Laufe seines Studiums einen Lektorat Service in verschiedenen Fächern so findet man in Agenturen den richtigen Ansprechpartner und es muss nicht mühsam ein neuer Lektorat Service für das neue Fach gesucht werden.'
+            text: " Agenturen haben in ihrem Angebot zumeist einen Korrektorat und Lektorat Service. Dies bietet sich für sie an, da sie ja bereits ein Team an fähigen Schreibern beschäftigen die auch einen Lektorat Service gut übernehmen können. Bei seriösen Anbietern kann man sich sicher sein, einen Lektor der eigenen Fachrichtung zu bekommen, denn wer ein erfolgreiches Ghostwriting leisten kann, muss der spezifischen Fachrichtung angehören. Als kleiner Tipp gilt hierbei: Ruhig erst nach einem Ghostwriting in seinem Fach fragen. Kann dieses angeboten werden, ist man mit Sicherheit hier, sucht man eine Korrektorat oder Lektorat Service, gut aufgehoben. Agenturen können leisten, was Einzelpersonen nicht können, den ganzen Service aus einer Hand. Benötigt man im Laufe seines Studiums einen Lektorat Service in verschiedenen Fächern so findet man in Agenturen den richtigen Ansprechpartner und es muss nicht mühsam ein neuer Lektorat Service für das neue Fach gesucht werden."
       - type: heading
         attrs:
           level: 2
@@ -283,10 +283,10 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/ghostwriting-lektorat-korrektorat
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: null
                   rel: null
-            text: 'Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?'
+            text: "Video: Ghostwriting, Lektorat, Korrektorat – Was ist was?"
       - type: paragraph
         content:
           - type: text
@@ -313,7 +313,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

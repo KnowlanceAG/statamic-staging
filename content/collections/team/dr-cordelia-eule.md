@@ -23,7 +23,7 @@ bard:
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/geschichte
+                      href: /geschichte
                       target: null
                       rel: null
                 text: Geschichte
@@ -34,7 +34,7 @@ bard:
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/philosophie
+                      href: /philosophie
                       target: null
                       rel: null
                 text: Philosophie
@@ -49,7 +49,7 @@ bard:
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false

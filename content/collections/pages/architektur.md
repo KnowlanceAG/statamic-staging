@@ -129,7 +129,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -414,7 +414,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/ghostwriter/informatik#Softwarelokalisierung"
+                                          href: "/informatik#Softwarelokalisierung"
                                           target: null
                                           rel: null
                                     text: "Softwarelokalisierung Ghostwriter"
@@ -423,7 +423,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/ghostwriter/biologie#biotechnologie"
+                                          href: "/biologie#biotechnologie"
                                           target: null
                                           rel: null
                                     text: "Biotechnologie Ghostwriter"
@@ -568,7 +568,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/ghostwriter/kommunikationswissenschaften#kommunikationsdesign"
+                                          href: "/kommunikationswissenschaften#kommunikationsdesign"
                                           target: null
                                           rel: null
                                     text: "Ghostwriter Kommunikationsdesign"
@@ -724,7 +724,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/ghostwriter/kunst#kunstgeschichte"
+                                          href: "/kunst#kunstgeschichte"
                                           target: null
                                           rel: null
                                     text: "Ghostwriter Kunstgeschichte"
@@ -874,7 +874,7 @@ replicator:
                                           hex: "#000"
                                       - type: link
                                         attrs:
-                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen"
                                           target: null
                                           rel: null
                                     text: "Masterthesis schreiben lassen"

@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Abkürzungsverzeichnis
   - type: paragraph
     content:
@@ -24,7 +24,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Unsere akademischen Ghostwriter unterstützen Sie mit individuellen
           Vorlagen, persönlichen Coachings oder unserem professionellen
@@ -37,7 +37,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 replicator:
@@ -49,7 +49,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wiederholende Begriffe dürfen in wissenschaftlichen Arbeiten
               grundsätzlich auch als Abkürzungen geschrieben werden, sofern
@@ -73,7 +73,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Damit Ihre wissenschaftliche Abschlussarbeit nicht aufgrund von
               Abkürzungen missverstanden wird und Ihre Aufarbeitung den
@@ -93,17 +93,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Wie Sie ein ansprechendes Abkürzungsverzeichnis für eine akademische Abschlussarbeit erstellen, erklärt im Detail die von unseren akademischen\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwritern
@@ -119,7 +119,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Zudem schließt ein Abkürzungsverzeichnis sowohl die Abkürzungen in
               der Fußnote und im Anhang einer wissenschaftlichen Arbeit mit ein.
@@ -134,7 +134,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Nach welcher Methode Sie die Abkürzungen einer wissenschaftlichen
               Arbeit aufarbeiten sollten, erklärt unsere Vorlage systematisch,
@@ -149,7 +149,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wussten Sie eigentlich, dass Sie prinzipiell Ihre eigenen
               Abkürzungen einbringen dürfen? Diese Aussage ist allerdings nur
@@ -171,7 +171,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: Unsere kostenlose Vorlage hilft Ihnen weiter
     type: editor
     enabled: true
@@ -185,7 +185,7 @@ academy_short_text: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 more_templates:

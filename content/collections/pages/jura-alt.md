@@ -15,7 +15,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Jura Ghostwriter
   - type: paragraph
     content:
@@ -25,7 +25,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Hilfe durch Experten und akademische Jura Ghostwriter – schnell,
           diskret und mehrfach geprüft auf Qualität & Plagiate.
@@ -37,7 +37,7 @@ teaser:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: paragraph
 teaser_bg: seiten/header-so-funktionierts.jpeg
@@ -49,7 +49,7 @@ updated_at: 1643110398
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false
@@ -66,7 +66,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Rechtswissenschaften – auch als Jurisprudenz von
                       lateinisch „iuris prudenita“ = „Kenntnis des Rechts“
@@ -90,7 +90,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Als „Begründer“ der Rechtswissenschaft gilt der Römer
                       Ulpian, der die Rechtswissenschaft als Kenntnis der
@@ -109,7 +109,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Jura Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   - type: text
                     marks:
@@ -117,7 +117,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /anfrage
@@ -152,7 +152,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       In einem rechtswissenschaftlichen Studium lernen Studenten
                       Sachverhalte in logische Einheiten aufzuteilen und sie
@@ -175,7 +175,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Nichts desto trotz rangiert Jura aber bei einem Blick auf
                       die beliebtesten Studiengänge seit Jahren auf Rang 3, was
@@ -195,17 +195,17 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Dementsprechend lastet ein immenser Leistungsdruck auf den Studenten. Ein Jura\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           target: _blank
                           rel: noopener noreferrer
                     text: Ghostwriter
@@ -224,7 +224,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Unsere Jura Ghostwriter
               - type: paragraph
                 content:
@@ -233,7 +233,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Unser Team von erfahrenen Akademikern aus dem Fachbereich
                       Jura unterstützt Sie bei der zügigen und qualitativ
@@ -258,7 +258,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Rechtswissenschaften – auch als Jurisprudenz von
                       lateinisch „iuris prudenita“ = „Kenntnis des Rechts“
@@ -282,7 +282,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Als „Begründer“ der Rechtswissenschaft gilt der Römer
                       Ulpian, der die Rechtswissenschaft als Kenntnis der
@@ -301,7 +301,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Wenn Sie für Ihre akademischen Arbeit im Fachbereich Jura Ghostwriter suchen, dann können Sie uns gerne sofort eine\_"
                   - type: text
                     marks:
@@ -309,7 +309,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /anfrage
@@ -342,7 +342,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       In einem rechtswissenschaftlichen Studium lernen Studenten
                       Sachverhalte in logische Einheiten aufzuteilen und sie
@@ -365,7 +365,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Nichts desto trotz rangiert Jura aber bei einem Blick auf
                       die beliebtesten Studiengänge seit Jahren auf Rang 3, was
@@ -385,17 +385,17 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Dementsprechend lastet ein immenser Leistungsdruck auf den Studenten. Ein Jura\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           target: _blank
                           rel: noopener noreferrer
                     text: Ghostwriter
@@ -414,7 +414,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Unsere Jura Ghostwriter
               - type: paragraph
                 content:
@@ -423,7 +423,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Unser Team von erfahrenen Akademikern aus dem Fachbereich
                       Jura unterstützt Sie bei der zügigen und qualitativ
@@ -448,14 +448,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Sehen Sie sich jetzt die Vorstellung unserer Jura Ghostwriter in unserem\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.youtube.com/watch?v=dK1_IH8Jjak
@@ -470,7 +470,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /lektorat/lektor
@@ -485,7 +485,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /korrektorat/korrektor
@@ -504,7 +504,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Im Ergebnis erhalten Sie eine Mustervorlage, die als
                       Inspiration dienen kann und sich dabei exakt an die
@@ -527,7 +527,7 @@ replicator:
         enabled: true
         responsive_columns: 1
         single_col: false
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -686,7 +686,7 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Akademische Arbeiten:'
+                    text: "Akademische Arbeiten:"
             show_as_card: false
         type: row
         enabled: true
@@ -700,7 +700,7 @@ replicator:
     remove_spacing: true
     border: false
   - columns_replicator:
-      - columns_per_row: '3'
+      - columns_per_row: "3"
         grid:
           - bard:
               - type: paragraph
@@ -883,7 +883,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Aufbau eines Jurastudiums
               - type: paragraph
                 content:
@@ -892,7 +892,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Das klassische Jurastudium besteht aus mindestens 8,
                       i.d.R. 9, Semestern an einer Universität und wird mit
@@ -919,14 +919,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Optional kann darauf die Promotion, das Erlangen des Doktortitels durch eine Dissertation oder Doktorarbeit, erfolgen. Besonders hier ist im Bereich der Jura\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /ghostwriting
@@ -941,7 +941,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/diplomarbeit
@@ -960,7 +960,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Zusätzlich zu dem eigentlichen Studium können an manchen
                       Universitäten seit einigen Jahren als Nebenstudium in
@@ -979,7 +979,7 @@ replicator:
                     type: button
                     button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
                     button_text: JETZT KOSTENLOS ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     spacing_top: false
               - type: horizontal_rule
               - type: heading
@@ -992,7 +992,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Inhalt des Jurastudiums
               - type: paragraph
                 content:
@@ -1001,7 +1001,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Zu Beginn des Studiums formen im Grundstudium mit vier
                       Semestern Grundlagenfächer, wie Rechtsgeschichte oder
@@ -1018,7 +1018,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Diese Basis wird nach einer Zwischenprüfung im
                       Hauptstudium mit fünf Semestern erweitert. Neben
@@ -1039,7 +1039,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die nachfolgende Tabelle zeigt die zentralen Inhalte der
                       einzelnen Rechtsgebiete im Überblick.
@@ -1064,7 +1064,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Rechtsgebiet
                             attrs:
                               textAlign: center
@@ -1083,7 +1083,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Inhalt
                             attrs:
                               textAlign: center
@@ -1103,7 +1103,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Handelsrecht
                             attrs:
                               textAlign: center
@@ -1121,33 +1121,33 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Teilgebiet des Zivilrechts'
+                                      hex: "#000"
+                                text: "- Teilgebiet des Zivilrechts"
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: '- Inhalt ist das "Recht der Kaufleute"'
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Regelung in Deutschland im HGB und in seinen
                                   Nebengesetzen
@@ -1169,7 +1169,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Europarecht
                             attrs:
                               textAlign: center
@@ -1187,20 +1187,20 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Recht der EU'
+                                      hex: "#000"
+                                text: "- Recht der EU"
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Einteilung in Primärrecht (Vertragsrecht)
                                   und Sekundärrecht (Gemeinschaftsrecht)
@@ -1209,27 +1209,27 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Primärrecht = völkerrechtliche Verträge'
+                                      hex: "#000"
+                                text: "- Primärrecht = völkerrechtliche Verträge"
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Sekundärrecht = Richtlinien, Verordnungen'
+                                      hex: "#000"
+                                text: "- Sekundärrecht = Richtlinien, Verordnungen"
                             attrs:
                               textAlign: left
                   - type: table_row
@@ -1248,7 +1248,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Arbeits- und Sozialrecht
                             attrs:
                               textAlign: center
@@ -1266,7 +1266,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Arbeitsrecht = Regelung der
                                   Rechtsbeziehungen zwischen Arbeitnehmern und
@@ -1277,13 +1277,13 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Sozialrecht = Regelung des SGB, Sicherung
                                   des Sozialstaatspostulats
@@ -1305,7 +1305,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Familienrecht
                             attrs:
                               textAlign: center
@@ -1323,20 +1323,20 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Teilgebiet des Zivilrechts'
+                                      hex: "#000"
+                                text: "- Teilgebiet des Zivilrechts"
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Regelung der Rechtsverhältnisse, die durch
                                   Ehe, Familie, Verwandtschaft und
@@ -1346,13 +1346,13 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Regelung gesetzlicher Vertretungsfunktionen
                                   (z. B. Vormundschaft, Pflegeschaft, Betreuung)
@@ -1374,7 +1374,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Erbrecht
                             attrs:
                               textAlign: center
@@ -1392,8 +1392,8 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Regelung der Verfügungen von Todes Weges'
+                                      hex: "#000"
+                                text: "- Regelung der Verfügungen von Todes Weges"
                             attrs:
                               textAlign: left
                   - type: table_row
@@ -1412,7 +1412,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Steuerrecht
                             attrs:
                               textAlign: center
@@ -1430,20 +1430,20 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Teil des Abgabenrechts'
+                                      hex: "#000"
+                                text: "- Teil des Abgabenrechts"
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - alle Steuergesetze, d.h. auch Gesetze der
                                   Steuerverwaltung und der Finanzgerichtsbarkeit
@@ -1465,7 +1465,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Umweltrecht
                             attrs:
                               textAlign: center
@@ -1483,21 +1483,21 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Normen, die dem Umweltschutz dienen'
+                                      hex: "#000"
+                                text: "- Normen, die dem Umweltschutz dienen"
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Kernbereich sind Schutzgesetze'
+                                      hex: "#000"
+                                text: "- Kernbereich sind Schutzgesetze"
                             attrs:
                               textAlign: left
                   - type: table_row
@@ -1516,7 +1516,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Medienrecht
                             attrs:
                               textAlign: center
@@ -1534,20 +1534,20 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
-                                text: '- Regelung des Umgangs mit Veröffentlichungen'
+                                      hex: "#000"
+                                text: "- Regelung des Umgangs mit Veröffentlichungen"
                               - type: hard_break
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Grundlage ist das GG, insbesondere das Recht
                                   der freien Meinungsäußerung
@@ -1569,7 +1569,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: Medizinrecht
                             attrs:
                               textAlign: center
@@ -1587,7 +1587,7 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - rechtliche Aspekte im Gesundheitswesen
                                   (Gesundheitsrecht)
@@ -1596,13 +1596,13 @@ replicator:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                               - type: text
                                 marks:
                                   - type: textColor
                                     attrs:
                                       color: rgb(68, 68, 68)
-                                      hex: '#000'
+                                      hex: "#000"
                                 text: >-
                                   - Medizinrecht i.e.S. = Regelung der
                                   Rechtsbeziehungen zwischen Arzt und Patient
@@ -1616,7 +1616,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die einzelnen Fächer sind mit einer Klausur oder
                       Hausarbeit abzuschließen. Diese bestehen aus Sachverhalten
@@ -1643,7 +1643,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(34, 34, 34)
-                          hex: '#000'
+                          hex: "#000"
                     text: Wie Sie die perfekte Jura Hausarbeit schreiben
               - type: paragraph
                 content:
@@ -1652,7 +1652,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Das erfolgreiche Absolvieren des Jurastudiums\_setzt auch das Anfertigen von Haus- und Seminararbeiten voraus. Viele Studierende fühlen sich angesichts dieser Aufgabenstellung schnell überfordert, da das eigentliche wissenschaftliche Erarbeiten bestimmter Fragestellungen im Rahmen der jeweiligen Veranstaltungen des (Haupt-)Studiums regelmäßig nur eine untergeordnete Rolle spielt. Dabei sind beide Aufgaben – sowohl das Anfertigen einer\_Jura Hausarbeit als auch dasjenige einer Jura Seminararbeit – unter Berücksichtigung einiger Hilfestellungen für alle Studierende machbar. Und in besonders schweren Fällen können auch akademische Ghostwriter Jura Studenten professionell unterstützen."
                 attrs:
                   textAlign: start
@@ -1666,7 +1666,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Hausarbeit Jura –\_Sachverhaltslektüre und Stoffsammlung"
               - type: paragraph
                 content:
@@ -1675,7 +1675,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Gegenstand der\_Jura Hausarbeit ist regelmäßig die Falllösung, sodass es zuerst darum gehen muss den Sachverhalt zu lesen und zu verstehen. Wie im Rahmen einer Klausurbearbeitung kommt es auch für das erfolgreiche Gestalten einer Ausarbeitung einer Hausarbeit darauf an, dass Sie sich ausreichend Zeit zur Lektüre nehmen und davor schützen, durch Assoziationen zu Ihnen bekannten Fällen voreilig Schlüsse zu ziehen. Es bietet sich daher an den Sachverhalt einer Hausarbeit in mehreren Schritten zu erfassen. Zunächst sollte das bloße Lesen im Vordergrund stehen und etwaige Anmerkungen – auch wenn es schwerfällt – auf den zweiten Lesedurchgang verschoben werden. In diesem Durchgang können bereits Notizen parallel zum Lesen angefertigt werden und insbesondere sollten die wesentlichen Sachverhaltsangaben wie Daten, Personen und deren Beziehungen zueinander unterstrichen bzw. anderweitig hervorgehoben werden."
                 attrs:
                   textAlign: start
@@ -1686,7 +1686,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Eine chronologische Tafel, eine Personenskizze oder eine
                       Stoffsammlung können in dieser Phase der Bearbeitung einer
@@ -1710,7 +1710,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Innerhalb einer Jura Hausarbeit (ebenso wie innerhalb
                       einer Jura Seminararbeit) gilt stets das Prinzip, dass
@@ -1729,7 +1729,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Recherche und Lösungsskizze
               - type: paragraph
                 content:
@@ -1738,7 +1738,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Wesentlicher Teil der Bearbeitung sowohl einer Hausarbeit, als auch einer Seminararbeit, ist stets die Recherche der jeweiligen Probleme des Falls. Hier hilft es, dass viele Angebote in Bezug auf Jura online verfügbar sind. Sowohl über die Datenbanken juris oder beck-online, als auch in den vielfach online einsehbaren Skripten der Vorlesungen lassen sich schnelle erste Vorstellungen der Fallprobleme fassen. Entscheidend ist insoweit, dass Sie sich in den Kommentarstellen bzw. den entsprechen Beiträgen in der juristischen Literatur einen umfassenden Eindruck zu den im Fall aufgeworfenen Rechtsprobleme verschaffen, damit Sie abschätzen können ob und in welchem Umfang die Bearbeitung der\_Jura Hausarbeit auf bestimmte Probleme wird eingehen müssen."
                 attrs:
                   textAlign: start
@@ -1749,7 +1749,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Sie können sich bei GWriters nicht nur Mustervorlagen für Ihre Jura Hausarbeit schreiben lassen, sondern\_ sich auch lediglich bestimmte Sachverhaltsabschnitte von einem Jura Ghostwriter genau erklären lassen oder eine Lösungsskizze erarbeiten lassen. Es empfiehlt sich, erst in diesem Stadium der Bearbeitung der Hausarbeit mit der Erstellung der Lösungsskizze zu beginnen. Ausgehend von der jeweiligen Fallfrage der Arbeit müssen Sie die insoweit zutreffende Rechtsfolge aus den Ihnen bekannten Normen herausarbeiten und finden so die zu prüfenden Vorschriften. Diese Vorschriften sollen dann im Rahmen der Lösungsskizze zueinander ins Verhältnis gesetzt werden. Auch bei der Frage, wie die Lösungsskizze zu erstellen ist, kann auf online verfügbare Quellen zurückgegriffen werden. Insbesondere hinsichtlich des Aufbaus der Hausarbeit empfiehlt es sich, die insoweit vielfach gegebenen Anleitungen der Lehrbücher zu befolgen."
                 attrs:
                   textAlign: start
@@ -1763,7 +1763,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Ausformulierung der Jura Hausarbeit
               - type: paragraph
                 content:
@@ -1772,14 +1772,14 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Schließlich ist\_"
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /blog/gutachten-schreiben
@@ -1801,7 +1801,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Seminararbeit Jura – Unterschiede und Anforderungen
               - type: paragraph
                 content:
@@ -1810,7 +1810,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Die Ausarbeitung der Seminararbeit unterscheidet sich von
                       der Hausarbeit insofern, als hier regelmäßig nicht am Fall
@@ -1834,7 +1834,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Hier kann die Einbeziehung von Autoren von GWriters
                       hilfreich sein, insbesondere da der Mehrwert der
@@ -1854,7 +1854,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Haus- oder Seminararbeiten in Jura erfolgreich bewältigen
               - type: paragraph
                 content:
@@ -1863,7 +1863,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Die Ausarbeitung einer Jura Hausarbeit oder auch einer\_Jura Seminararbeit setzt vor allem Zeit voraus. Das Gelingen einer solchen Ausarbeitung hängt von der Gründlichkeit der Durchführung der jeweiligen Arbeitsschritte ab. Es bedarf einer sorgfältigen Sachverhaltslektüre, umfangreicher Skizzen und einer in sich stimmigen Lösungsskizze, um eine überzeugende Ausarbeitung einer Haus- bzw. Seminararbeit zu schaffen."
                 attrs:
                   textAlign: start
@@ -1874,7 +1874,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Auch und gerade deshalb gibt es viele Studenten, die sich
                       Mustervorlagen für Ihre Haus- und Seminararbeiten in Jura
@@ -1895,7 +1895,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: >-
                       Bei GWriters konnten wir durch unsere langjährige
                       Erfahrung und mit Hilfe unserer hochqualifizierten Jura
@@ -1914,7 +1914,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Disclaimer
               - type: paragraph
                 content:
@@ -1923,7 +1923,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: "Der guten Ordnung halber weisen wir Sie darauf hin, dass jegliche von uns erstellten Ausarbeitungen auf der Annahme basieren, dass Sie eine Lösungsskizze für interne Zwecke wünschen. Die weitere Verwendung ist allenfalls zur eigenen gedanklichen Auseinandersetzung gedacht, nicht aber für die Übernahme als eigene Leistungen.\_"
                 attrs:
                   textAlign: start
@@ -1937,7 +1937,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(68, 68, 68)
-                          hex: '#000'
+                          hex: "#000"
                     text: Nützliche Weblinks
               - type: paragraph
                 content:
@@ -1946,7 +1946,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://www.gesetze-im-internet.de/bgb/
@@ -1962,7 +1962,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -1979,7 +1979,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: >-
@@ -1994,7 +1994,7 @@ replicator:
                       - type: textColor
                         attrs:
                           color: rgb(255, 102, 2)
-                          hex: '#000'
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: https://ranking.zeit.de/che/de/fachinfo/5

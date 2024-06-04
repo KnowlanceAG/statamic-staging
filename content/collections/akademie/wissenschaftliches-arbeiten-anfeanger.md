@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Wissenschaftliches Arbeiten für Anfänger
   - type: paragraph
     content:
@@ -23,7 +23,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen
           Sie weitere Unterstützung?
@@ -55,27 +55,27 @@ replicator:
               Für alle Studienanfänger und auch alle anderen, die zum ersten mal
               mit der Disziplin des wissenschaftlichen Arbeitens in Berührung
               kommen, haben wir in dieser Kategorie unsere Guides, Expertentipps
-              und Tutorial-Videos zum 
+              und Tutorial-Videos zum
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /blog/wissenschaftliches-arbeiten-regeln
+                  href: /arbeiten
                   target: null
                   rel: null
             text: wissenschaftlichen Arbeiten
           - type: text
-            text: ' zusammengefasst. Schließlich ist die intensive Auseinandersetzung mit der Wissenschaft fast ein Studium für sich und bereits bei den ersten Hausarbeiten machen sich der '
+            text: " zusammengefasst. Schließlich ist die intensive Auseinandersetzung mit der Wissenschaft fast ein Studium für sich und bereits bei den ersten Hausarbeiten machen sich der "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /blog/wissenschaftliches-schreiben-fur-schule-und-studium
+                  href: /arbeiten
                   target: null
                   rel: null
             text: Unterschied zwischen Schule und Studium
           - type: text
-            text: ' sowie die gestiegenen Anforderungen an das fachliche und methodische Know-How bemerkbar. Wir erklären Ihnen alles Wichtige, was Sie für Ihren Start ins Studium und in die Wissenschaft benötigen.'
+            text: " sowie die gestiegenen Anforderungen an das fachliche und methodische Know-How bemerkbar. Wir erklären Ihnen alles Wichtige, was Sie für Ihren Start ins Studium und in die Wissenschaft benötigen."
       - type: paragraph
         content:
           - type: text
@@ -89,7 +89,7 @@ replicator:
                   rel: null
             text: richtige Zitieren
           - type: text
-            text: ', die '
+            text: ", die "
           - type: text
             marks:
               - type: link
@@ -99,7 +99,7 @@ replicator:
                   rel: null
             text: Formatierung der Abschlussarbeit
           - type: text
-            text: ' und die wissenschaftliche Ausdrucksweise betreffen. Das wissenschaftliche Schreiben von Grund auf zu lernen und bis ins Detail zu verstehen, ist insbesondere für die Abschlussarbeit, die am Ende eines jeden Studiums bevorsteht, essentiell. Daher ist es sinnvoll und wichtig, sich von Beginn an mit wissenschaftlichen Arbeitstechniken zu befassen, wobei GWriters Ihnen mit allen unseren Informationsmaterialien stets als verlässlicher Partner zur Seite steht.'
+            text: " und die wissenschaftliche Ausdrucksweise betreffen. Das wissenschaftliche Schreiben von Grund auf zu lernen und bis ins Detail zu verstehen, ist insbesondere für die Abschlussarbeit, die am Ende eines jeden Studiums bevorsteht, essentiell. Daher ist es sinnvoll und wichtig, sich von Beginn an mit wissenschaftlichen Arbeitstechniken zu befassen, wobei GWriters Ihnen mit allen unseren Informationsmaterialien stets als verlässlicher Partner zur Seite steht."
       - type: heading
         attrs:
           level: 2
@@ -125,12 +125,12 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwritern
           - type: text
-            text: ' erklärt und für Sie übersichtlich aufgelistet, sodass Sie sich schnell und einfach in genau die Bereiche einarbeiten können, die Ihnen bisher noch Probleme verursacht haben oder gänzlich unbekannt waren.'
+            text: " erklärt und für Sie übersichtlich aufgelistet, sodass Sie sich schnell und einfach in genau die Bereiche einarbeiten können, die Ihnen bisher noch Probleme verursacht haben oder gänzlich unbekannt waren."
       - type: paragraph
         content:
           - type: text
@@ -211,7 +211,7 @@ template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit

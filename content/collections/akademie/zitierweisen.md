@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Wissenschaftliche Zitierweisen für Studenten
   - type: paragraph
     content:
@@ -23,7 +23,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen
           Sie weitere Unterstützung?
@@ -65,27 +65,27 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Hier kommt der '
+            text: "Hier kommt der "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter-Trick
           - type: text
-            text: ' ins Spiel. Wenn es um komplexe Zitierstile wie Deutsche Zitierweise, APA, MLA, IEEE, Chicago oder Harvard in einer '
+            text: " ins Spiel. Wenn es um komplexe Zitierstile wie Deutsche Zitierweise, APA, MLA, IEEE, Chicago oder Harvard in einer "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /blog/wissenschaftliches-arbeiten-regeln
+                  href: /arbeiten
                   target: null
                   rel: null
             text: wissenschaftliche Arbeit
           - type: text
-            text: ' z.B. '
+            text: " z.B. "
           - type: text
             marks:
               - type: link
@@ -95,7 +95,7 @@ replicator:
                   rel: null
             text: Hausarbeit
           - type: text
-            text: ' oder '
+            text: " oder "
           - type: text
             marks:
               - type: link
@@ -105,7 +105,7 @@ replicator:
                   rel: null
             text: Masterarbeit
           - type: text
-            text: ' geht, sind erfahrene Ghostwriter in Zitaten Lebensretter. Sie sind sich der '
+            text: " geht, sind erfahrene Ghostwriter in Zitaten Lebensretter. Sie sind sich der "
           - type: text
             marks:
               - type: link
@@ -115,11 +115,11 @@ replicator:
                   rel: null
             text: spezifischen Formatierungsrichtlinien und -regeln
           - type: text
-            text: ' bewusst, die zur Gewährleistung einer ordnungsgemäßen Spezifikation erforderlich sind. '
+            text: " bewusst, die zur Gewährleistung einer ordnungsgemäßen Spezifikation erforderlich sind. "
       - type: paragraph
         content:
           - type: text
-            text: 'Ein gutes Beispiel ist der '
+            text: "Ein gutes Beispiel ist der "
           - type: text
             marks:
               - type: bold
@@ -129,27 +129,27 @@ replicator:
               , bei dem der Autor und das Erscheinungsjahr im Text in Klammern
               angegeben werden müssen, während alle bibliografischen
               Informationen als separate Liste am Ende des Artikels angegeben
-              werden. Im Gegensatz dazu verwendet der 
+              werden. Im Gegensatz dazu verwendet der
           - type: text
             marks:
               - type: bold
             text: MLA-Zitierstil
           - type: text
-            text: ' kurze Verweise im Text und zitiert am Ende eine vollständige Liste der Werke. '
+            text: " kurze Verweise im Text und zitiert am Ende eine vollständige Liste der Werke. "
       - type: paragraph
         content:
           - type: text
-            text: 'Für welchen Zitierstil Sie entscheiden, hängt oft von Ihrem '
+            text: "Für welchen Zitierstil Sie entscheiden, hängt oft von Ihrem "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Fachbereich
           - type: text
-            text: ' oder Ihrer Universität ab. Unabhängig vom verwendeten Stil ist jedoch Konsistenz und Genauigkeit bei der Zitierung das A und O, um Plagiate zu vermeiden und die Glaubwürdigkeit Ihrer Arbeit zu wahren. '
+            text: " oder Ihrer Universität ab. Unabhängig vom verwendeten Stil ist jedoch Konsistenz und Genauigkeit bei der Zitierung das A und O, um Plagiate zu vermeiden und die Glaubwürdigkeit Ihrer Arbeit zu wahren. "
       - type: paragraph
         content:
           - type: text
@@ -160,7 +160,7 @@ replicator:
               auch Respekt vor den Ideen und Beiträgen anderer zur
               Weiterentwicklung wissenschaftlicher Erkenntnisse. Die Hilfe
               professioneller Ghostwriter macht es noch einfacher. Unsere
-              Ghostwriter nehmen Ihnen die Last des 
+              Ghostwriter nehmen Ihnen die Last des
           - type: text
             marks:
               - type: link
@@ -170,7 +170,7 @@ replicator:
                   rel: null
             text: korrekten Zitierens
           - type: text
-            text: ' ab, sodass Sie sich voll und ganz auf den Inhalt und die Qualität Ihrer Forschung konzentrieren können. Zusätzlich ist die relevante Zitierweise im Preis enthalten, wenn Sie eine Musterarbeit für Ihre '
+            text: " ab, sodass Sie sich voll und ganz auf den Inhalt und die Qualität Ihrer Forschung konzentrieren können. Zusätzlich ist die relevante Zitierweise im Preis enthalten, wenn Sie eine Musterarbeit für Ihre "
           - type: text
             marks:
               - type: link
@@ -180,7 +180,7 @@ replicator:
                   rel: null
             text: Bachelorarbeit schreiben lassen
           - type: text
-            text: ' möchten.'
+            text: " möchten."
       - type: paragraph
       - type: set
         attrs:
@@ -215,7 +215,7 @@ template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: Tipps zum wissenschaftlichen Arbeiten für die erste Hausarbeit

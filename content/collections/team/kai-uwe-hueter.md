@@ -15,7 +15,7 @@ bard:
         marks:
           - type: link
             attrs:
-              href: /ghostwriter/wirtschaftswissenschaften
+              href: /wirtschaftswissenschaften
               target: _blank
               rel: null
         text: Wirtschaftswissenschaften
@@ -25,7 +25,7 @@ show_as_card: false
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207

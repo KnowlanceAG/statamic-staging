@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Korrekturlesen
   - type: heading
     attrs:
@@ -29,7 +29,7 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '10'
+        padding-y: "10"
   - type: set
     attrs:
       values:
@@ -62,14 +62,14 @@ teaser:
     attrs:
       values:
         type: spacer
-        padding-y: '15'
+        padding-y: "15"
   - type: set
     attrs:
       values:
         type: button
         button_link: entry::fc359a9c-afc1-43b6-a4bb-302ff072cdcf
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
 teaser_bg: seiten/header-so-funktionierts.jpeg
 replicator:
@@ -99,7 +99,7 @@ replicator:
               Korrekturlesen wird von nahezu jeder Autor oder Wissenschaftler
               der seine Ergebnisse in schriftlicher Form veröffentlichen lässt,
               ob in Fachzeitschriften oder in Buchform, lässt seinen Text
-              Korrekturlesen. Es ist also keine Schande einen 
+              Korrekturlesen. Es ist also keine Schande einen
           - type: text
             marks:
               - type: link
@@ -109,7 +109,7 @@ replicator:
                   rel: null
             text: Korrektor
           - type: text
-            text: ' zu beauftragen, dies auch mit dem eigenen Text zu tun. Gerade im akademischen Bereich erstellt man, schon im Studium, den ein oder anderen wissenschaftlichen Text, dazu gehören '
+            text: " zu beauftragen, dies auch mit dem eigenen Text zu tun. Gerade im akademischen Bereich erstellt man, schon im Studium, den ein oder anderen wissenschaftlichen Text, dazu gehören "
           - type: text
             marks:
               - type: link
@@ -119,7 +119,7 @@ replicator:
                   rel: null
             text: Hausarbeiten
           - type: text
-            text: ', die '
+            text: ", die "
           - type: text
             marks:
               - type: link
@@ -129,7 +129,7 @@ replicator:
                   rel: null
             text: Bachelorarbeit
           - type: text
-            text: ', die '
+            text: ", die "
           - type: text
             marks:
               - type: link
@@ -139,7 +139,7 @@ replicator:
                   rel: null
             text: Masterarbeit
           - type: text
-            text: ', eine '
+            text: ", eine "
           - type: text
             marks:
               - type: link
@@ -149,7 +149,7 @@ replicator:
                   rel: null
             text: Diplomarbeit
           - type: text
-            text: ' und gegebenenfalls auch Dissertation und Habilitation.'
+            text: " und gegebenenfalls auch Dissertation und Habilitation."
       - type: paragraph
         content:
           - type: text
@@ -245,7 +245,7 @@ replicator:
           - type: text
             text: >-
               Im dritten Schritt konzentrieren sich nur auf das Format. Ist
-              einheitlich und 
+              einheitlich und
           - type: text
             marks:
               - type: link
@@ -296,12 +296,12 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Lassen Sie sich genügend Zeit '
+            text: "Lassen Sie sich genügend Zeit "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /blog/ghostwriting-lektorat-korrektorat
+                  href: /blog/korrektorat-lektorat-textredaktion
                   target: _blank
                   rel: noopener noreferrer
             text: für die Korrektur und das Lektorat
@@ -384,7 +384,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

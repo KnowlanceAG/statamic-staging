@@ -225,7 +225,7 @@ replicator:
                           hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           target: null
                           rel: null
                     text: Ghostwriter

@@ -572,7 +572,21 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Ein akademischer Ghostwriter unterstützt Sie im Studium und bei Ihrer Bachelor Thesis durch seine Erfahrungen und fachlichen Kenntnisse genauso professionell wie ein Betreuer der Universität. Den Zeitpunkt und Umfang bestimmen Sie. Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeitet unsere Agentur garantiert nur mit den besten wissenschaftlichen Autoren zusammen und mit absoluter Diskretion!'
+                    text: 'Ein akademischer '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: link
+                        attrs:
+                          href: /
+                          rel: null
+                          target: null
+                          title: null
+                    text: Ghostwriter
+                  -
+                    type: text
+                    text: ' unterstützt Sie im Studium und bei Ihrer Bachelor Thesis durch seine Erfahrungen und fachlichen Kenntnisse genauso professionell wie ein Betreuer der Universität. Den Zeitpunkt und Umfang bestimmen Sie. Wir wissen um Ihre hohen Anforderungen und Erwartungen, daher arbeitet unsere Agentur garantiert nur mit den besten wissenschaftlichen Autoren zusammen und mit absoluter Diskretion!'
               -
                 type: heading
                 attrs:
@@ -612,8 +626,8 @@ replicator:
                   id: lkgq94ms
                   values:
                     type: button
-                    button_link: 'entry::a0a35314-4e42-429e-ae58-9c7bd8fae01c'
-                    button_text: 'MEHR ÜBER UNSERE GHOSTWRITER'
+                    button_link: 'entry::08690e7d-78e7-40cc-8e39-9d87681c01f7'
+                    button_text: 'MEHR ÜBER UNSERE EXPERTEN'
                     color: '#FF6606'
                     button_align: justify-center
                     spacing_top: false
@@ -2203,7 +2217,7 @@ replicator:
                                       -
                                         type: link
                                         attrs:
-                                          href: '/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen'
+                                          href: '/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen'
                                           rel: null
                                           target: null
                                           title: null
@@ -3734,7 +3748,7 @@ replicator:
                                   -
                                     type: link
                                     attrs:
-                                      href: '/faq/#ghostwriting-strafbar'
+                                      href: '/faq#ghostwriting-strafbar'
                                       rel: null
                                       target: null
                                       title: null
@@ -3950,8 +3964,8 @@ replicator:
     type: add_section
     enabled: true
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 36c7c028-8f15-4861-9d23-a7ed163bace6
-updated_at: 1711097356
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1715696514
 template: default
 use_meta_keywords: false
 no_index_page: false

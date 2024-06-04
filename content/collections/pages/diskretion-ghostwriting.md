@@ -18,7 +18,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: >-
               Schweigepflicht und Diskretion bei der Redaktion, Erstellung,
               Bearbeitung oder Ghostwriting von Texten
@@ -37,7 +37,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wir verpflichten uns zu absoluter Diskretion und Schweigepflicht
               über Daten zu Kunden sowie sämtlichen Auftragsdetails. Darüber
@@ -52,17 +52,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Diskretion ist für uns selbstverständlich und wird von unseren Kunden und unseren Autoren gleichermaßen geschätzt. Wir verpflichten uns über sämtliche Auftragsdaten Stillschweigen zu wahren. Keiner unserer Autoren erhält in seiner Funktion als\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -74,7 +74,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /datenschutzerklaerung
@@ -94,7 +94,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -117,7 +117,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 template: without-teaser-with-sidebar

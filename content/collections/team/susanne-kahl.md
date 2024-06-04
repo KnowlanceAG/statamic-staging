@@ -21,7 +21,7 @@ bard:
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/soziologie
+                      href: /soziologie
                       target: null
                       rel: null
                 text: Sozialwissenschaften
@@ -32,7 +32,7 @@ bard:
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/wirtschaftswissenschaften
+                      href: /wirtschaftswissenschaften
                       target: null
                       rel: null
                 text: Wirtschaftswissenschaften
@@ -55,7 +55,7 @@ updated_at: 1685359202
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false

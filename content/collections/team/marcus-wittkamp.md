@@ -22,7 +22,7 @@ bard:
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/vwl
+                      href: /vwl
                       target: null
                       rel: null
                 text: VWL
@@ -33,7 +33,7 @@ bard:
                 marks:
                   - type: link
                     attrs:
-                      href: /ghostwriter/finanzwissenschaften
+                      href: /finanzwissenschaften
                       target: null
                       rel: null
                 text: Finanzen
@@ -50,7 +50,7 @@ updated_at: 1685359330
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 show_as_card: false

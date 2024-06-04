@@ -1,7 +1,7 @@
 ---
 id: 533158ef-db5d-4fdb-aa49-570d84cac9c7
 blueprint: pages
-title: Zitationsgenerator
+title: Zitiergenerator
 teaser:
   -
     type: heading
@@ -16,7 +16,7 @@ teaser:
             type: textColor
             attrs:
               color: orange-500
-        text: 'Zitationsgenerator für Quellenangaben'
+        text: 'Zitiergenerator für Quellenangaben'
   -
     type: heading
     attrs:
@@ -86,7 +86,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Das korrekte Zitieren von Quellen ist ein wesentlicher Bestandteil akademischer Arbeit. Es gewährleistet die Anerkennung der Urheberrechte und verstärkt die Glaubwürdigkeit Ihrer Forschung. Unser Zitationsgenerator hilft Ihnen dabei, Ihre Quellen schnell und präzise zu zitieren.'
+                    text: 'Das korrekte Zitieren von Quellen ist ein wesentlicher Bestandteil akademischer Arbeit. Es gewährleistet die Anerkennung der Urheberrechte und verstärkt die Glaubwürdigkeit Ihrer Forschung. Unser Zitiergenerator hilft Ihnen dabei, Ihre Quellen schnell und präzise zu zitieren.'
             show_as_card: false
           -
             id: lpgs2bum
@@ -99,7 +99,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Warum ein Zitationsgenerator unverzichtbar ist'
+                    text: 'Warum ein Zitiergenerator unverzichtbar ist'
               -
                 type: paragraph
                 attrs:
@@ -107,7 +107,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'In der heutigen schnelllebigen akademischen Welt ist Zeit ein kostbares Gut. Ein Zitationsgenerator automatisiert den Prozess der Quellenangabe, spart Zeit und vermeidet Fehler. Er ist ein unverzichtbares Werkzeug für jeden, der wissenschaftlich arbeitet.'
+                    text: 'In der heutigen schnelllebigen akademischen Welt ist Zeit ein kostbares Gut. Ein Zitiergenerator automatisiert den Prozess der Quellenangabe, spart Zeit und vermeidet Fehler. Er ist ein unverzichtbares Werkzeug für jeden, der wissenschaftlich arbeitet.'
             show_as_card: false
         type: row
         enabled: true
@@ -127,7 +127,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Wie funktioniert der Zitationsgenerator?'
+                    text: 'Wie funktioniert der Zitiergenerator?'
               -
                 type: paragraph
                 attrs:
@@ -135,7 +135,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Zitationsgenerator ist benutzerfreundlich und intuitiv. Geben Sie einfach die notwendigen Informationen ein, und der Generator erstellt die korrekte Zitation für Sie.'
+                    text: 'Unser Zitiergenerator ist benutzerfreundlich und intuitiv. Geben Sie einfach die notwendigen Informationen ein, und der Generator erstellt die korrekte Zitation für Sie.'
               -
                 type: paragraph
                 attrs:
@@ -177,7 +177,7 @@ replicator:
                     text: 'Manuelles Zitieren:'
                   -
                     type: text
-                    text: ' Wenn Sie die gewünschte Quelle ausnahmsweise einmal nicht finden über unsere automatische Suchfunktion finden konnten, dann können Sie einfach die relevanten Informationen in die entsprechenden Felder eintragen und unser kostenloser Zitationsgenerator erstellt dann für Sie die Quellenangabe im gewünschten Zitationsstil.'
+                    text: ' Wenn Sie die gewünschte Quelle ausnahmsweise einmal nicht finden über unsere automatische Suchfunktion finden konnten, dann können Sie einfach die relevanten Informationen in die entsprechenden Felder eintragen und unser kostenloser Zitiergenerator erstellt dann für Sie die Quellenangabe im gewünschten Zitationsstil.'
               -
                 type: paragraph
                 attrs:
@@ -233,7 +233,7 @@ replicator:
                     text: 'Übernahme in Ihre Arbeit:'
                   -
                     type: text
-                    text: ' Wenn Sie das von unserem Zitationsgenerator kostenlos erstellte Literaturverzeichnis in Ihre Arbeit übernehmen möchten, klicken Sie einfach auf "Bibliographie kopieren", anschließend können Sie diese einfach einfach in Ihr Word Dokument einfügen. Auch einzelne Einträge können Sie in den Optionen zur jeweiligen Quellenangabe gesondert kopieren.'
+                    text: ' Wenn Sie das von unserem Zitiergenerator kostenlos erstellte Literaturverzeichnis in Ihre Arbeit übernehmen möchten, klicken Sie einfach auf "Bibliographie kopieren", anschließend können Sie diese einfach einfach in Ihr Word Dokument einfügen. Auch einzelne Einträge können Sie in den Optionen zur jeweiligen Quellenangabe gesondert kopieren.'
               -
                 type: paragraph
                 attrs:
@@ -247,7 +247,7 @@ replicator:
                     text: 'Speicherung Ihres Literaturverzeichnis:'
                   -
                     type: text
-                    text: ' Ihr erstelltes Quellenverzeichnis wird nicht in unserem System, sondern in Ihrem eigenen Browser lokal auf Ihrem Computer gespeichert. Solange Sie Ihre Browserdaten nicht löschen, können Sie also jederzeit das Fenster schließen oder Ihre Computer ausschalten, ohne dass das von unserem Zitationsgenerator erstellte Literaturverzeichnis verloren geht. Öffnen Sie einfach das Tool erneut auf unserer Webseite und Sie können sofort nahtlos weiterarbeiten.'
+                    text: ' Ihr erstelltes Quellenverzeichnis wird nicht in unserem System, sondern in Ihrem eigenen Browser lokal auf Ihrem Computer gespeichert. Solange Sie Ihre Browserdaten nicht löschen, können Sie also jederzeit das Fenster schließen oder Ihre Computer ausschalten, ohne dass das von unserem Zitiergenerator erstellte Literaturverzeichnis verloren geht. Öffnen Sie einfach das Tool erneut auf unserer Webseite und Sie können sofort nahtlos weiterarbeiten.'
               -
                 type: heading
                 attrs:
@@ -256,7 +256,7 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Der Zitationsgenerator: Ihre Lösung für genaue Quellenangaben'
+                    text: 'Der Zitiergenerator: Ihre Lösung für genaue Quellenangaben'
               -
                 type: paragraph
                 attrs:
@@ -264,14 +264,14 @@ replicator:
                 content:
                   -
                     type: text
-                    text: 'Unser Zitationsgenerator unterstützt eine Vielzahl von Zitierstilen, darunter APA, Harvard, Chicago, IEEE, MIT, '
+                    text: 'Unser Zitiergenerator unterstützt eine Vielzahl von Zitierstilen, darunter APA, Harvard, Chicago, IEEE, MIT, '
                   -
                     type: text
                     marks:
                       -
                         type: link
                         attrs:
-                          href: /zitationsgenerator/din-iso-690
+                          href: '/zitationsgenerator/din-iso-690?citationStyle=iso690-author-date-de'
                           rel: null
                           target: null
                           title: null
@@ -320,7 +320,7 @@ replicator:
                     text: 'Gesetze zitieren'
                   -
                     type: text
-                    text: ' können Sie mit unserem kostenlosen Zitationsgenerator im Handumdrehen.'
+                    text: ' können Sie mit unserem kostenlosen Zitiergenerator im Handumdrehen.'
               -
                 type: heading
                 attrs:
@@ -344,7 +344,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa_6th_edition'
+                          href: '/zitationsgenerator/apa-zitierstil?citationStyle=apa-6th-edition'
                           rel: null
                           target: null
                           title: null
@@ -375,7 +375,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard_12th_edition'
+                          href: '/zitationsgenerator/harvard-zitieren?citationStyle=harvard-cite-them-right'
                           rel: null
                           target: null
                           title: null
@@ -406,7 +406,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago_17th_edition'
+                          href: '/zitationsgenerator/chicago-zitierweise?citationStyle=chicago-annotated-bibliography'
                           rel: null
                           target: null
                           title: null
@@ -468,7 +468,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#deutsch?citationStyle=din-1505'
+                          href: '/zitationsgenerator/literaturquellen-richtig-zitieren#deutsch?citationStyle=din-1505-2'
                           rel: null
                           target: null
                           title: null
@@ -530,7 +530,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/zitationsgenerator/mla-zitieren?citationStyle=mla'
+                          href: '/zitationsgenerator/mla-zitieren?citationStyle=modern-language-association'
                           rel: null
                           target: null
                           title: null
@@ -817,14 +817,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Was ist ein Zitationsgenerator?'
+                                text: 'Was ist ein Zitiergenerator?'
                         accordion_content:
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Ein Zitationsgenerator ist ein Online-Tool, das dabei hilft, Quellenangaben und Literaturverzeichnisse für wissenschaftliche Arbeiten automatisch und gemäß verschiedenen Zitierstilen wie APA, Harvard, Chicago, IEEE, MIT, der deutschen Zitierweise in Fußnoten &amp; mehr zu erstellen.'
+                                text: 'Ein Zitiergenerator ist ein Online-Tool, das dabei hilft, Quellenangaben und Literaturverzeichnisse für wissenschaftliche Arbeiten automatisch und gemäß verschiedenen Zitierstilen wie APA, Harvard, Chicago, IEEE, MIT, der deutschen Zitierweise in Fußnoten &amp; mehr zu erstellen.'
                         active: false
                       -
                         id: lp8drip7
@@ -836,14 +836,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Ist der Zitationsgenerator kostenlos?'
+                                text: 'Ist der Zitiergenerator kostenlos?'
                         accordion_content:
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Ja, unser Zitationsgenerator ist vollständig kostenlos und ohne Anmeldung oder Abonnement nutzbar.'
+                                text: 'Ja, unser Zitiergenerator ist vollständig kostenlos und ohne Anmeldung oder Abonnement nutzbar.'
                         active: false
                       -
                         id: lp8drk2n
@@ -855,14 +855,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Welche Zitierstile unterstützt der Zitationsgenerator?'
+                                text: 'Welche Zitierstile unterstützt der Zitiergenerator?'
                         accordion_content:
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Der Zitationsgenerator unterstützt mehrere Zitierstile, darunter APA, Harvard, Chicago, IEEE, MIT, die deutsche Zitierweise in Fußnoten &amp; weitere.'
+                                text: 'Der Zitiergenerator unterstützt mehrere Zitierstile, darunter APA, Harvard, Chicago, IEEE, MIT, die deutsche Zitierweise in Fußnoten &amp; weitere.'
                         active: false
                       -
                         id: lp8drl7r
@@ -874,14 +874,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wie genau gibt der Zitationsgenerator die Quellen an?'
+                                text: 'Wie genau gibt der Zitiergenerator die Quellen an?'
                         accordion_content:
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Der Zitationsgenerator verwendet die neuesten Richtlinien der jeweiligen Zitierstile, um sicherzustellen, dass die Quellenangaben präzise und aktuell sind.'
+                                text: 'Der Zitiergenerator verwendet die neuesten Richtlinien der jeweiligen Zitierstile, um sicherzustellen, dass die Quellenangaben präzise und aktuell sind.'
                         active: false
                       -
                         id: lp8drmoj
@@ -893,14 +893,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Kann ich den Zitationsgenerator für alle Arten von Quellen verwenden?'
+                                text: 'Kann ich den Zitiergenerator für alle Arten von Quellen verwenden?'
                         accordion_content:
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Ja, unser Zitationsgenerator ist in der Lage, eine Vielzahl von Quellen zu zitieren, einschließlich Bücher, Zeitschriftenartikel, Webseiten und vieles mehr.'
+                                text: 'Ja, unser Zitiergenerator ist in der Lage, eine Vielzahl von Quellen zu zitieren, einschließlich Bücher, Zeitschriftenartikel, Webseiten und vieles mehr.'
                         active: false
                       -
                         id: lp8drnt3
@@ -912,14 +912,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Benötige ich spezielle Software, um den Zitationsgenerator zu nutzen?'
+                                text: 'Benötige ich spezielle Software, um den Zitiergenerator zu nutzen?'
                         accordion_content:
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Nein, der Zitationsgenerator ist eine webbasierte Anwendung und erfordert keine spezielle Software. Er ist über jeden gängigen Webbrowser zugänglich.'
+                                text: 'Nein, der Zitiergenerator ist eine webbasierte Anwendung und erfordert keine spezielle Software. Er ist über jeden gängigen Webbrowser zugänglich.'
                         active: false
                       -
                         id: lp8drp4w
@@ -950,14 +950,14 @@ replicator:
                             content:
                               -
                                 type: text
-                                text: 'Wer kann den Zitationsgenerator nutzen?'
+                                text: 'Wer kann den Zitiergenerator nutzen?'
                         accordion_content:
                           -
                             type: paragraph
                             content:
                               -
                                 type: text
-                                text: 'Der Zitationsgenerator ist für alle gedacht, die wissenschaftliche Arbeiten verfassen, einschließlich Studierende, wissenschaftliche Mitarbeiter, Professoren und andere Forscher.'
+                                text: 'Der Zitiergenerator ist für alle gedacht, die wissenschaftliche Arbeiten verfassen, einschließlich Studierende, wissenschaftliche Mitarbeiter, Professoren und andere Forscher.'
                         active: false
               -
                 type: paragraph
@@ -973,19 +973,19 @@ replicator:
     border: false
     type: add_section
     enabled: true
-page_title: 'Zitationsgenerator für akademische Arbeiten • GWriters'
+page_title: 'Zitiergenerator für akademische Arbeiten • GWriters'
 sitemap_active: true
 breadcrumbs_active: true
 template: default
-meta_title: 'Kostenloser Zitationsgenerator für akademische Arbeiten'
-meta_description: 'Kostenloser Zitationsgenerator | Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
+meta_title: 'Kostenloser Zitiergenerator für akademische Arbeiten'
+meta_description: 'Kostenloser Zitiergenerator | Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
 sitemap_priority: '0.5'
 sitemap_changefreq: daily
-og_title: 'Kostenloser Zitationsgenerator für akademische Arbeiten'
-og_description: 'Kostenloser Zitationsgenerator | Schnelle & einfache Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
+og_title: 'Kostenloser Zitiergenerator für akademische Arbeiten'
+og_description: 'Kostenloser Zitiergenerator | Schnelle & einfache Quellenangaben und Literaturverzeichnisse in den Zitierstilen APA, Harvard, Chicago, IEEE, MIT & mehr!'
 override_twitter_settings: false
 schema_objects: |-
   <script type="application/ld+json">
@@ -995,50 +995,50 @@ schema_objects: |-
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Was ist ein Zitationsgenerator?",
+        "name": "Was ist ein Zitiergenerator?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ein Zitationsgenerator ist ein Online-Tool, das dabei hilft, Quellenangaben und Literaturverzeichnisse für wissenschaftliche Arbeiten automatisch und gemäß verschiedenen Zitierstilen zu erstellen."
+          "text": "Ein Zitiergenerator ist ein Online-Tool, das dabei hilft, Quellenangaben und Literaturverzeichnisse für wissenschaftliche Arbeiten automatisch und gemäß verschiedenen Zitierstilen zu erstellen."
         }
       },
       {
         "@type": "Question",
-        "name": "Ist der Zitationsgenerator kostenlos?",
+        "name": "Ist der Zitiergenerator kostenlos?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ja, unser Zitationsgenerator ist vollständig kostenlos und ohne Anmeldung oder Abonnement nutzbar."
+          "text": "Ja, unser Zitiergenerator ist vollständig kostenlos und ohne Anmeldung oder Abonnement nutzbar."
         }
       },
       {
         "@type": "Question",
-        "name": "Welche Zitierstile unterstützt der Zitationsgenerator?",
+        "name": "Welche Zitierstile unterstützt der Zitiergenerator?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Der Zitationsgenerator unterstützt mehrere Zitierstile, darunter APA, Harvard, Chicago, IEEE, MIT und die deutsche Zitierweise."
+          "text": "Der Zitiergenerator unterstützt mehrere Zitierstile, darunter APA, Harvard, Chicago, IEEE, MIT und die deutsche Zitierweise."
         }
       },
       {
         "@type": "Question",
-        "name": "Wie genau gibt der Zitationsgenerator die Quellen an?",
+        "name": "Wie genau gibt der Zitiergenerator die Quellen an?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Der Zitationsgenerator verwendet die neuesten Richtlinien der jeweiligen Zitierstile, um sicherzustellen, dass die Quellenangaben präzise und aktuell sind."
+          "text": "Der Zitiergenerator verwendet die neuesten Richtlinien der jeweiligen Zitierstile, um sicherzustellen, dass die Quellenangaben präzise und aktuell sind."
         }
       },
       {
         "@type": "Question",
-        "name": "Kann ich den Zitationsgenerator für alle Arten von Quellen verwenden?",
+        "name": "Kann ich den Zitiergenerator für alle Arten von Quellen verwenden?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ja, unser Zitationsgenerator ist in der Lage, eine Vielzahl von Quellen zu zitieren, einschließlich Bücher, Zeitschriftenartikel, Webseiten und vieles mehr."
+          "text": "Ja, unser Zitiergenerator ist in der Lage, eine Vielzahl von Quellen zu zitieren, einschließlich Bücher, Zeitschriftenartikel, Webseiten und vieles mehr."
         }
       },
       {
         "@type": "Question",
-        "name": "Benötige ich spezielle Software, um den Zitationsgenerator zu nutzen?",
+        "name": "Benötige ich spezielle Software, um den Zitiergenerator zu nutzen?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Nein, der Zitationsgenerator ist eine webbasierte Anwendung und erfordert keine spezielle Software. Er ist über jeden gängigen Webbrowser zugänglich."
+          "text": "Nein, der Zitiergenerator ist eine webbasierte Anwendung und erfordert keine spezielle Software. Er ist über jeden gängigen Webbrowser zugänglich."
         }
       },
       {
@@ -1051,16 +1051,15 @@ schema_objects: |-
       },
       {
         "@type": "Question",
-        "name": "Wer kann den Zitationsgenerator nutzen?",
+        "name": "Wer kann den Zitiergenerator nutzen?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Der Zitationsgenerator ist für alle gedacht, die wissenschaftliche Arbeiten verfassen, einschließlich Studenten, wissenschaftliche Mitarbeiter, Professoren und andere Forscher."
+          "text": "Der Zitiergenerator ist für alle gedacht, die wissenschaftliche Arbeiten verfassen, einschließlich Studenten, wissenschaftliche Mitarbeiter, Professoren und andere Forscher."
         }
       }
     ]
   }
   </script>
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1709736344
-jumpmark: buchheit@gwriters.net
+updated_at: 1713973827
 ---

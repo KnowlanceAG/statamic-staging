@@ -18,7 +18,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: >-
               Warum sollte ich GWriters nutzen um einen passenden Ghostwriter
               oder Bearbeiter zu finden?
@@ -37,7 +37,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Seriöse und für Ihre spezielle Aufgabenstellung passende akademische Freelancer (z.B. wissenschaftliche Berater,\_"
           - type: text
             marks:
@@ -45,17 +45,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
           - type: text
             marks:
               - type: bold
-            text: ', '
+            text: ", "
           - type: text
             marks:
               - type: bold
@@ -75,7 +75,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /korrektorat/korrektor
@@ -96,7 +96,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Vertrauen Sie auf unsere Erfahrung: GWriters bietet Ihnen schnell und einfach Zugriff auf derzeit über 3000 Autoren & Bearbeiter aus diversen Fachbereichen an und hilft dabei, einen für Ihre\_"
           - type: text
             marks:
@@ -104,7 +104,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /anfrage
@@ -124,7 +124,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Durch den Einsatz von Supervisoren und automatisierten Prüf- und
               Bewertungssystemen garantieren wir darüber hinaus die einwandfreie
@@ -138,7 +138,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Anders als im journalistischen Bereich sind seriöse akademische
               Autoren schwer aus eigener Initiative oder über das Internet zu
@@ -162,7 +162,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -186,7 +186,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 og_title: Warum genau GWriters nutzen? Vorteile unserer Ghostwriting Agentur

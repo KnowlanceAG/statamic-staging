@@ -23,7 +23,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Akademisches Ghostwriting
   - type: paragraph
     content:
@@ -33,7 +33,7 @@ teaser:
           - type: textColor
             attrs:
               color: rgb(68, 68, 68)
-              hex: '#000'
+              hex: "#000"
         text: >-
           Finden Sie hier alle wichtigen Informationen im Überblick. Benötigen
           Sie weitere Unterstützung von einem professionellen akademischen
@@ -44,7 +44,7 @@ teaser_bg: seiten/gwriters-akademie/Banner_GWAkademie_BackgroundOnly.jpg
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 template: academy-item-long
@@ -62,7 +62,7 @@ replicator:
           - type: text
             text: >-
               In dieser Kategorie möchten wir Ihnen einen Überblick über unsere
-              gesamte Wissenssammlung zum 
+              gesamte Wissenssammlung zum
           - type: text
             marks:
               - type: link
@@ -72,7 +72,7 @@ replicator:
                   rel: null
             text: akademischen Ghostwriting
           - type: text
-            text: ' in Form von Blogartikeln, Tutorial-Videos und mehr geben. Unsere Artikel und Videos werden von echten Akademikern aus unserem eigenen Expertenteam erstellt, die sowohl mit den gängigen wissenschaftlichen Arbeitstechniken und dem eigenen Fachbereich bestens vertraut sind, als auch über langjährige '
+            text: " in Form von Blogartikeln, Tutorial-Videos und mehr geben. Unsere Artikel und Videos werden von echten Akademikern aus unserem eigenen Expertenteam erstellt, die sowohl mit den gängigen wissenschaftlichen Arbeitstechniken und dem eigenen Fachbereich bestens vertraut sind, als auch über langjährige "
           - type: text
             marks:
               - type: link
@@ -82,21 +82,21 @@ replicator:
                   rel: null
             text: Ghostwriting Erfahrung
           - type: text
-            text: ' verfügen.'
+            text: " verfügen."
       - type: paragraph
         content:
           - type: text
-            text: 'Ein '
+            text: "Ein "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
           - type: text
-            text: ' betrachtet eine wissenschaftliche Fragestellung aus einer anderen, neutraleren und differenzierteren Perspektive als viele Studenten selber und weiß aus Erfahrung, wie im Bezug auf eine akademische Fragestellung die bestmöglichen Ergebnisse erzielt werden können. Doch dafür ist es absolut notwendig, dass Ghostwriter und Forschungsthema auch zu einander passen. Durch unsere langjährige Erfahrung bei GWriters wissen wir genau, welcher unserer akademischen Ghostwriter am besten zu ihrem individuellen Vorhaben passt, und machen diesen zu Ihrem persönlichen Ansprechpartner.'
+            text: " betrachtet eine wissenschaftliche Fragestellung aus einer anderen, neutraleren und differenzierteren Perspektive als viele Studenten selber und weiß aus Erfahrung, wie im Bezug auf eine akademische Fragestellung die bestmöglichen Ergebnisse erzielt werden können. Doch dafür ist es absolut notwendig, dass Ghostwriter und Forschungsthema auch zu einander passen. Durch unsere langjährige Erfahrung bei GWriters wissen wir genau, welcher unserer akademischen Ghostwriter am besten zu ihrem individuellen Vorhaben passt, und machen diesen zu Ihrem persönlichen Ansprechpartner."
       - type: heading
         attrs:
           level: 2
@@ -108,7 +108,7 @@ replicator:
           - type: text
             text: >-
               Ghostwriting kann besonders in akuten Situation ausgesprochen
-              hilfreich, wie unser 
+              hilfreich, wie unser
           - type: text
             marks:
               - type: link
@@ -118,14 +118,14 @@ replicator:
                   rel: null
             text: Video "3 Tage bis zur Abgabe - Ghostwriting im Notfall"
           - type: text
-            text: ' zeigt. Auch wenn der Zeitrahmen knapp ist, schaffen wir es bei GWriters Ihnen jederzeit ein qualitatives Werk zu liefern, das allen akademischen Ansprüchen gerecht wird. Sollten Sie nicht erst zum Ende, sondern bereits zu Beginn Ihres Projekts Unterstützung suchen, dann kann Ihnen einer unserer akademischen Ghostwriter bereits ab der Themenfindung als professioneller Coach zur Seite stehen.'
+            text: " zeigt. Auch wenn der Zeitrahmen knapp ist, schaffen wir es bei GWriters Ihnen jederzeit ein qualitatives Werk zu liefern, das allen akademischen Ansprüchen gerecht wird. Sollten Sie nicht erst zum Ende, sondern bereits zu Beginn Ihres Projekts Unterstützung suchen, dann kann Ihnen einer unserer akademischen Ghostwriter bereits ab der Themenfindung als professioneller Coach zur Seite stehen."
       - type: paragraph
         content:
           - type: text
             text: >-
               Akademische Ghostwriter setzten sich für Ihren Erfolg und das
               Erlangen Ihres akademischen Grades ein. Aber worauf gilt es bei
-              der Auswahl der richtigen 
+              der Auswahl der richtigen
           - type: text
             marks:
               - type: link
@@ -135,7 +135,7 @@ replicator:
                   rel: null
             text: Ghostwriting-Agentur
           - type: text
-            text: ' zu achten und was sind mögliche '
+            text: " zu achten und was sind mögliche "
           - type: text
             marks:
               - type: link

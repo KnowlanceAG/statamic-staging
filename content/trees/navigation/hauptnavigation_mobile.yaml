@@ -43,9 +43,6 @@ tree:
             title: Studienarbeiten
             children:
               -
-                id: 12767015-2215-4e81-ac13-d1f4ba6fe17d
-                entry: 425234fd-eb40-4dab-bb3d-95bbac5948eb
-              -
                 id: ff4ac760-66da-4f79-a4e3-8568ca501574
                 entry: cb0a74d3-ed84-4dad-b3a7-c368aec13800
               -
@@ -63,6 +60,9 @@ tree:
               -
                 id: 7ed89e9f-01f4-411c-95fb-057eb0c6fa4f
                 entry: 9220b84f-d5b1-4980-a846-073dfe87b8cf
+              -
+                id: 240e6c4f-f5d8-434e-aa99-14df2a6ecaa5
+                entry: ec614786-ab3c-4559-930d-9cc717dcc451
           -
             id: 9e015723-f48a-429f-92b9-e10e645754f8
             title: 'Sonstige Arbeiten'
@@ -83,9 +83,6 @@ tree:
                 id: 13631b7e-3dc9-444e-bc08-c1c953a474a6
                 entry: 134ba799-3362-4166-86f7-bba4e992d7d7
               -
-                id: 5612d34e-8b44-40ef-9648-02049dcf8622
-                entry: b6ee03ca-ecab-4749-ade4-45ff821b748d
-              -
                 id: 229937ae-7920-4a34-bbd0-f94ae8767d62
                 entry: 5659593d-2756-4e9f-a5b3-b391103d9886
               -
@@ -94,6 +91,12 @@ tree:
               -
                 id: 847acea0-6a21-4f6f-9733-b117794bcfff
                 entry: f49cc00a-bc35-4399-9772-09dc61f246d1
+              -
+                id: a4dbf540-98ac-45e4-8028-b41a3d065ecf
+                entry: 709b7036-9d04-44ba-aba8-b47b19125ee7
+              -
+                id: 711b28d7-d18f-4601-9132-598423a58d7f
+                entry: 48b09f54-4173-4aaf-8b03-5ca69d476a36
       -
         id: d0425172-8438-4e7c-825c-db1eda8b81e4
         title: Fachrichtungen
@@ -150,6 +153,9 @@ tree:
               -
                 id: 912093fa-ebe7-4858-8f3e-6e32c25c0c70
                 entry: 34f7528d-839e-4ef6-b735-627084dba887
+              -
+                id: 6f592af2-c013-4d01-87da-86c1a3eaea9b
+                entry: 4e8bb552-4039-414e-ad1d-2e70d1245726
           -
             id: 415dfd66-6e7c-4fd3-8ca5-c79f084d18d9
             title: Sozialwissenschaften
@@ -222,9 +228,6 @@ tree:
                 id: 03c8d6fd-6ea1-4c34-8f4f-9194ca3bc49a
                 entry: a9561621-8360-4ecf-855c-753f4a217c5a
               -
-                id: 6b1bea27-d431-487b-849e-83eb5d81c387
-                entry: 21aff10c-582a-440f-9f50-1af525566292
-              -
                 id: ce25ea45-5b98-4e72-9e82-5b60e6c9c0dd
                 entry: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
               -
@@ -237,6 +240,9 @@ tree:
                 id: 10fe73b3-3247-42c4-a59c-5a1263b0080d
                 title: Kunstgeschichte
                 url: '/kunst#kunstgeschichte'
+              -
+                id: 45c1a211-f5f1-4996-8ddc-d8584a784aa9
+                entry: c1eba81e-9925-4f9a-9da3-1e3bf1b4911e
           -
             id: e4c7273b-beef-4142-89f5-f19c8d291450
             title: 'Medizinische Fachrichtungen'

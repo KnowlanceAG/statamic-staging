@@ -14,7 +14,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Examensarbeit schreiben lassen
   - type: heading
     attrs:
@@ -77,7 +77,7 @@ teaser:
         type: button
         button_link: /anfrage
         button_text: JETZT KOSTENLOS ANFRAGEN
-        color: '#FF6606'
+        color: "#FF6606"
         spacing_top: false
   - type: set
     attrs:
@@ -90,7 +90,7 @@ teaser:
       - type: text
         marks:
           - type: bold
-        text: 'Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:'
+        text: "Oder rufen Sie uns einfach an, wir beraten Sie gerne & kostenlos:"
     attrs:
       textAlign: center
   - type: heading
@@ -103,13 +103,13 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
           - type: link
             attrs:
               href: tel:##phone##
               target: null
               rel: null
-        text: '##phone##'
+        text: "##phone##"
 replicator:
   - id: dVKGqoSm
     columns_replicator:
@@ -121,17 +121,17 @@ replicator:
               - type: paragraph
                 content:
                   - type: text
-                    text: 'Akademische '
+                    text: "Akademische "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           target: null
                           rel: null
                     text: Ghostwriter
                   - type: text
-                    text: ' sind Experten ihres Fachgebietes und haben hervorragende Erfahrung mit der spezifischen Materie und dem wissenschaftlichen Arbeiten. Sie müssen sich nicht erst mühsam eine Methodik aneignen und können so zu jeder Fragestellung der Bearbeitung beauftragt werden. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, '
+                    text: " sind Experten ihres Fachgebietes und haben hervorragende Erfahrung mit der spezifischen Materie und dem wissenschaftlichen Arbeiten. Sie müssen sich nicht erst mühsam eine Methodik aneignen und können so zu jeder Fragestellung der Bearbeitung beauftragt werden. Oft geschieht dies direkt zu Beginn, bei der eigentlichen Themenfindung, "
                   - type: text
                     marks:
                       - type: link
@@ -141,13 +141,13 @@ replicator:
                           rel: null
                     text: Literaturrecherche
                   - type: text
-                    text: ' und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, sie zu einem bestimmten Punkt vorantreiben oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei kann zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellt werden.'
+                    text: " und dem Aufbau einer Examensarbeit (Einleitung, Hauptteil, Fazit). Ein Coaching bei der Examensarbeit kann auch bei der erfolgreichen Fertigstellung einer bereits begonnenen Arbeit unterstützend wirken, sie zu einem bestimmten Punkt vorantreiben oder ein Konzept mit Lösungsansätzen für die Erfüllung der gestellten Aufgabe entwerfen. Hierbei kann zum Beispiel einen Gliederungsentwurf oder auch eine Vorlage für Textergänzungen erstellt werden."
               - type: set
                 attrs:
                   id: nDenhdU5
                   values:
                     type: show_sidebar_mobile
-                    custom_sidebar_placement: 'on'
+                    custom_sidebar_placement: "on"
               - type: paragraph
                 content:
                   - type: text
@@ -155,7 +155,7 @@ replicator:
                       Zudem können Leistungen wie Lektorat oder Korrektorat der
                       Examensarbeit, die bereits durch den Studierenden
                       fertiggestellt wurde, in Anspruch genommen werden.
-                      Anschließend kann eine umfassende 
+                      Anschließend kann eine umfassende
                   - type: text
                     marks:
                       - type: link
@@ -165,25 +165,25 @@ replicator:
                           rel: null
                     text: Plagiatsprüfung
                   - type: text
-                    text: ' erfolgen, um mögliche Risiken durch Flüchtigkeitsfehler zu umgehen - schließlich muss sämtliche verwendete Literaturquellen als solche gekennzeichnet sein. Es ist auch nicht selten, dass Studenten sich eine '
+                    text: " erfolgen, um mögliche Risiken durch Flüchtigkeitsfehler zu umgehen - schließlich muss sämtliche verwendete Literaturquellen als solche gekennzeichnet sein. Es ist auch nicht selten, dass Studenten sich eine "
                   - type: text
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/ghostwriter-mustervorlage
+                          href: /ghostwriting-beispielarbeiten
                           target: null
                           rel: null
                     text: Mustervorlage
                   - type: text
-                    text: ' für ihre Examensarbeit schreiben lassen und diese Ghostwriter-Examensarbeit als Vorlage für ihre eigene Arbeit nutzen.'
+                    text: " für ihre Examensarbeit schreiben lassen und diese Ghostwriter-Examensarbeit als Vorlage für ihre eigene Arbeit nutzen."
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Unsere akademischen Ghostwriter sind zertifizierte
                       Professoren und Doktoren. Sie haben in ihrem Fachbereich
@@ -195,8 +195,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/hausarbeit-schreiben-lassen
@@ -207,15 +207,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ', '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: ", "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/seminararbeit-schreiben-lassen
@@ -226,19 +226,19 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       , Abschlussarbeiten). Neben dem Ghostwriting sind einige
                       unserer Ghostwriter professionelle Redakteure und arbeiten
                       für wichtige wissenschaftliche Zeitschriften. Solche
-                      Ghostwriter bzw. Redakteure kennen den aktuellen 
+                      Ghostwriter bzw. Redakteure kennen den aktuellen
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /blog/wie-schreibe-ich-einen-forschungsstand
@@ -249,8 +249,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       , haben zu allen relevanten wissenschaftlichen Datenbanken
                       Zugriff und können alle Forschungsmaterialien zur
@@ -263,7 +263,7 @@ replicator:
                       - type: bold
                     text: >-
                       Wenn Sie bei Ihrer akademischen Arbeit Unterstützung
-                      benötigen, dann können Sie uns gerne sofort eine 
+                      benötigen, dann können Sie uns gerne sofort eine
                   - type: text
                     marks:
                       - type: bold
@@ -276,7 +276,7 @@ replicator:
                   - type: text
                     marks:
                       - type: bold
-                    text: ' an unsere Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit, Magisterarbeit, Diplomarbeit) oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt.'
+                    text: " an unsere Schreibservice schicken. Wir melden uns innerhalb weniger Stunden mit einem kostenlosen Angebot bei Ihnen zurück und rufen Sie auch gerne an, falls Sie eine kostenlose telefonische Beratung wünschen. Vorab: Selbstverständlich können und dürfen wir Ihnen keine Abschlussarbeiten (Bachelorarbeit, Masterarbeit, Doktorarbeit, Magisterarbeit, Diplomarbeit) oder andere Arten von Prüfungsleistungen erstellen, gerne erstellen wir Ihnen aber eine hochqualitative Mustervorlage nach Ihren individuellen Vorgaben, die alle akademischen Standards und Anforderungen erfüllt."
               - type: heading
                 attrs:
                   level: 2
@@ -298,7 +298,7 @@ replicator:
                       Bearbeitung einer Examensarbeit auf die leichte Schulter
                       nehmen. Statt sich langwierig mit der Frage zu
                       beschäftigen „Wie schreibe ich eine Examensarbeit?“, kann
-                      ein Student einen akademischen Freelancer mit 
+                      ein Student einen akademischen Freelancer mit
                   - type: text
                     marks:
                       - type: link
@@ -308,7 +308,7 @@ replicator:
                           rel: null
                     text: Ghostwriting
                   - type: text
-                    text: ' beauftragen. Er weist tiefgreifende Kenntnisse in seinem Fachgebiet vor und hat Erfahrungen mit allen wissenschaftlichen Formalismen. Besonders Hilfreich sind akademische Ghostwriter beim Schreiben einer Mustervorlage für Examensarbeiten.'
+                    text: " beauftragen. Er weist tiefgreifende Kenntnisse in seinem Fachgebiet vor und hat Erfahrungen mit allen wissenschaftlichen Formalismen. Besonders Hilfreich sind akademische Ghostwriter beim Schreiben einer Mustervorlage für Examensarbeiten."
               - type: paragraph
                 content:
                   - type: text
@@ -334,8 +334,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: Mustervorlage für Examensarbeit verfassen lassen
               - type: paragraph
                 content:
@@ -343,8 +343,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Sie wissen nicht, wie die Kooperation mit einem
                       akademischen Ghostwriter funktioniert? Sie beginnen mit
@@ -366,15 +366,15 @@ replicator:
                   level: 3
                 content:
                   - type: text
-                    text: 'Unverbindliche Anfrage: Texterstellung'
+                    text: "Unverbindliche Anfrage: Texterstellung"
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Nach Ihrer Zusage wird je nach Thema und Leistungsart ein
                       passender Ghostwriter zu Ihrer Aufgabenstellung
@@ -391,15 +391,15 @@ replicator:
                   level: 3
                 content:
                   - type: text
-                    text: 'Teilleistungen:'
+                    text: "Teilleistungen:"
               - type: paragraph
                 content:
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Nach dem Erstellungsprozess wird die Mustervorlage für
                       Ihre Texterstellung von einem unabhängigen Fachautor mit
@@ -420,8 +420,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Zum Schluss wird die Qualität der Arbeit von einem
                       qualifizierten Ghostwriter überprüft, der sicherstellt, ob
@@ -437,8 +437,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Die Leistungen wie Lektorat, Korrektur und Plagiatsprüfung
                       können Sie je nach Bedarf auch einzeln beauftragen.
@@ -447,7 +447,7 @@ replicator:
                   level: 2
                 content:
                   - type: text
-                    text: 'Unsere Leistungen:'
+                    text: "Unsere Leistungen:"
             show_as_card: false
         type: row
         enabled: true
@@ -556,8 +556,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/uebersetzung
@@ -572,8 +572,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /leistungen/plagiatspruefung
@@ -654,7 +654,7 @@ replicator:
                     type: button
                     button_link: /anfrage
                     button_text: JETZT KOSTENLOS ANFRAGEN
-                    color: '#FF6606'
+                    color: "#FF6606"
                     spacing_top: false
               - type: horizontal_rule
               - type: set
@@ -675,8 +675,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: "In Deutschland ist eine Examensarbeit gleichzeitig auch eine Zulassungsarbeit, Qualifikationsarbeit, Hausarbeit, Staatsarbeit oder Staatsexamensarbeit und gilt in manchen Studienfächern als schriftliche Abschlussarbeit. Besonders in den Lehramtsstudiengängen wie Jura. Offiziell wird eine Examensarbeit als eine wissenschaftliche Hausarbeit bezeichnet. \_"
               - type: paragraph
                 content:
@@ -684,21 +684,21 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Examensarbeit ist ein Oberbegriff für Abschlussarbeiten,
                       die notwendig sind, um eine Studienform erfolgreich zu
                       absolvieren. Zur Examensarbeit im Bachelorstudiengang
                       gehört demnach die Bachelorarbeit oder Bachelor Thesis, im
                       Masterstudiengang ist es die Masterarbeit oder Master
-                      Thesis, im Magisterstudium die 
+                      Thesis, im Magisterstudium die
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/magisterarbeit
@@ -709,15 +709,15 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
-                    text: ' und für die Erlangung des Diploms im Diplomstudiengang die Diplomarbeit. Bei der Promotion ist es die Dissertation oder '
+                          color: "#000!important"
+                          hex: "#000"
+                    text: " und für die Erlangung des Diploms im Diplomstudiengang die Diplomarbeit. Bei der Promotion ist es die Dissertation oder "
                   - type: text
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                       - type: link
                         attrs:
                           href: /arbeiten/doktorarbeit
@@ -728,8 +728,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       , die zum Doktortitel verhilft und bei Studienfächern, in
                       denen das Staatsexamen erreicht werden kann, ist die
@@ -743,8 +743,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Nicht nur das Wissen des Studiums ist in solchen Arbeiten
                       erforderlich, sondern oftmals auch eigene
@@ -772,8 +772,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Je nach Art, Studiengang und Institution umfasst die
                       Examensarbeit mit Exposé 60-100 Seiten. Sehr umfangreich
@@ -792,8 +792,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Neben der Forschungsfrage, Themenfindung, Gliederung,
                       Literaturrecherche und einigen Organisationsaspekten, wie
@@ -812,8 +812,8 @@ replicator:
                     marks:
                       - type: textColor
                         attrs:
-                          color: '#000!important'
-                          hex: '#000'
+                          color: "#000!important"
+                          hex: "#000"
                     text: >-
                       Trotz zahlreicher unterschiedlicher Hochschulgesetze der
                       einzelnen Lehrinstitute, haben sich einige
@@ -837,8 +837,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: /gwriters-akademie/deckblatt-vorlage
@@ -855,8 +855,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: /blog/bachelorarbeit-abstract
@@ -871,8 +871,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                             text: Vorwort
                   - type: list_item
                     content:
@@ -882,8 +882,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: >-
@@ -899,8 +899,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: /gwriters-akademie/abbildungsverzeichnis
@@ -911,15 +911,15 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
-                            text: '- und '
+                                  color: "#000!important"
+                                  hex: "#000"
+                            text: "- und "
                           - type: text
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: >-
@@ -935,8 +935,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: /gwriters-akademie/abkuerzungsverzeichnis
@@ -951,11 +951,11 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
-                                  href: /blog/bachelorarbeit-einleitung
+                                  href: /blog/einleitung-bachelorarbeit
                                   target: null
                                   rel: null
                             text: Einleitung
@@ -967,8 +967,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                             text: Hauptteil
                   - type: list_item
                     content:
@@ -978,8 +978,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                             text: Schlussteil/Fazit
                   - type: list_item
                     content:
@@ -989,8 +989,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: >-
@@ -1006,8 +1006,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: /gwriters-akademie/anhangsverzeichnis
@@ -1022,8 +1022,8 @@ replicator:
                             marks:
                               - type: textColor
                                 attrs:
-                                  color: '#000!important'
-                                  hex: '#000'
+                                  color: "#000!important"
+                                  hex: "#000"
                               - type: link
                                 attrs:
                                   href: >-
@@ -1044,7 +1044,7 @@ replicator:
               - type: paragraph
                 content:
                   - type: text
-                    text: '• Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm'
+                    text: "• Seitenrand: oben und unten je 2cm, links 5cm, rechts 1cm"
                   - type: hard_break
                   - type: text
                     text: >-
@@ -1057,7 +1057,7 @@ replicator:
                       Times New Roman, Blocksatz
                   - type: hard_break
                   - type: text
-                    text: '• Zeilenabstand: 1,5-zeilig'
+                    text: "• Zeilenabstand: 1,5-zeilig"
                   - type: hard_break
                   - type: text
                     text: >-
@@ -1167,7 +1167,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 template: default

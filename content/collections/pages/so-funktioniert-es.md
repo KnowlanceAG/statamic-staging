@@ -4,8 +4,8 @@ blueprint: pages
 title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
-updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705993366
+updated_by: 5dafdfdf-476c-4794-be37-54949932513d
+updated_at: 1714089282
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -423,7 +423,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: '/faq/#qualitaet'
+                          href: '/faq#qualitaet'
                           rel: null
                           target: null
                           title: null
@@ -445,7 +445,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -632,7 +632,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -776,6 +776,147 @@ replicator:
     enabled: true
     remove_spacing: false
     border: false
+  -
+    id: lvfw32ew
+    columns_replicator:
+      -
+        id: lvfw33yb
+        single_col: false
+        grid:
+          -
+            id: rYvW1bhx
+            bard:
+              -
+                type: set
+                attrs:
+                  id: lvfw4fem
+                  values:
+                    type: insert_html
+                    html: '<center><iframe width="750" height="422" src="https://www.youtube.com/embed/uajIJLykWr8?si=YeSYYjyuGkpqoCb-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: false
+    bg_color: '#F9F9F9'
+    border: false
+    type: add_section
+    enabled: true
+  -
+    id: lvfwb0u9
+    columns_replicator:
+      -
+        id: lvfwb3qn
+        single_col: false
+        grid:
+          -
+            id: rYvW1bhx
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  -
+                    type: text
+                    text: 'Tipps für einen erfolgreichen Ghostwriting-Auftrag'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Nach Ihrer Zusage empfehlen wir Ihnen, diese Schritte gründlich zu gehen, um sicherzustellen, dass Ihr Ghostwriting-Auftrag reibungslos verläuft und Ihre Erwartungen erfüllt werden.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+      -
+        id: lvfwbwl9
+        columns_per_row: 3
+        single_col: false
+        grid:
+          -
+            id: rYvW1bhx
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '1) Briefing an den akademischen Ghostwriter'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Der erste Schritt zu einer erfolgreichen Zusammenarbeit ist das Briefing an unseren akademischen Ghostwriter. Dieser Schritt ist entscheidend, da er die Grundlage für die gesamte Arbeit bildet. Wir empfehlen Ihnen, Ihr Briefing sorgfältig zu erstellen und so detailliert wie möglich zu gestalten. Dadurch ermöglichen Sie es unserem Ghostwriter, Ihre Bedürfnisse und Erwartungen vollständig zu verstehen und die Arbeit entsprechend zu gestalten. Sie haben die Möglichkeit, Literaturhinweise zu geben, Themenschwerpunkte zu setzen und bereits Formatvorgaben zu übermitteln. Ein umfassendes Briefing erleichtert es unserem Ghostwriter, Ihre Anforderungen zu erfüllen und spart Ihnen Zeit und Aufwand bei eventuellen Anpassungen im späteren Verlauf.'
+            show_as_card: false
+          -
+            id: lvfwc4fj
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '2) Feedbackschleifen beim Ghostwriting-Auftrag'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Bei uns erhalten Sie regelmäßig Teillieferungen während des Schreibprozesses, um Ihnen Einblick in den Fortschritt zu geben und Ihnen die Möglichkeit zu geben, aktiv Feedback zu geben. Wir arbeiten eng mit Ihnen zusammen, um sicherzustellen, dass die Arbeit Ihren Erwartungen entspricht. Durch unsere Feedbackschleifen können Sie Ihre Gedanken und Anmerkungen einbringen, die dann in die Arbeit einfließen. Wir empfehlen Ihnen dringend, diese Möglichkeit zu nutzen, da sie kostenlos ist und dazu beiträgt, den Erfolg Ihres Auftrags zu gewährleisten. Darüber hinaus stehen wir Ihnen gerne zur Verfügung, um Ihnen bei Fragen oder Unklarheiten zu helfen und sicherzustellen, dass Sie mit dem Fortschritt zufrieden sind.'
+            show_as_card: false
+          -
+            id: lvfwcayp
+            bard:
+              -
+                type: heading
+                attrs:
+                  textAlign: left
+                  level: 3
+                content:
+                  -
+                    type: text
+                    text: '3) Termine beim Ghostwriter-Auftrag'
+              -
+                type: paragraph
+                attrs:
+                  textAlign: left
+                content:
+                  -
+                    type: text
+                    text: 'Wir verstehen, dass Zeit ein entscheidender Faktor für Sie ist, und wir legen großen Wert darauf, die vereinbarten Termine einzuhalten. Wir bieten Ihnen ausreichend Zeit für eventuelle Korrekturen und Anpassungen, damit Sie sicher sein können, dass die Arbeit Ihren Anforderungen entspricht. Wir bitten Sie jedoch auch darum, Ihr Feedback zeitnah zu geben, um sicherzustellen, dass eventuelle Anpassungen rechtzeitig vorgenommen werden können. Durch unsere strukturierte Vorgehensweise und die klare Kommunikation während des gesamten Prozesses können Sie sicher sein, dass Ihr Ghostwriting-Auftrag erfolgreich und professionell abgewickelt wird.'
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+    remove_spacing: false
+    is_full: false
+    border: false
+    type: add_section
+    enabled: true
 meta_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'
 meta_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbeit schreiben lassen? So funktioniert es - in 4 einfachen Schritten.'
 og_title: 'Wissenschaftliches Ghostwriting bei GWriters • So funktioniert es'

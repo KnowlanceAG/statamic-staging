@@ -46,7 +46,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   rel: null
                   target: null
                   title: null

@@ -243,7 +243,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
+                          href: /arbeiten/abschlussarbeit-schreiben-lassen
                           rel: null
                           target: null
                           title: null

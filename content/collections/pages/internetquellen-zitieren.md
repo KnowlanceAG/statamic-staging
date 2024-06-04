@@ -300,7 +300,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://vhbonline.org/vhb4you/vhb-jourqual'
+                          href: 'https://vhbonline.org/service/vhb-jourqual'
                           rel: 'noopener noreferrer nofollow'
                           target: _blank
                           title: null
@@ -314,7 +314,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: 'https://www.vhbonline.org/vhb4you/vhb-jourqual/vhb-jourqual-3/gesamtliste'
+                          href: 'https://www.vhbonline.org/service/vhb-jourqual/vhb-jourqual-3/gesamtliste'
                           rel: 'noopener noreferrer nofollow'
                           target: _blank
                           title: null
@@ -484,7 +484,7 @@ replicator:
                               -
                                 type: link
                                 attrs:
-                                  href: 'https://www.worldcat.org/'
+                                  href: 'https://search.worldcat.org/'
                                   rel: 'noopener noreferrer nofollow'
                                   target: _blank
                                   title: null
@@ -622,11 +622,11 @@ replicator:
                           -
                             type: link
                             attrs:
-                              href: 'https://gwriters.de/leistungen/ghostwriting'
+                              href: 'https://gwriters.de/ghostwriting'
                               rel: null
                               target: null
                               title: null
-                        text: 'https://gwriters.de/leistungen/ghostwriting'
+                        text: 'https://gwriters.de/ghostwriting'
                       -
                         type: text
                         text: ', Zugriff am 09.04.2016 um 20:30 Uhr.“'
@@ -891,5 +891,5 @@ og_title: 'Internetquellen zitieren | Alles, was Sie wissen müssen + Generator'
 og_description: 'Sie möchten wissen, wie Sie konkrete, hochwertige und seriöse Internetquellen für Ihre wissenschaftliche Arbeit finden & diese richtig einbauen können? Dann richtet sich dieser Artikel an Sie!'
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705996545
+updated_at: 1715700124
 ---

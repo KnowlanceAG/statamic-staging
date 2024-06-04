@@ -571,7 +571,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   rel: null
                   target: null
                   title: null
@@ -1067,7 +1067,7 @@ replicator:
               -
                 type: link
                 attrs:
-                  href: /blog/ghostwriter-mustervorlage
+                  href: /ghostwriting-beispielarbeiten
                   rel: null
                   target: null
                   title: null
@@ -1213,7 +1213,7 @@ replicator:
     enabled: true
 template: with-side-bar
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705995762
+updated_at: 1715171448
 page_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_title: 'ACHTUNG: GWriters warnt vor Ghostwriter-Betrug'
 meta_description: 'Hier finden Sie aktuelle Informationen zu bekannten Betrüger-Websites im akademischen Ghostwriting. Verlassen Sie sich nur auf seriöse Ghostwriting Agenturen!'

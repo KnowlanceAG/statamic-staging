@@ -53,7 +53,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -94,7 +94,7 @@ replicator:
                   hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Fachbereich
@@ -1351,7 +1351,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/wissenschaftliche-arbeiten-schreiben
+                  href: /arbeiten
                   target: _blank
                   rel: noopener noreferrer
             text: >-

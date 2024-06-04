@@ -43,9 +43,6 @@ tree:
             title: 'Studienarbeiten schreiben lassen'
             children:
               -
-                id: 12767015-2215-4e81-ac13-d1f4ba6fe17d
-                entry: 425234fd-eb40-4dab-bb3d-95bbac5948eb
-              -
                 id: ff4ac760-66da-4f79-a4e3-8568ca501574
                 entry: cb0a74d3-ed84-4dad-b3a7-c368aec13800
               -
@@ -63,6 +60,9 @@ tree:
               -
                 id: b2ebdf55-9c87-4e4b-8c3d-042e1553459d
                 entry: 9220b84f-d5b1-4980-a846-073dfe87b8cf
+              -
+                id: f433b6de-df0d-415b-ac0e-beb8c239c32b
+                entry: ec614786-ab3c-4559-930d-9cc717dcc451
           -
             id: b3ba4515-f1fe-494e-916d-f985346fde68
             title: 'Sonstige Arbeiten'
@@ -86,9 +86,6 @@ tree:
                 id: 13631b7e-3dc9-444e-bc08-c1c953a474a6
                 entry: 134ba799-3362-4166-86f7-bba4e992d7d7
               -
-                id: 5612d34e-8b44-40ef-9648-02049dcf8622
-                entry: b6ee03ca-ecab-4749-ade4-45ff821b748d
-              -
                 id: 229937ae-7920-4a34-bbd0-f94ae8767d62
                 entry: 5659593d-2756-4e9f-a5b3-b391103d9886
               -
@@ -97,6 +94,15 @@ tree:
               -
                 id: 3c8bd30f-04a3-4def-a34f-57a0a7a6759f
                 entry: aaa7f3a7-268e-40f2-86c3-16bce70dc56b
+              -
+                id: a0568044-b1ea-461f-a74f-c6ecf117b80a
+                entry: 013f952d-16aa-462e-870f-50b740cfd7c1
+              -
+                id: f460b50b-3ae3-4cfb-8462-3e36fe948906
+                entry: 709b7036-9d04-44ba-aba8-b47b19125ee7
+              -
+                id: 792f8900-1439-4e22-9d69-281ad19f139a
+                entry: 48b09f54-4173-4aaf-8b03-5ca69d476a36
       -
         id: 4281b9da-a64c-47a7-881c-3cd725c3abad
         title: Fachrichtungen
@@ -156,10 +162,6 @@ tree:
               -
                 id: 6f1cbf46-f04c-4e56-83b7-f5265237336d
                 entry: 4e8bb552-4039-414e-ad1d-2e70d1245726
-              -
-                id: 5424ec41-9cf1-4069-adea-ac71a324d7b6
-                title: Biologie2
-                url: /biologie
           -
             id: cb5c4406-fced-43a0-9338-72006899f428
             title: Sozialwissenschaften
@@ -218,6 +220,15 @@ tree:
               -
                 id: e5f10cd3-b24f-493a-aa33-0a79546cdbf1
                 entry: 1f00cb9f-f41d-4dec-b33f-df5243fa7c17
+              -
+                id: 21f7ae13-73e3-4e14-bba2-61173a2cb0b3
+                entry: f2d67e2e-950f-4dfe-ade6-6c6fcbb0f23f
+              -
+                id: 09d83f77-be40-462c-ac4b-ea3755f1bc5d
+                entry: 5e923283-68fd-44ee-9dd7-84031fa56179
+              -
+                id: d22a072d-c5f6-417f-849d-9d7f370adf47
+                entry: 17e62bd0-216b-4c73-b21e-7fd05ad8ebeb
           -
             id: 519f077a-3869-478f-a210-201a96073125
             title: Geisteswissenschaften
@@ -236,9 +247,6 @@ tree:
                 id: 968dcbe6-67f0-44c0-8476-18d1356809de
                 entry: a9561621-8360-4ecf-855c-753f4a217c5a
               -
-                id: 20c28b5d-e9f9-45c6-b730-7c272944aa64
-                entry: 21aff10c-582a-440f-9f50-1af525566292
-              -
                 id: bef04c82-6bca-4abe-b1dc-a81a024553b6
                 entry: fdd3c9ae-df0d-43d8-a0d3-d8652e6d301c
               -
@@ -247,6 +255,9 @@ tree:
               -
                 id: 11a1adde-3776-4c51-bb63-8bd6b7f7be44
                 entry: 1d98acf0-a0bc-4e18-bb1c-cb42cb096f00
+              -
+                id: cb6d932c-15f8-479f-a511-9a8889eb429a
+                entry: c1eba81e-9925-4f9a-9da3-1e3bf1b4911e
           -
             id: ecbc3f43-8690-4c01-968b-8b574c22fab0
             title: 'Medizinische Fachrichtungen'

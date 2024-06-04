@@ -5,7 +5,7 @@ title: Leistungen
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: 94ade404-9791-479c-a67d-f792aa146207
-updated_at: 1705993666
+updated_at: 1715698044
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
@@ -22,8 +22,6 @@ teaser:
       -
         type: text
         marks:
-          -
-            type: bold
           -
             type: textColor
             attrs:
@@ -181,7 +179,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /blog/ghostwriter-mustervorlage
+                          href: /ghostwriting-beispielarbeiten
                           rel: null
                           target: null
                           title: null
@@ -195,7 +193,7 @@ replicator:
                       -
                         type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -565,7 +563,7 @@ replicator:
                     type: bilder
                     assets:
                       - leistung/icons/reload.svg
-                    link: 'entry::7cad538c-ad74-4617-825e-bbac46ebf310'
+                    link: /leistungen/uebersetzung
                     img_alignment: justify-center
                     has_border: false
               -
@@ -613,7 +611,7 @@ replicator:
                     type: bilder
                     assets:
                       - leistung/icons/hat.svg
-                    link: 'entry::6dd15231-c8e7-43fe-949e-af68de19ab1b'
+                    link: 'entry::9cdbb50a-cca0-41ad-b7b3-701892f9ce96'
                     img_alignment: justify-center
                     has_border: false
               -

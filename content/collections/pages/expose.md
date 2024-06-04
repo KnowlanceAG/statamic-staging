@@ -98,264 +98,9 @@ teaser:
               rel: null
         text: "##phone##"
 parent: d118c7b2-141d-4bac-972d-c1502381a340
-updated_by: 5dafdfdf-476c-4794-be37-54949932513d
-updated_at: 1708728464
+updated_by: 94ade404-9791-479c-a67d-f792aa146207
+updated_at: 1712857078
 replicator:
-  - id: H0cWpLlj
-    columns_replicator:
-      - id: 3Uo5tcY8
-        single_col: true
-        grid:
-          - id: HYkwUX7b
-            bard:
-              - type: paragraph
-                attrs:
-                  textAlign: center
-                content:
-                  - type: text
-                    text: "Für Ihre wissenschaftliche Arbeit können Sie bei "
-                  - type: text
-                    marks:
-                      - type: link
-                        attrs:
-                          href: /
-                          rel: null
-                          target: null
-                          title: null
-                    text: GWriters
-                  - type: text
-                    text: " schnell und professionell eine individuelle und plagiatsfreie Mustervorlage für Ihr"
-                  - type: text
-                    marks:
-                      - type: bold
-                    text: " Exposé erstellen lassen"
-                  - type: text
-                    text: ". Unser akademischen "
-                  - type: text
-                    marks:
-                      - type: link
-                        attrs:
-                          href: /ghostwriter
-                          rel: null
-                          target: null
-                          title: null
-                    text: Ghostwriter
-                  - type: text
-                    text: " sind Experten in der Literaturrecherche, der Formulierung von Problemstellung und Forschungsfragen sowie in der Anwendung verschiedener wissenschaftlicher Methoden wie quantitativen "
-                  - type: text
-                    marks:
-                      - type: link
-                        attrs:
-                          href: /arbeiten/statistische-analysen
-                          rel: null
-                          target: null
-                          title: null
-                    text: "statistischen Auswertung"
-                  - type: text
-                    text: " im Rahmen von empirischen Studien oder auch quantitativen Inhaltsanalyse im Rahmen einer "
-                  - type: text
-                    marks:
-                      - type: link
-                        attrs:
-                          href: /leistungen/maxqda-auswertung
-                          rel: null
-                          target: null
-                          title: null
-                    text: "MAXQDA Auswertung"
-                  - type: text
-                    text: " von leitfadengestütze Experteninterviews. Als Meister aller wissenschaftlicher Disziplinen bieten wir somit professionelle Exposé Hilfe an."
-              - type: heading
-                attrs:
-                  textAlign: left
-                  level: 2
-                content:
-                  - type: text
-                    text: Inhaltsverzeichnis
-              - type: bulletList
-                content:
-                  - type: listItem
-                    content:
-                      - type: paragraph
-                        attrs:
-                          textAlign: left
-                        content:
-                          - type: text
-                            marks:
-                              - type: link
-                                attrs:
-                                  href: "#ghostwriter"
-                                  rel: null
-                                  target: null
-                                  title: null
-                            text: "Akademische Ghostwriter: Exposé schreiben lassen"
-                  - type: listItem
-                    content:
-                      - type: paragraph
-                        attrs:
-                          textAlign: left
-                        content:
-                          - type: text
-                            marks:
-                              - type: link
-                                attrs:
-                                  href: "#schreiben-lassen"
-                                  rel: null
-                                  target: null
-                                  title: null
-                            text: "Wie kommt es, dass Professoren ihre Studenten ein Exposé schreiben lassen?"
-                  - type: listItem
-                    content:
-                      - type: paragraph
-                        attrs:
-                          textAlign: left
-                        content:
-                          - type: text
-                            marks:
-                              - type: link
-                                attrs:
-                                  href: "#vorteile"
-                                  rel: null
-                                  target: null
-                                  title: null
-                            text: "Vorteile vom Exposé schreiben"
-                  - type: listItem
-                    content:
-                      - type: paragraph
-                        attrs:
-                          textAlign: left
-                        content:
-                          - type: text
-                            marks:
-                              - type: link
-                                attrs:
-                                  href: "#laenge"
-                                  rel: null
-                                  target: null
-                                  title: null
-                            text: "Was enthält ein Exposé? Was müssen Sie beim Exposé schreiben beachten?"
-                      - type: bulletList
-                        content:
-                          - type: listItem
-                            content:
-                              - type: paragraph
-                                attrs:
-                                  textAlign: left
-                                content:
-                                  - type: text
-                                    marks:
-                                      - type: link
-                                        attrs:
-                                          href: "#inhalt"
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: "Exposé: Inhalt "
-                          - type: listItem
-                            content:
-                              - type: paragraph
-                                attrs:
-                                  textAlign: left
-                                content:
-                                  - type: text
-                                    marks:
-                                      - type: link
-                                        attrs:
-                                          href: "#checkliste"
-                                          rel: null
-                                          target: null
-                                          title: null
-                                    text: "Exposé Checkliste"
-                  - type: listItem
-                    content:
-                      - type: paragraph
-                        attrs:
-                          textAlign: left
-                        content:
-                          - type: text
-                            marks:
-                              - type: link
-                                attrs:
-                                  href: "#bachelorarbeit"
-                                  rel: null
-                                  target: null
-                                  title: null
-                            text: "Exposé Bachelorarbeit: Die wichtigsten Punkte im Überblick"
-                  - type: listItem
-                    content:
-                      - type: paragraph
-                        attrs:
-                          textAlign: left
-                        content:
-                          - type: text
-                            marks:
-                              - type: link
-                                attrs:
-                                  href: "#erstellen"
-                                  rel: null
-                                  target: null
-                                  title: null
-                            text: "Checkliste: Exposé erstellen"
-            show_as_card: true
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    is_full: false
-    type: add_section
-    enabled: true
-    remove_spacing: false
-    border: false
-  - id: lsymyga5
-    columns_replicator:
-      - id: lsymzupl
-        single_col: false
-        grid:
-          - id: QJh0UXH9
-            bard:
-              - type: heading
-                attrs:
-                  textAlign: center
-                  level: 2
-                content:
-                  - type: text
-                    text: "Überzeugen Sie sich von der Qualität unseres Ghostwriter"
-                  - type: hardBreak
-                  - type: text
-                    text: "Services anhand unserer Kundenstimmen"
-              - type: heading
-                attrs:
-                  textAlign: center
-                  level: 4
-                content:
-                  - type: text
-                    text: "Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:"
-              - type: set
-                attrs:
-                  id: lsz73vvl
-                  values:
-                    type: insert_html
-                    html: |-
-                      <!-- ProvenExpert Bewertungssiegel -->
-                      <div id="pewl"></div>
-                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
-                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
-                      <!-- ProvenExpert Bewertungssiegel Ende -->
-              - type: paragraph
-                attrs:
-                  textAlign: center
-            show_as_card: false
-        type: row
-        enabled: true
-        responsive_columns: 0
-        columns_per_row: 0
-    remove_spacing: false
-    is_full: true
-    bg_toggle: true
-    border: false
-    type: add_section
-    enabled: true
-    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
-    bg_image_fixed: false
   - id: lsymx7wm
     columns_replicator:
       - id: lsymx95k
@@ -364,19 +109,13 @@ replicator:
         grid:
           - id: QJh0UXH9
             bard:
-              - type: set
-                attrs:
-                  id: lsz8gktk
-                  values:
-                    type: anchor_target
-                    anchor_name: ghostwriter
               - type: heading
                 attrs:
                   textAlign: left
                   level: 2
                 content:
                   - type: text
-                    text: "Akademische Ghostwriter: Exposé schreiben lassen"
+                    text: "Akademische Ghostwriter: Exposé erstellen lassen"
               - type: paragraph
                 attrs:
                   textAlign: left
@@ -503,11 +242,270 @@ replicator:
         type: row
         enabled: true
         responsive_columns: 0
+      - id: luvitphb
+        single_col: false
+        grid:
+          - id: Dl0MPMBo
+            bard:
+              - type: set
+                attrs:
+                  id: luvituln
+                  values:
+                    type: spacer
+                    padding-y: 10
+              - type: paragraph
+                attrs:
+                  textAlign: left
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
     remove_spacing: false
     is_full: false
     border: false
     type: add_section
     enabled: true
+  - id: lsymyga5
+    columns_replicator:
+      - id: lsymzupl
+        single_col: false
+        grid:
+          - id: QJh0UXH9
+            bard:
+              - type: heading
+                attrs:
+                  textAlign: center
+                  level: 2
+                content:
+                  - type: text
+                    text: "Überzeugen Sie sich von der Qualität unseres Ghostwriter"
+                  - type: hardBreak
+                  - type: text
+                    text: "Services anhand unserer Kundenstimmen"
+              - type: heading
+                attrs:
+                  textAlign: center
+                  level: 4
+                content:
+                  - type: text
+                    text: "Basierend auf den Bewertungen bei ProvenExpert. Lesen Sie hier eine Auswahl:"
+              - type: set
+                attrs:
+                  id: lsz73vvl
+                  values:
+                    type: insert_html
+                    html: |-
+                      <!-- ProvenExpert Bewertungssiegel -->
+                      <div id="pewl"></div>
+                      <script type="text/javascript" src="https://www.provenexpert.com/widget/landing_gwriters.js?feedback=1&avatar=0&competence=0&style=white" async></script>
+                      <link rel="stylesheet" type="text/css" href="https://www.provenexpert.com/css/widget_landing.css" media="screen,print">
+                      <!-- ProvenExpert Bewertungssiegel Ende -->
+              - type: paragraph
+                attrs:
+                  textAlign: center
+            show_as_card: false
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    remove_spacing: false
+    is_full: true
+    bg_toggle: true
+    border: false
+    type: add_section
+    enabled: true
+    bg_image: seiten/ghostwriting-agentur/ghostwriting-agentur.jpg
+    bg_image_fixed: false
+  - id: H0cWpLlj
+    columns_replicator:
+      - id: 3Uo5tcY8
+        single_col: true
+        grid:
+          - id: HYkwUX7b
+            bard:
+              - type: paragraph
+                attrs:
+                  textAlign: center
+                content:
+                  - type: text
+                    text: "Für Ihre wissenschaftliche Arbeit können Sie bei "
+                  - type: text
+                    marks:
+                      - type: link
+                        attrs:
+                          href: /
+                          rel: null
+                          target: null
+                          title: null
+                    text: GWriters
+                  - type: text
+                    text: " schnell und professionell eine individuelle und plagiatsfreie Mustervorlage für Ihr"
+                  - type: text
+                    marks:
+                      - type: bold
+                    text: " Exposé erstellen lassen"
+                  - type: text
+                    text: ". Unser akademischen "
+                  - type: text
+                    marks:
+                      - type: link
+                        attrs:
+                          href: /
+                          rel: null
+                          target: null
+                          title: null
+                    text: Ghostwriter
+                  - type: text
+                    text: " sind Experten in der Literaturrecherche, der Formulierung von Problemstellung und Forschungsfragen sowie in der Anwendung verschiedener wissenschaftlicher Methoden wie quantitativen "
+                  - type: text
+                    marks:
+                      - type: link
+                        attrs:
+                          href: /arbeiten/statistische-analysen
+                          rel: null
+                          target: null
+                          title: null
+                    text: "statistischen Auswertung"
+                  - type: text
+                    text: " im Rahmen von empirischen Studien oder auch quantitativen Inhaltsanalyse im Rahmen einer "
+                  - type: text
+                    marks:
+                      - type: link
+                        attrs:
+                          href: /leistungen/maxqda-auswertung
+                          rel: null
+                          target: null
+                          title: null
+                    text: "MAXQDA Auswertung"
+                  - type: text
+                    text: " von leitfadengestütze Experteninterviews. Als Meister aller wissenschaftlicher Disziplinen bieten wir somit professionelle Exposé Hilfe an."
+              - type: heading
+                attrs:
+                  textAlign: left
+                  level: 2
+                content:
+                  - type: text
+                    text: Inhaltsverzeichnis
+              - type: bulletList
+                content:
+                  - type: listItem
+                    content:
+                      - type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          - type: text
+                            marks:
+                              - type: link
+                                attrs:
+                                  href: "#schreiben-lassen"
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: "Wie kommt es, dass Professoren ihre Studenten ein Exposé schreiben lassen?"
+                  - type: listItem
+                    content:
+                      - type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          - type: text
+                            marks:
+                              - type: link
+                                attrs:
+                                  href: "#vorteile"
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: "Vorteile vom Exposé schreiben"
+                  - type: listItem
+                    content:
+                      - type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          - type: text
+                            marks:
+                              - type: link
+                                attrs:
+                                  href: "#laenge"
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: "Was enthält ein Exposé? Was müssen Sie beim Exposé schreiben beachten?"
+                      - type: bulletList
+                        content:
+                          - type: listItem
+                            content:
+                              - type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  - type: text
+                                    marks:
+                                      - type: link
+                                        attrs:
+                                          href: "#inhalt"
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: "Exposé: Inhalt "
+                          - type: listItem
+                            content:
+                              - type: paragraph
+                                attrs:
+                                  textAlign: left
+                                content:
+                                  - type: text
+                                    marks:
+                                      - type: link
+                                        attrs:
+                                          href: "#checkliste"
+                                          rel: null
+                                          target: null
+                                          title: null
+                                    text: "Exposé Checkliste"
+                  - type: listItem
+                    content:
+                      - type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          - type: text
+                            marks:
+                              - type: link
+                                attrs:
+                                  href: "#bachelorarbeit"
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: "Exposé Bachelorarbeit: Die wichtigsten Punkte im Überblick"
+                  - type: listItem
+                    content:
+                      - type: paragraph
+                        attrs:
+                          textAlign: left
+                        content:
+                          - type: text
+                            marks:
+                              - type: link
+                                attrs:
+                                  href: "#erstellen"
+                                  rel: null
+                                  target: null
+                                  title: null
+                            text: "Checkliste: Exposé erstellen"
+            show_as_card: true
+        type: row
+        enabled: true
+        responsive_columns: 0
+        columns_per_row: 0
+    is_full: false
+    type: add_section
+    enabled: true
+    remove_spacing: false
+    border: false
   - id: lsyn24rn
     columns_replicator:
       - id: lsyn3o10
@@ -1287,7 +1285,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen"
                                           rel: null
                                           target: null
                                           title: null
@@ -1825,7 +1823,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: "/faq/#qualitaet"
+                          href: "/faq#qualitaet"
                           rel: null
                           target: null
                           title: null
@@ -1935,7 +1933,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/hypothesen-aufstellen-ohne-angst
+                          href: /blog/hypothese-forschungsfrage
                           rel: null
                           target: null
                           title: null

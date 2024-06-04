@@ -129,7 +129,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -474,7 +474,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen"
                                           rel: null
                                           target: null
                                           title: null
@@ -1477,7 +1477,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/statistisch-arbeiten
+                          href: /arbeiten/statistische-analysen
                           rel: null
                           target: null
                           title: null
@@ -1494,7 +1494,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/dissertation-schreiben-motivationstipps
+                          href: /arbeiten/doktorarbeit
                           rel: null
                           target: null
                           title: null
@@ -1515,7 +1515,7 @@ replicator:
                             marks:
                               - type: link
                                 attrs:
-                                  href: /blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden
+                                  href: /bachelorarbeit-thema
                                   rel: null
                                   target: null
                                   title: null
@@ -1666,7 +1666,7 @@ replicator:
                   values:
                     type: floating_img
                     dateien:
-                      - seiten/fachrichtungen/medizin.jpg
+                      - seiten/medizin.jpg
                     img_size: w-1/4
                     float: float-left
               - type: paragraph

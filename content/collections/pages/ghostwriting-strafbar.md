@@ -16,7 +16,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: Ist Ghostwriting strafbar?
       - type: set
         attrs:
@@ -33,7 +33,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "Nein,\_"
           - type: text
             marks:
@@ -41,7 +41,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting
@@ -61,17 +61,17 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: "So sind nach dem Urteil des OLG Frankfurt vom 01.09.2009 – Az.: 11 U 51/08 – die zwischen (Unternehmer) Parteien getroffenen\_"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -87,7 +87,7 @@ replicator:
               erbringen die Autoren von GWriters ausschließlich legale
               Dienstleistungen wie das Erstellen von Mustervorlagen,
               Lösungsskizzen und Vorstudien. Der Student hat so die Möglichkeit
-              zum Beispiel den aktuellen 
+              zum Beispiel den aktuellen
           - type: text
             marks:
               - type: link
@@ -98,7 +98,7 @@ replicator:
             text: Forschungsstand
           - type: text
             marks: []
-            text: ' abfragen zu lassen oder kann die Themenfindung an einen Ghostwriter outsourcen.'
+            text: " abfragen zu lassen oder kann die Themenfindung an einen Ghostwriter outsourcen."
         attrs:
           textAlign: start
       - type: paragraph
@@ -108,7 +108,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               „Ein Küchenmesser herstellen und verkaufen ist nicht illegal,
               damit aber jemanden zu verletzten schon. Keiner käme auf die Idee,
@@ -123,7 +123,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Obwohl deutsche Hochschulen momentan versuchen, den
               Straftatbestand des “Wissenschaftsbetrugs” durchzusetzen, gibt es
@@ -140,7 +140,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Und nicht nur diese weit verbreitete Praxis der Erstellung von
               Aufsätzen und Fachbüchern ist legal, sondern auch die Erstellung
@@ -153,13 +153,13 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Die Nutzung eines vorgefertigten Werkes als Mustervorlage oder
               Vorstudie bei der Erstellung seiner eigenen Arbeit, um vorab den
@@ -175,7 +175,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: >-
               Wir verpflichten uns nach Zahlung des vereinbarten Honorars keinen
               urheberrechtlichen Anspruch geltend zu machen und übertragen alle
@@ -189,14 +189,14 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
-            text: 'Mehr zum Thema – '
+                  hex: "#000"
+            text: "Mehr zum Thema – "
           - type: text
             marks:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /assets/downloads/faq/ghostwriting-legal-strafbar.pdf
@@ -208,7 +208,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(68, 68, 68)
-                  hex: '#000'
+                  hex: "#000"
             text: .
         attrs:
           textAlign: start
@@ -220,7 +220,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -244,7 +244,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 og_title: Ist Ghostwriting strafbar? Alles dazu auf GWriters

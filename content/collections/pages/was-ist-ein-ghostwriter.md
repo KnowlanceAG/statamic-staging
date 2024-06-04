@@ -15,33 +15,33 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: Was ist ein Ghostwriter?
       - type: set
         attrs:
           values:
             type: spacer
-            padding-y: '14'
+            padding-y: "14"
       - type: paragraph
       - type: paragraph
         content:
           - type: text
             marks:
               - type: bold
-            text: 'Ein '
+            text: "Ein "
           - type: text
             marks:
               - type: bold
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
           - type: text
             marks:
               - type: bold
-            text: ' fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. '
+            text: " fertigt individuelle Texte im Auftrag eines Kunden nach dessen Vorgaben und Anforderungen an. "
           - type: hard_break
       - type: paragraph
         content:
@@ -52,7 +52,7 @@ replicator:
               speziell für den Kunden erstellt. Ghostwriter sind in der modernen
               Welt in vielen verschiedenen Bereichen tätig. Auch in der
               Vergangenheit gab es bereits Ghostwriter, welche für bekannte
-              Personen zum Beispiel Reden verfasst haben. Heute ist 
+              Personen zum Beispiel Reden verfasst haben. Heute ist
           - type: text
             marks:
               - type: link
@@ -62,7 +62,7 @@ replicator:
                   rel: null
             text: Ghostwriting
           - type: text
-            text: ' nicht nur bei Reden üblich. Auch für viele Songtexte oder Bücher prominenter Personen werden Ghostwriter eingesetzt. Weiterhin oftmals auch für Unternehmensbücher oder überhaupt für Veröffentlichungen welche im Namen bekannter (juristischer wie auch natürlicher) Personen erfolgen. Dabei steht der Ghostwriter selbst meist im Hintergrund und wird für die Rezipienten auch unbekannt bleiben. Meist ist nicht einmal bekannt, dass überhaupt eine solche Person beauftragt wurde. Lediglich im Bereich von literarischen Werken und Autobiografien prominenter Personen kommt es vor, dass ein Ghostwriter genannt wird. Meist wird dieser dann in den Danksagungen erwähnt oder taucht als Co-Autor der prominenten Person auf.'
+            text: " nicht nur bei Reden üblich. Auch für viele Songtexte oder Bücher prominenter Personen werden Ghostwriter eingesetzt. Weiterhin oftmals auch für Unternehmensbücher oder überhaupt für Veröffentlichungen welche im Namen bekannter (juristischer wie auch natürlicher) Personen erfolgen. Dabei steht der Ghostwriter selbst meist im Hintergrund und wird für die Rezipienten auch unbekannt bleiben. Meist ist nicht einmal bekannt, dass überhaupt eine solche Person beauftragt wurde. Lediglich im Bereich von literarischen Werken und Autobiografien prominenter Personen kommt es vor, dass ein Ghostwriter genannt wird. Meist wird dieser dann in den Danksagungen erwähnt oder taucht als Co-Autor der prominenten Person auf."
       - type: paragraph
         content:
           - type: text
@@ -72,7 +72,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(193, 76, 0)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq
@@ -96,7 +96,7 @@ meta_description: >-
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 override_twitter_card_settings: false

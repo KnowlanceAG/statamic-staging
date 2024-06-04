@@ -2391,7 +2391,7 @@ replicator:
                                           hex: "#000"
                                       - type: link
                                         attrs:
-                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen"
                                           target: null
                                           rel: null
                                     text: "Masterthesis schreiben lassen"

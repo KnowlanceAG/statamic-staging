@@ -69,7 +69,7 @@ replicator:
                   hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -122,7 +122,7 @@ replicator:
                   hex: "#000"
               - type: link
                 attrs:
-                  href: /blog/expose-erstellen
+                  href: /expose
                   target: null
                   rel: null
             text: Exposé
@@ -1796,7 +1796,7 @@ replicator:
               - type: link
                 attrs:
                   href: >-
-                    https://www.germanistik.uni-bonn.de/institut/abteilungen/vergleichende-literaturwissenschaft-komparatistik/studium/studienberatung/leitfaden-zum-verfassen-einer-wissenschaftlichen-hausarbeit/view
+                    https://www.iglk.uni-bonn.de/de
                   target: _blank
                   rel: noopener noreferrer nofollow
             text: >-

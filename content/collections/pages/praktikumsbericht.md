@@ -382,7 +382,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -943,7 +943,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/praktikumsbericht-vorlage
+                          href: /arbeiten/praktikumsbericht
                           rel: null
                           target: null
                           title: null
@@ -1103,7 +1103,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: "https://www.wb.iwg.kit.edu/download/Praktikumsbericht_Stadtbahntunnel_KA.pdf"
+                          href: "https://wb.iwu.kit.edu/download/Praktikumsbericht_Stadtbahntunnel_KA.pdf"
                           rel: "noopener noreferrer nofollow"
                           target: _blank
                           title: null
@@ -1282,7 +1282,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -1429,7 +1429,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/praktikumsbericht-schreiben
+                          href: /arbeiten/praktikumsbericht
                           rel: null
                           target: null
                           title: null
@@ -1956,7 +1956,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen"
                                           rel: null
                                           target: null
                                           title: null
@@ -3020,7 +3020,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/abbildungen-in-wissenschaftlichen-arbeiten
+                          href: /blog/abbildungen-zitieren
                           rel: null
                           target: null
                           title: null
@@ -3245,7 +3245,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/erfahrungsbericht-ghostwriter-gwriters
+                          href: /gwriters-erfahrung
                           rel: null
                           target: null
                           title: null
@@ -3588,7 +3588,7 @@ replicator:
                                 marks:
                                   - type: link
                                     attrs:
-                                      href: /blog/wissenschaftliche-quellen-finden-online
+                                      href: /blog/literaturrecherche-datenbanken-quellen
                                       rel: null
                                       target: null
                                       title: null

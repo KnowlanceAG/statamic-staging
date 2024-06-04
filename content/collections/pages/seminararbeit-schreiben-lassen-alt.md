@@ -207,7 +207,7 @@ replicator:
                   hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: _blank
                   rel: null
             text: Ghostwriter
@@ -1496,7 +1496,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/umfrage-erstellen-tools
+                  href: /arbeiten/statistische-analysen
                   target: null
                   rel: null
             text: >-
@@ -1507,7 +1507,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/wissenschaftliche-arbeiten-schreiben
+                  href: /arbeiten
                   target: null
                   rel: null
             text: >-

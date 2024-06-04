@@ -17,7 +17,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: orange-500
-                  hex: '#ff6606'
+                  hex: "#ff6606"
             text: Hilfe & FAQ
       - type: heading
         attrs:
@@ -27,7 +27,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Was ist ein Ghostwriter?
@@ -36,7 +36,7 @@ replicator:
           - type: text
             text: >-
               Ein Ghostwriter fertigt individuelle Texte im Auftrag eines Kunden
-              nach dessen Vorgaben und Anforderungen an. 
+              nach dessen Vorgaben und Anforderungen an.
       - type: heading
         attrs:
           level: 2
@@ -45,7 +45,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Was ist ein "akademischer" Ghostwriter?
@@ -58,7 +58,7 @@ replicator:
               Ein sogenannter akademischer Ghostwriter spezialisiert sich dabei
               auf die Ausfertigung von Mustervorlagen für wissenschaftliche
               Arbeiten oder akademische Texte und von einem solchen Ghostwriter
-              können sich Studenten Mustervorlagen für bspw. 
+              können sich Studenten Mustervorlagen für bspw.
           - type: text
             marks:
               - type: link
@@ -68,7 +68,7 @@ replicator:
                   rel: null
             text: Seminararbeiten
           - type: text
-            text: ', '
+            text: ", "
           - type: text
             marks:
               - type: link
@@ -93,7 +93,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/motivation-akademische-ghostwriter
@@ -110,10 +110,10 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -144,7 +144,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: _blank
                   rel: noopener noreferrer
             text: Ghostwriter
@@ -179,7 +179,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/bewerbung-ghostwriter-gwriters
+                  href: /jobs
                   target: _blank
                   rel: noopener noreferrer
             text: Im Bewerbungsprozess
@@ -196,7 +196,7 @@ replicator:
       - type: paragraph
         content:
           - type: text
-            text: 'Durch '
+            text: "Durch "
           - type: text
             marks:
               - type: link
@@ -215,7 +215,7 @@ replicator:
               Aufdeckung umfangreicher Plagiieren, also den Raub fremden
               geistigen Eigentums, handelte und nicht um die Erstellung dieser
               Doktorarbeiten durch Dritte! Zugegebenermaßen wurde GWriters aber
-              aufgrund glücklichen Timings durch verschiedene 
+              aufgrund glücklichen Timings durch verschiedene
           - type: text
             marks:
               - type: link
@@ -260,7 +260,7 @@ replicator:
           - type: text
             text: >-
               Abschließend kann man sagen, dass uns die gesellschaftliche
-              Grundhaltung nicht wirklich tangiert, wichtig ist die 
+              Grundhaltung nicht wirklich tangiert, wichtig ist die
           - type: text
             marks:
               - type: link
@@ -270,7 +270,7 @@ replicator:
                   rel: noopener noreferrer
             text: Zufriedenheit unserer Kunden
           - type: text
-            text: ', wer immer diese auch sein mögen.'
+            text: ", wer immer diese auch sein mögen."
       - type: heading
         attrs:
           level: 2
@@ -281,7 +281,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting
@@ -295,7 +295,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting
@@ -310,7 +310,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /ghostwriting
@@ -329,7 +329,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ghostwriting-strafbar
@@ -346,7 +346,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ghostwriting-strafbar
@@ -366,7 +366,7 @@ replicator:
           - type: text
             text: >-
               Die Ghostwriting Tätigkeit als solche existiert seit der Erfindung
-              der Schrift und ist natürlich vollkommen legal. Dies gilt auch 
+              der Schrift und ist natürlich vollkommen legal. Dies gilt auch
           - type: text
             marks:
               - type: link
@@ -376,7 +376,7 @@ replicator:
                   rel: noopener noreferrer
             text: für unsere anderen Leistungen
           - type: text
-            text: ' wie das Coaching, '
+            text: " wie das Coaching, "
           - type: text
             marks:
               - type: link
@@ -386,7 +386,7 @@ replicator:
                   rel: null
             text: Lektorat
           - type: text
-            text: ' & '
+            text: " & "
           - type: text
             marks:
               - type: link
@@ -396,7 +396,7 @@ replicator:
                   rel: null
             text: Korrektorat
           - type: text
-            text: ' und die Erstellung jeglicher Art von Texten. Entgegen aller in der Öffentlichkeit oft kolportierter Meinungen sind sowohl das Angebot, als auch die Inanspruchnahme der akademischen Texterstellung („akademisches Ghostwriting“) strafrechtlich irrelevant.'
+            text: " und die Erstellung jeglicher Art von Texten. Entgegen aller in der Öffentlichkeit oft kolportierter Meinungen sind sowohl das Angebot, als auch die Inanspruchnahme der akademischen Texterstellung („akademisches Ghostwriting“) strafrechtlich irrelevant."
       - type: paragraph
         content:
           - type: text
@@ -422,7 +422,7 @@ replicator:
               nicht zu unseren Aufgaben, sehr wohl jedoch die Lieferung von
               hochwertigen und plagiatsfreien Arbeiten. Detaillierte
               Informationen dazu, aktuelle Rechtsurteile und eine ausführliche
-              10-seitige juristische Bewertung finden Sie 
+              10-seitige juristische Bewertung finden Sie
           - type: text
             marks:
               - type: link
@@ -457,7 +457,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/warum-gwriters
@@ -473,7 +473,7 @@ replicator:
             text: >-
               Seriöse und für Ihre spezielle Aufgabenstellung passende
               akademische Freelancer (z.B. wissenschaftliche Berater,
-              Ghostwriter, 
+              Ghostwriter,
           - type: text
             marks:
               - type: link
@@ -490,7 +490,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /korrektorat/korrektor
@@ -512,7 +512,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /anfrage
@@ -527,7 +527,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/warum-gwriters
@@ -546,7 +546,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/preise-ghostwriting
@@ -563,7 +563,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/preise-ghostwriting
@@ -582,7 +582,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/fachrichtungen-ghostwriting
@@ -601,7 +601,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/fachrichtungen-ghostwriting
@@ -620,7 +620,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/qualitaet-ghostwriter
@@ -637,7 +637,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/qualitaet-ghostwriter
@@ -656,7 +656,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/kontakt-ghostwriter
@@ -673,7 +673,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/kontakt-ghostwriter
@@ -692,7 +692,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ghostwriter-englisch
@@ -709,7 +709,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ghostwriter-englisch
@@ -728,7 +728,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ghostwriter-korrektur
@@ -747,7 +747,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ghostwriter-korrektur
@@ -766,7 +766,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/website-content
@@ -785,7 +785,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/website-content
@@ -804,7 +804,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/gwriters-in-unternehmen
@@ -821,7 +821,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/gwriters-in-unternehmen
@@ -840,7 +840,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/texte-ghostwriting
@@ -857,7 +857,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/texte-ghostwriting
@@ -876,7 +876,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ablauf-ghostwriting
@@ -893,7 +893,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/ablauf-ghostwriting
@@ -912,7 +912,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/wie-lange-braucht-ein-ghostwriter
@@ -931,7 +931,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/wie-lange-braucht-ein-ghostwriter
@@ -950,7 +950,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/diskretion-ghostwriting
@@ -969,7 +969,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/diskretion-ghostwriting
@@ -988,7 +988,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: inherit
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/formatvorgaben
@@ -1003,7 +1003,7 @@ replicator:
             marks: []
             text: >-
               Falls vom Auftraggeber nicht ausdrücklich anders gewünscht, gelten
-              bei GWriters die folgenden 
+              bei GWriters die folgenden
           - type: text
             marks:
               - type: link
@@ -1020,7 +1020,7 @@ replicator:
               - type: textColor
                 attrs:
                   color: rgb(255, 102, 2)
-                  hex: '#000'
+                  hex: "#000"
               - type: link
                 attrs:
                   href: /faq/formatvorgaben
@@ -1038,7 +1038,7 @@ template: without-teaser-with-sidebar
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: FAQ • Fragen und Antworten zu unserem Ghostwriting Service

@@ -10,32 +10,32 @@ bard:
   - type: paragraph
     content:
       - type: text
-        text: 'Während seines Studiums der '
+        text: "Während seines Studiums der "
       - type: text
         marks:
           - type: link
             attrs:
-              href: /ghostwriter/biologie
+              href: /biologie
               target: _blank
               rel: null
         text: Biologie
       - type: text
-        text: ' konnte Falk Deegener wertvolle Erfahrungen in Wissenschaft und Forschung sammeln. Sowohl als in einem namhaften wissenschaftlichen Journal veröffentlichter Autor, als auch als Ghostwriter bei GWriters, nutzt er diese Erfahrung in seiner täglichen Arbeit und ist darüber hinaus noch in der Lage, ständig seinen wissenschaftlichen Horizont zusätzlich zu erweitern. Seine Expertise liegt in den Naturwissenschaften und allen verwandten Bereichen wie '
+        text: " konnte Falk Deegener wertvolle Erfahrungen in Wissenschaft und Forschung sammeln. Sowohl als in einem namhaften wissenschaftlichen Journal veröffentlichter Autor, als auch als Ghostwriter bei GWriters, nutzt er diese Erfahrung in seiner täglichen Arbeit und ist darüber hinaus noch in der Lage, ständig seinen wissenschaftlichen Horizont zusätzlich zu erweitern. Seine Expertise liegt in den Naturwissenschaften und allen verwandten Bereichen wie "
       - type: text
         marks:
           - type: link
             attrs:
-              href: /ghostwriter/medizin
+              href: /medizin
               target: null
               rel: null
         text: Medizin
       - type: text
-        text: ', '
+        text: ", "
       - type: text
         marks:
           - type: link
             attrs:
-              href: /ghostwriter/psychologie
+              href: /psychologie
               target: null
               rel: null
         text: Psychologie
@@ -49,7 +49,7 @@ show_as_card: false
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 updated_by: 94ade404-9791-479c-a67d-f792aa146207

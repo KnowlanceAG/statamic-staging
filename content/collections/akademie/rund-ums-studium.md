@@ -13,7 +13,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Rund ums Studium
   - type: paragraph
     content:
@@ -50,7 +50,7 @@ replicator:
               Jedes Studium stellt ganz eigene Anforderungen an den Studenten
               und daher hat jeder Fachbereich unterschiedliche Besonderheiten
               hinsichtlich des Studiums, der Lehre und der Forschung. Und genau
-              so hat auch jede 
+              so hat auch jede
           - type: text
             marks:
               - type: link
@@ -60,7 +60,7 @@ replicator:
                   rel: null
             text: Hausarbeit
           - type: text
-            text: ', '
+            text: ", "
           - type: text
             marks:
               - type: link
@@ -70,7 +70,7 @@ replicator:
                   rel: null
             text: Seminararbeit
           - type: text
-            text: ' oder Abschlussarbeit ihr ganz individuellen Anforderungen. Wir erklären Ihnen zum Beispiel, wie Sie sich optimal '
+            text: " oder Abschlussarbeit ihr ganz individuellen Anforderungen. Wir erklären Ihnen zum Beispiel, wie Sie sich optimal "
           - type: text
             marks:
               - type: link
@@ -80,17 +80,17 @@ replicator:
                   rel: null
             text: auf Ihre erste juristische Prüfung
           - type: text
-            text: ' vorbereiten, wie Sie das '
+            text: " vorbereiten, wie Sie das "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /blog/dissertation-ausland
+                  href: /promotionsberatung
                   target: null
                   rel: null
             text: Schreiben Ihrer Dissertation im Ausland
           - type: text
-            text: ' angehen oder was zu tun ist, wenn Sie einmal '
+            text: " angehen oder was zu tun ist, wenn Sie einmal "
           - type: text
             marks:
               - type: link
@@ -100,7 +100,7 @@ replicator:
                   rel: null
             text: Probleme mit Ihrem Bachelorarbeit Betreuer
           - type: text
-            text: ' haben.'
+            text: " haben."
       - type: paragraph
         content:
           - type: text
@@ -110,22 +110,22 @@ replicator:
               Aufbau einer Abschlussarbeit hängt unmittelbar mit dem Fachbereich
               zusammen. In dieser Kategorie möchten wir Ihnen ebenfalls Hinweise
               zu Ihrem Studium in den verschiedenen Fachbereichen geben, denn
-              das Studium der 
+              das Studium der
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/bwl
+                  href: /bwl
                   target: null
                   rel: null
             text: Betriebswirtschaftslehre
           - type: text
-            text: ' unterscheidet sich grundlegend von dem Studium der '
+            text: " unterscheidet sich grundlegend von dem Studium der "
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter/psychologie
+                  href: /psychologie
                   target: null
                   rel: null
             text: Psychologie
@@ -146,7 +146,7 @@ replicator:
               Auch wenn Sie vorhaben, eine akademische Karriere anzustreben,
               halten wir von GWriters die notwendigen Informationen für Sie
               bereit. Beispielsweise haben wir einen Guide für Sie
-              zusammengestellt, der Ihnen aufzeigt, welche Punkt Sie bei der 
+              zusammengestellt, der Ihnen aufzeigt, welche Punkt Sie bei der
           - type: text
             marks:
               - type: link
@@ -156,7 +156,7 @@ replicator:
                   rel: null
             text: Veröffentlichung Ihrer Dissertation
           - type: text
-            text: ' beachten müssen und welche die einzelnen Schritte sind. Mit der Veröffentlichung Ihrer Dissertation legen Sie den Grundstein, auf dem schlussendlich Ihre wissenschaftliche Karriere aufbaut. Eine hervorragende Vorbereitung ist daher essentiell.'
+            text: " beachten müssen und welche die einzelnen Schritte sind. Mit der Veröffentlichung Ihrer Dissertation legen Sie den Grundstein, auf dem schlussendlich Ihre wissenschaftliche Karriere aufbaut. Eine hervorragende Vorbereitung ist daher essentiell."
       - type: paragraph
         content:
           - type: text
@@ -214,7 +214,7 @@ template: academy-item-long
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: GWriters • Alles rund ums Studium von Ihrem Ghostwriter Service

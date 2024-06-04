@@ -140,7 +140,7 @@ replicator:
                   hex: "#000"
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -1654,7 +1654,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/dissertation-ausland
+                  href: /promotionsberatung
                   target: _blank
                   rel: noopener noreferrer
             text: Dissertation im Ausland schreiben – Was gibt es zu beachten?
@@ -1663,7 +1663,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /blog/dissertation-schreiben-motivationstipps
+                  href: /arbeiten/doktorarbeit
                   target: null
                   rel: null
             text: Doktorarbeit schreiben – Wie läuft es ab?

@@ -1447,7 +1447,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           target: null
                           rel: null
                     text: akademischer Ghostwriter

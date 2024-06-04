@@ -516,7 +516,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -586,7 +586,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter-gesucht
+                  href: /-gesucht
                   target: null
                   rel: null
             text: Ghostwriter gesucht

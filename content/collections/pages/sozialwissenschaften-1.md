@@ -250,7 +250,7 @@ replicator:
                           hex: "#000"
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           target: null
                           rel: null
                     text: Ghostwriter beauftragt
@@ -467,7 +467,7 @@ replicator:
                           hex: "#000"
                       - type: link
                         attrs:
-                          href: /blog/ghostwriter-abschlussarbeit-schreiben-lassen
+                          href: /arbeiten/abschlussarbeit-schreiben-lassen
                           target: null
                           rel: null
                     text: Erstellung von akademischen Mustervorlagen

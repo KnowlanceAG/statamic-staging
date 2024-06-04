@@ -13,7 +13,7 @@ teaser:
           - type: textColor
             attrs:
               color: orange-500
-              hex: '#ff6606'
+              hex: "#ff6606"
         text: Expertentipps von GWriters
   - type: paragraph
     content:
@@ -50,17 +50,17 @@ replicator:
               Unsere GWriters-Expertentipps kommen Ihnen dann gelegen, wenn Sie
               in unseren anderen Kategorien keine Antworten auf Ihre Fragen
               finden konnten. Durch ihre langjährige Erfahrung mit in Forschung
-              und Wissenschaft sind unsere akademischen 
+              und Wissenschaft sind unsere akademischen
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
           - type: text
-            text: ' zu wahren Experten in der Erstellung wissenschaftlicher Arbeiten geworden. Als '
+            text: " zu wahren Experten in der Erstellung wissenschaftlicher Arbeiten geworden. Als "
           - type: text
             marks:
               - type: link
@@ -70,7 +70,7 @@ replicator:
                   rel: null
             text: seriöse Ghostwriting-Agentur
           - type: text
-            text: ' liegt es uns besonders am Herzen, unser über Jahre akkumuliertes Wissen mit unseren Kunden und Besuchern zu teilen, denn die Methodologie ist eine der wichtigsten Disziplinen während des Studiums.'
+            text: " liegt es uns besonders am Herzen, unser über Jahre akkumuliertes Wissen mit unseren Kunden und Besuchern zu teilen, denn die Methodologie ist eine der wichtigsten Disziplinen während des Studiums."
       - type: paragraph
         content:
           - type: text
@@ -82,7 +82,7 @@ replicator:
               direkte Handlungsempfehlung zur Umsetzung in Ihrer
               wissenschaftlichen Arbeit geben. Die Literaturrecherche ist
               beispielsweise häufig ein langwieriger Prozess, auf den wir
-              ausführlich eingehen und die 
+              ausführlich eingehen und die
           - type: text
             marks:
               - type: link
@@ -92,7 +92,7 @@ replicator:
                   rel: null
             text: einzelnen Schritte der Literaturrecherche
           - type: text
-            text: ' im Detail erläutern.'
+            text: " im Detail erläutern."
       - type: heading
         attrs:
           level: 2
@@ -105,7 +105,7 @@ replicator:
             text: >-
               Unsere Expertentipps sind universal und jederzeit umsetzbar auch
               wenn Sie bereits kurz vor der Abgabe Ihrer wissenschaftlichen
-              Arbeit stehen. Ganz gleich, ob Sie aktuell Ihre 
+              Arbeit stehen. Ganz gleich, ob Sie aktuell Ihre
           - type: text
             marks:
               - type: link
@@ -115,7 +115,7 @@ replicator:
                   rel: null
             text: Bachelorarbeit
           - type: text
-            text: ' schreiben oder vor dem Verfassen Ihrer ersten '
+            text: " schreiben oder vor dem Verfassen Ihrer ersten "
           - type: text
             marks:
               - type: link
@@ -132,7 +132,7 @@ replicator:
             text: >-
               Das Teilen verbreiten unserer GWriters-Expertentipps ist
               ausdrücklich erlaubt! Wir sind glücklich über jeden Studenten, den
-              wir durch unsere langjährige 
+              wir durch unsere langjährige
           - type: text
             marks:
               - type: link
@@ -142,7 +142,7 @@ replicator:
                   rel: null
             text: Ghostwriting Erfahrung
           - type: text
-            text: ' unterstützen können.'
+            text: " unterstützen können."
       - type: set
         attrs:
           id: ufQw4JRq
@@ -177,7 +177,7 @@ template: default
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: GWriters • Expertentipps zum Schreiben Ihrer wissenschaftlichen Arbeit

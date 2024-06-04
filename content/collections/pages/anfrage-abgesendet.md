@@ -18,17 +18,17 @@ replicator:
           - type: text
             text: >-
               Vielen Dank, Ihre Anfrage ist soeben in unserem System
-              eingegangen. Wir kontaktieren nun die für Ihr Anliegen am besten 
+              eingegangen. Wir kontaktieren nun die für Ihr Anliegen am besten
           - type: text
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: passenden Ghostwriter
           - type: text
-            text: ' aus unserem Expertenteam und melden uns innerhalb kürzester Zeit mit einem unverbindlichen Angebot bei Ihnen zurück.'
+            text: " aus unserem Expertenteam und melden uns innerhalb kürzester Zeit mit einem unverbindlichen Angebot bei Ihnen zurück."
       - type: paragraph
         content:
           - type: text
@@ -45,7 +45,7 @@ replicator:
               Eine Kopie Ihrer Anfrage erhalten Sie per E-Mail an Ihre
               angegebene Kontaktadresse. Falls Sie uns Korrekturen, Ergänzungen
               oder Dateianhänge zusenden möchten, senden Sie diese bitte einfach
-              per E-Mail an: 
+              per E-Mail an:
           - type: text
             marks:
               - type: link
@@ -53,13 +53,13 @@ replicator:
                   href: mailto:##email##
                   target: null
                   rel: null
-            text: '##email##'
+            text: "##email##"
       - type: paragraph
         content:
           - type: text
             text: >-
               Bei Fragen oder Unklarheiten können Sie uns auch gern von Montag
-              bis Freitag, 9:00-18:00 Uhr telefonisch unter der Rufnummer 
+              bis Freitag, 9:00-18:00 Uhr telefonisch unter der Rufnummer
           - type: text
             marks:
               - type: link
@@ -67,9 +67,9 @@ replicator:
                   href: tel:##phone##
                   target: null
                   rel: null
-            text: '##phone##'
+            text: "##phone##"
           - type: text
-            text: ' erreichen.'
+            text: " erreichen."
       - type: paragraph
         content:
           - type: text
@@ -84,7 +84,7 @@ replicator:
 use_meta_keywords: false
 no_index_page: false
 no_follow_links: false
-sitemap_priority: '0.5'
+sitemap_priority: "0.5"
 sitemap_changefreq: daily
 override_twitter_settings: false
 page_title: GWriters • Anfrage abgesendet

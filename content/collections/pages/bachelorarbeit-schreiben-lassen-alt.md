@@ -57,7 +57,7 @@ replicator:
             marks:
               - type: link
                 attrs:
-                  href: /ghostwriter
+                  href: /
                   target: null
                   rel: null
             text: Ghostwriter
@@ -1298,7 +1298,7 @@ replicator:
                           hex: "#000"
                       - type: link
                         attrs:
-                          href: /blog/bachelorarbeit-einleitung
+                          href: /blog/einleitung-bachelorarbeit
                           target: null
                           rel: null
                     text: Einleitung
@@ -1393,7 +1393,7 @@ replicator:
                   hex: "#000"
               - type: link
                 attrs:
-                  href: /blog/literaturquellen-richtig-zitieren
+                  href: /zitationsgenerator/literaturquellen-richtig-zitieren
                   target: null
                   rel: null
             text: hier

@@ -137,7 +137,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -271,7 +271,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /ghostwriter
+                          href: /
                           rel: null
                           target: null
                           title: null
@@ -397,7 +397,7 @@ replicator:
                                     marks:
                                       - type: link
                                         attrs:
-                                          href: "/arbeiten/masterarbeit-schreiben-lassen/#masterthesis-schreiben-lassen"
+                                          href: "/arbeiten/masterarbeit-schreiben-lassen#masterthesis-schreiben-lassen"
                                           rel: null
                                           target: null
                                           title: null
@@ -1446,7 +1446,7 @@ replicator:
                   values:
                     type: floating_img
                     dateien:
-                      - seiten/fachrichtungen/psychologie.jpeg
+                      - seitene/psychologie.jpeg
                     img_size: w-1/4
                     float: float-right
               - type: paragraph

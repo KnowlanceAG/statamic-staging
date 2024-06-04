@@ -393,7 +393,7 @@ replicator:
                     marks:
                       - type: link
                         attrs:
-                          href: /blog/dissertation-schreiben-motivationstipps
+                          href: /arbeiten/doktorarbeit
                           rel: null
                           target: null
                           title: null
