@@ -1,0 +1,18 @@
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        fields:
+          -
+            handle: api_key
+            field: ce_text.text
+            config:
+              display: 'API KEY'
+              listable: true
+          -
+            handle: api_url
+            field: ce_text.text
+            config:
+              display: 'API URL Endpoint'
+              listable: true
