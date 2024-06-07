@@ -1,0 +1,13 @@
+title: OpenAI Settings
+sections:
+  main:
+    display: Main
+    fields:
+      - handle: api_key
+        field:
+          type: text
+          display: API Key
+      - handle: api_url
+        field:
+          type: text
+          display: API URL

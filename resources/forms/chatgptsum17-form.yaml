@@ -1,0 +1,62 @@
+title: ChatGPT Form
+fields:
+  - handle: userMessage
+    field:
+      type: textarea
+      display: User Message
+  - handle: mode
+    field:
+      type: radio
+      options:
+        Paragraph: Paragraph
+        BulletPoints: Bullet Points
+      display: Mode
+      default: Paragraph
+  - handle: length
+    field:
+      type: range
+      min: 1
+      max: 5
+      default: 3
+      display: Length
+  - handle: language
+    field:
+      type: radio
+      options:
+        English: English
+        German: German
+      display: Language
+      default: English
+  - handle: toneOfVoice
+    field:
+      type: select
+      options:
+        Normal: Normal
+        Formal: Formal
+        Informal: Informal
+        Academic: Academic
+      display: Tone of Voice
+      default: Normal
+  - handle: synonyms
+    field:
+      type: radio
+      options:
+        Yes: Yes
+        No: No
+      display: Use Synonyms
+      default: No
+  - handle: action
+    field:
+      type: radio
+      options:
+        Summarize: Summarize
+        Question: Question
+        Translate: Translate
+      display: Action
+      default: Summarize
+  - handle: question
+    field:
+      type: text
+      display: Question
+      if:
+        action: equals Question
