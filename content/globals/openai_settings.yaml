@@ -1,5 +1,4 @@
-title: OpenAI Settings
-blueprint: chatgptsum17
-fields:
-  api_key: your-openai-api-key
-  api_url: https://api.openai.com/v1/chat/completions
+title: 'OpenAI Settings'
+data:
+  api_key: sk-proj-pnNHfZQSN0FIWoXOSRM3T3BlbkFJDJ1JDbj1G582oDwGoQV4
+  api_url: 'https://api.openai.com/v1/chat/completions'
