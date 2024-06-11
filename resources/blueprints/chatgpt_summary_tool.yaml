@@ -1,0 +1,18 @@
+title: ChatGPT Summary Tool
+sections:
+  main:
+    display: Main
+    fields:
+      - handle: content
+        field:
+          type: replicator
+          display: Content
+          sets:
+            chatgpt_form:
+              display: ChatGPT Form
+              fields:
+                - handle: form
+                  field:
+                    type: partial
+                    display: ChatGPT Form
+                    partial: chatgpt_form

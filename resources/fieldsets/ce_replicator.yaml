@@ -5,39 +5,63 @@ fields:
     field:
       collapse: false
       sets:
-        add_section:
-          display: 'Add section'
-          fields:
-            -
-              import: new_columns
-        editor:
-          display: 'Add Editor'
-          fields:
-            -
-              import: bard
-        blog_listing:
-          display: 'Blog Listing'
-          fields:
-            -
-              import: blog_listing
-        presse_listing:
-          display: 'Presse Listing'
-          fields:
-            -
-              import: presse_listing
-        show_sidebar_mobile:
-          display: 'Sidebar mobil hier darstellen'
-          fields:
-            -
-              import: sidebar_element
-        breadcrumbs_element:
-          display: 'Breadcrumbs Element'
-          fields: {  }
-        citation_generator:
-          display: Zitationsgenerator
-          fields:
-            -
-              import: citation_generator
+        main:
+          display: Main
+          instructions: null
+          icon: null
+          sets:
+            add_section:
+              display: 'Add section'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: new_columns
+            editor:
+              display: 'Add Editor'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: bard
+            blog_listing:
+              display: 'Blog Listing'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: blog_listing
+            presse_listing:
+              display: 'Presse Listing'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: presse_listing
+            show_sidebar_mobile:
+              display: 'Sidebar mobil hier darstellen'
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: sidebar_element
+            breadcrumbs_element:
+              display: 'Breadcrumbs Element'
+              instructions: null
+              icon: null
+              fields: {  }
+            citation_generator:
+              display: Zitationsgenerator
+              instructions: null
+              icon: null
+              fields:
+                -
+                  import: citation_generator
+            chatgpt_form:
+              display: 'ChatGPT Summary Tool'
+              instructions: null
+              icon: null
+              fields: {  }
       display: Replicator
       type: replicator
       icon: replicator
@@ -47,3 +71,6 @@ fields:
       visibility: visible
       always_save: false
       previews: true
+      replicator_preview: true
+      fullscreen: true
+      hide_display: false
