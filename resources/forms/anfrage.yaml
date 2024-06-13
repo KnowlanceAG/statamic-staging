@@ -10,6 +10,6 @@ email:
   -
     id: YMjlWKkB
     to: '{{ e_mail_adresse }}'
-    from: service@{{gw_source}}
+    from: service@ {{gw_source}}
     subject: 'Anfrage {{gw_source}}'
     html: mail-templates/mail-thx_anfrage
