@@ -11,5 +11,5 @@ email:
     id: YMjlWKkB
     to: '{{ e_mail_adresse }}'
     from: service@gwriters.de
-    subject: Anfrage service@'{{gw_source}}'
+    subject: Anfrage service@ {{gw_source}}'
     html: mail-templates/mail-thx_anfrage
