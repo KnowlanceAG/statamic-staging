@@ -154,6 +154,22 @@ tabs:
               listable: hidden
               instructions_position: above
           -
+            handle: gwriters
+            field:
+              options:
+                de: gwriters.de
+                ch: gwriters.ch
+              inline: false
+              type: checkboxes
+              display: Gwriters
+              icon: checkboxes
+              instructions: 'On which website should this page appear?'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: sitemap_active
             field:
               default: true
