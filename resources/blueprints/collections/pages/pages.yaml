@@ -161,7 +161,7 @@ tabs:
                 ch: gwriters.ch
               inline: false
               type: checkboxes
-              display: Gwriters
+              display: 'Website visibility'
               icon: checkboxes
               instructions: 'On which website should this page appear?'
               listable: hidden
