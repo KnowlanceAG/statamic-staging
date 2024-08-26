@@ -154,7 +154,7 @@ tabs:
               listable: hidden
               instructions_position: above
           -
-            handle: gwriters
+            handle: visibility
             field:
               options:
                 de: gwriters.de
