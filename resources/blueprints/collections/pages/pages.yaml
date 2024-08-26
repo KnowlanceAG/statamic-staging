@@ -169,6 +169,7 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              default: de
           -
             handle: sitemap_active
             field:
