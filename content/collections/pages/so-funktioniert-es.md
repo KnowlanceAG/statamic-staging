@@ -924,10 +924,6 @@ og_description: 'Möchten Sie Ihre Bachelorarbeit, Masterarbeit oder Doktorarbei
 og_image: GWriters-Logo.png
 sitemap_active: true
 breadcrumbs_active: true
-gwriters:
-  - de
-visibility:
-  - ch
 visible_on_gwriters_de: true
 visible_on_gwriters_ch: false
 ---

@@ -166,6 +166,18 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
+            handle: visible_on_gwriters_ch
+            field:
+              default: true
+              type: toggle
+              display: 'Visible on gwriters.ch'
+              icon: toggle
+              listable: true
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: sitemap_active
             field:
               default: true
@@ -281,15 +293,3 @@ tabs:
               visibility: visible
               always_save: false
               prepend: '#'
-          -
-            handle: visible_on_gwriters_ch
-            field:
-              default: true
-              type: toggle
-              display: 'Visible on gwriters.ch'
-              icon: toggle
-              listable: true
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
