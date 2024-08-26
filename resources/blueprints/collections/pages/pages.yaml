@@ -154,22 +154,17 @@ tabs:
               listable: hidden
               instructions_position: above
           -
-            handle: visibility
+            handle: visible_on_gwriters_de
             field:
-              options:
-                de: gwriters.de
-                ch: gwriters.ch
-              inline: false
-              type: checkboxes
-              display: 'Website visibility'
-              icon: checkboxes
-              instructions: 'On which website should this page appear?'
-              listable: hidden
+              default: true
+              type: toggle
+              display: 'Visible on gwriters.de'
+              icon: toggle
+              listable: true
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
-              default: de
           -
             handle: sitemap_active
             field:
@@ -286,3 +281,15 @@ tabs:
               visibility: visible
               always_save: false
               prepend: '#'
+          -
+            handle: visible_on_gwriters_ch
+            field:
+              default: true
+              type: toggle
+              display: 'Visible on gwriters.ch'
+              icon: toggle
+              listable: true
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
