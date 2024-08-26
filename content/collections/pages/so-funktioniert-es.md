@@ -5,7 +5,7 @@ title: 'So funktioniert es'
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: default
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1724714201
+updated_at: 1724714222
 teaser_bg: seiten/unsere-experten/header-so-funktionierts.jpg
 teaser:
   -
@@ -926,4 +926,6 @@ sitemap_active: true
 breadcrumbs_active: true
 gwriters:
   - de
+visibility:
+  - ch
 ---
