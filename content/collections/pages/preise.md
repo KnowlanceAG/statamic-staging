@@ -5,7 +5,7 @@ title: Preise
 author: 1f7f4b5d-2f26-445f-984b-c1bf3adad660
 template: without-teaser
 updated_by: c68200bd-dd98-4d3c-b4a2-6eb6a6cd7776
-updated_at: 1724797432
+updated_at: 1724798133
 replicator:
   -
     id: VvunKODE
@@ -3614,7 +3614,7 @@ schema_objects: |-
   }
   </script>
 breadcrumbs_active: true
-visible_on_gwriters_de: false
-visible_on_gwriters_ch: false
+visible_on_gwriters_de: true
+visible_on_gwriters_ch: true
 jumpmark: alex.sofroniev@knowlance.com
 ---
