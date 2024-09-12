@@ -278,6 +278,17 @@ tree:
     id: 1492c781-385b-4379-9bbb-3ec797c8be25
     entry: 7aff708e-5d48-409e-9242-fd82c155f5ee
   -
+    id: 1fb00afe-5818-4a22-88fc-da20aca73cb5
+    title: Toolbox
+    children:
+      -
+        id: 47ca1b97-1dd6-45c4-af59-1930b9f6ccab
+        title: 'AI Detector'
+        url: 'https://gwriters.de/ai-detector'
+      -
+        id: 1a439e6c-c3c2-428d-b32f-40a108fbc408
+        entry: 046e5eb8-8a16-431a-abdf-c079ed2d95d0
+  -
     id: 0762d8e4-9277-4a13-bdd5-89d47e70ee61
     entry: 08690e7d-78e7-40cc-8e39-9d87681c01f7
   -
