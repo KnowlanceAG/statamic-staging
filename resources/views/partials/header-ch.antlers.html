@@ -1,3 +1,4 @@
+<script src="{{ mix src='/js/site.js' }}"></script>
 <header>
   {{ collection:team as="teamMember" status:is="published" publish_contact:is="true" sort="title:asc" }}
   <div id="menuUpperRow"
@@ -13,9 +14,6 @@
                   d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z" />
               </g>
             </svg>
-            <a href="tel:{{ localized_contact_data:phone_de_DE }}"
-              class="pl-2 text-white visible-de sm:text-xs text-xxs group-hover:text-gray-900">{{
-              localized_contact_data:phone_de_DE }}</a>
             <a href="tel:{{ localized_contact_data:phone_de_CH }}"
               class="pl-2 text-white visible-ch sm:text-xs text-xxs group-hover:text-gray-900">{{
               localized_contact_data:phone_de_CH }}</a>
@@ -30,22 +28,6 @@
           </div>
           <ul id="phoneMenuList"
             class="absolute top-0 hidden pt-12 transition duration-300 bg-gray-200 border-t-0 border-orange-500 divide-y divide-gray-300 rounded-bl-lg rounded-br-lg opacity-0 cursor-pointer pointer-events-none contact-list z-55 min-w-76 border-3 group-focus:opacity-100 group-hover:opacity-100 group-focus:pointer-events-auto group-hover:pointer-events-auto">
-            <li
-              class="text-gray-900 transition duration-300 visible-de set-block hover:bg-orange-500 sm:text-xs text-xxs hover:text-white last:rounded-br last:rounded-bl">
-              <a target="_blank" rel="noopener noreferrer" href="tel:{{ localized_contact_data:phone_de_DE }}"
-                class="flex w-full h-10 font-bold cursor-pointer contact-entry">
-                <div class="flex self-center px-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                    class="self-center text-white fill-current group-hover:text-orange-500">
-                    <g transform="rotate(90 12 12)">
-                      <path
-                        d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z" />
-                    </g>
-                  </svg>
-                  <span class="pl-2">{{ localized_contact_data:phone_de_DE }} Kostenlose Beratung</span>
-                </div>
-              </a>
-            </li>
             <li
               class="text-gray-900 transition duration-300 visible-ch set-block hover:bg-orange-500 sm:text-xs text-xxs hover:text-white last:rounded-br last:rounded-bl">
               <a target="_blank" rel="noopener noreferrer" href="tel:{{ localized_contact_data:phone_de_CH }}"
@@ -62,28 +44,6 @@
                 </div>
               </a>
             </li>
-            <div class="visible-de">
-                {{ teamMember }}
-                {{ if phone_number }}
-                <li
-                class="text-gray-900 transition duration-300 hover:bg-orange-500 sm:text-xs text-xxs hover:text-white last:rounded-br last:rounded-bl">
-                <a target="_blank" rel="noopener noreferrer" href="tel:{{ phone_number }}"
-                    class="flex w-full h-10 cursor-pointer contact-entry">
-                    <div class="flex self-center px-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        class="self-center text-white fill-current group-hover:text-orange-500">
-                        <g transform="rotate(90 12 12)">
-                        <path
-                            d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z" />
-                        </g>
-                    </svg>
-                    <span class="pl-2">{{ phone_number }} ({{ title }})</span>
-                    </div>
-                </a>
-                </li>
-                {{ /if }}
-                {{ /teamMember }}
-            </div>
           </ul>
         </li>
       </ul>
@@ -110,24 +70,6 @@
           <ul
             class="absolute top-0 hidden pt-12 transition duration-300 bg-gray-200 border-t-0 border-orange-500 divide-y divide-gray-300 rounded-bl-lg rounded-br-lg opacity-0 cursor-pointer pointer-events-none contact-list z-55 min-w-76 border-3 group-focus:opacity-100 group-hover:opacity-100 group-focus:pointer-events-auto group-hover:pointer-events-auto">
             <li
-              class="text-gray-900 transition duration-300 visible-de set-block hover:bg-orange-500 hover:text-white last:rounded-br last:rounded-bl">
-              <a target="_blank" rel="noopener noreferrer"
-                href="mailto:{{ localized_contact_data:mail_address_de_DE }}{{ if localized_contact_data:mail_subject_de_DE }}?subject={{ localized_contact_data:mail_subject_de_DE }}{{ /if }}"
-                class="flex w-full h-10 font-bold cursor-pointer contact-entry">
-                <div class="flex self-center px-2">
-                  <svg xmlns="http://www.w3.org/2000/svg"
-                    class="self-center text-white fill-current group-hover:text-orange-500" width="24" height="24"
-                    viewBox="0 0 512 512">
-                    <path
-                      d="M67 148.7c11 5.8 163.8 89.1 169.5 92.1 5.7 3 11.5 4.4 20.5 4.4s14.8-1.4 20.5-4.4c5.7-3 158.5-86.3 169.5-92.1 4.1-2.1 11-5.9 12.5-10.2 2.6-7.6-.2-10.5-11.3-10.5H65.8c-11.1 0-13.9 3-11.3 10.5 1.5 4.4 8.4 8.1 12.5 10.2z" />
-                    <path
-                      d="M455.7 153.2c-8.2 4.2-81.8 56.6-130.5 88.1l82.2 92.5c2 2 2.9 4.4 1.8 5.6-1.2 1.1-3.8.5-5.9-1.4l-98.6-83.2c-14.9 9.6-25.4 16.2-27.2 17.2-7.7 3.9-13.1 4.4-20.5 4.4s-12.8-.5-20.5-4.4c-1.9-1-12.3-7.6-27.2-17.2L110.7 338c-2 2-4.7 2.6-5.9 1.4-1.2-1.1-.3-3.6 1.7-5.6l82.1-92.5c-48.7-31.5-123.1-83.9-131.3-88.1-8.8-4.5-9.3.8-9.3 4.9v205c0 9.3 13.7 20.9 23.5 20.9h371c9.8 0 21.5-11.7 21.5-20.9v-205c0-4.2.6-9.4-8.3-4.9z" />
-                  </svg>
-                  <span class="pl-2">{{ localized_contact_data:mail_address_de_DE }}</span>
-                </div>
-              </a>
-            </li>
-            <li
               class="text-gray-900 transition duration-300 visible-ch set-block hover:bg-orange-500 hover:text-white last:rounded-br last:rounded-bl">
               <a target="_blank" rel="noopener noreferrer"
                 href="mailto:{{ localized_contact_data:mail_address_de_CH }}{{ if localized_contact_data:mail_subject_de_CH }}?subject={{ localized_contact_data:mail_subject_de_CH }}{{ /if }}"
@@ -145,29 +87,6 @@
                 </div>
               </a>
             </li>
-            <div class="visible-de">
-                {{ teamMember }}
-                {{ if email_address }}
-                <li
-                class="text-gray-900 transition duration-300 hover:bg-orange-500 hover:text-white last:rounded-br last:rounded-bl">
-                <a target="_blank" rel="noopener noreferrer" href="mailto:{{ email_address }}"
-                    class="flex w-full h-10 cursor-pointer contact-entry">
-                    <div class="flex self-center px-2">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                        class="self-center text-white fill-current group-hover:text-orange-500" width="24" height="24"
-                        viewBox="0 0 512 512">
-                        <path
-                        d="M67 148.7c11 5.8 163.8 89.1 169.5 92.1 5.7 3 11.5 4.4 20.5 4.4s14.8-1.4 20.5-4.4c5.7-3 158.5-86.3 169.5-92.1 4.1-2.1 11-5.9 12.5-10.2 2.6-7.6-.2-10.5-11.3-10.5H65.8c-11.1 0-13.9 3-11.3 10.5 1.5 4.4 8.4 8.1 12.5 10.2z" />
-                        <path
-                        d="M455.7 153.2c-8.2 4.2-81.8 56.6-130.5 88.1l82.2 92.5c2 2 2.9 4.4 1.8 5.6-1.2 1.1-3.8.5-5.9-1.4l-98.6-83.2c-14.9 9.6-25.4 16.2-27.2 17.2-7.7 3.9-13.1 4.4-20.5 4.4s-12.8-.5-20.5-4.4c-1.9-1-12.3-7.6-27.2-17.2L110.7 338c-2 2-4.7 2.6-5.9 1.4-1.2-1.1-.3-3.6 1.7-5.6l82.1-92.5c-48.7-31.5-123.1-83.9-131.3-88.1-8.8-4.5-9.3.8-9.3 4.9v205c0 9.3 13.7 20.9 23.5 20.9h371c9.8 0 21.5-11.7 21.5-20.9v-205c0-4.2.6-9.4-8.3-4.9z" />
-                    </svg>
-                    <span class="pl-2">{{ email_address }} ({{ title }})</span>
-                    </div>
-                </a>
-                </li>
-                {{ /if }}
-                {{ /teamMember }}
-            </div>
           </ul>
         </li>
       </ul>
@@ -220,22 +139,6 @@
             </div>
             <ul class="block pl-0 list-none divide-y divide-gray-300 cursor-pointer">
               <li
-                class="px-2 text-gray-900 transition duration-150 visible-de set-block group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
-                <a target="_blank" rel="noopener noreferrer" href="tel:{{ localized_contact_data:phone_de_DE }}"
-                  class="flex h-10 font-bold cursor-pointer contact-entry">
-                  <div class="flex self-center pr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                      class="self-center text-orange-500 fill-current">
-                      <g transform="rotate(90 12 12)">
-                        <path
-                          d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z" />
-                      </g>
-                    </svg>
-                    <span class="pl-2 md:pt-0 pt-.5">{{ localized_contact_data:phone_de_DE }} Kostenlose Beratung</span>
-                  </div>
-                </a>
-              </li>
-              <li
                 class="px-2 text-gray-900 transition duration-150 visible-ch set-block group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
                 <a target="_blank" rel="noopener noreferrer" href="tel:{{ localized_contact_data:phone_de_CH }}"
                   class="flex h-10 font-bold cursor-pointer contact-entry">
@@ -251,28 +154,6 @@
                   </div>
                 </a>
               </li>
-              <div class="visible-de">
-                {{ teamMember }}
-                {{ if phone_number }}
-                <li
-                    class="px-2 text-gray-900 transition duration-150 group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
-                    <a target="_blank" rel="noopener noreferrer" href="tel:{{ phone_number }}"
-                    class="flex h-10 cursor-pointer contact-entry">
-                    <div class="flex self-center pr-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
-                        class="self-center text-orange-500 fill-current">
-                        <g transform="rotate(90 12 12)">
-                            <path
-                            d="M4.05 21q-.45 0-.75-.3t-.3-.75V15.9q0-.35.225-.613t.575-.337l3.45-.7q.35-.05.713.063t.587.337L10.9 17q1.9-1.15 3.475-2.725T17 10.9l-2.4-2.45q-.225-.225-.288-.513T14.3 7.3l.65-3.5q.05-.35.325-.575T15.9 3h4.05q.45 0 .75.3t.3.75q0 3.225-1.438 6.288t-3.8 5.425q-2.362 2.362-5.425 3.8T4.05 21Z" />
-                        </g>
-                        </svg>
-                        <span class="pl-2 md:pt-0 pt-.5">{{ phone_number }} ({{ title }})</span>
-                    </div>
-                    </a>
-                </li>
-                {{ /if }}
-                {{ /teamMember }}
-              </div>
             </ul>
           </div>
         </section>
@@ -291,24 +172,6 @@
             </div>
             <ul class="block pl-0 list-none divide-y divide-gray-300 cursor-pointer">
               <li
-                class="px-2 text-gray-900 transition duration-150 visible-de set-block group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
-                <a target="_blank" rel="noopener noreferrer"
-                  href="mailto:{{ localized_contact_data:mail_address_de_DE }}{{ if localized_contact_data:mail_subject_de_DE }}?subject={{ localized_contact_data:mail_subject_de_DE }}{{ /if }}"
-                  class="flex h-10 font-bold cursor-pointer contact-entry">
-                  <div class="flex self-center pr-2">
-                    <svg xmlns="http://www.w3.org/2000/svg"
-                      class="self-center text-orange-500 fill-current group-hover:text-white" width="24" height="24"
-                      viewBox="0 0 512 512">
-                      <path
-                        d="M67 148.7c11 5.8 163.8 89.1 169.5 92.1 5.7 3 11.5 4.4 20.5 4.4s14.8-1.4 20.5-4.4c5.7-3 158.5-86.3 169.5-92.1 4.1-2.1 11-5.9 12.5-10.2 2.6-7.6-.2-10.5-11.3-10.5H65.8c-11.1 0-13.9 3-11.3 10.5 1.5 4.4 8.4 8.1 12.5 10.2z" />
-                      <path
-                        d="M455.7 153.2c-8.2 4.2-81.8 56.6-130.5 88.1l82.2 92.5c2 2 2.9 4.4 1.8 5.6-1.2 1.1-3.8.5-5.9-1.4l-98.6-83.2c-14.9 9.6-25.4 16.2-27.2 17.2-7.7 3.9-13.1 4.4-20.5 4.4s-12.8-.5-20.5-4.4c-1.9-1-12.3-7.6-27.2-17.2L110.7 338c-2 2-4.7 2.6-5.9 1.4-1.2-1.1-.3-3.6 1.7-5.6l82.1-92.5c-48.7-31.5-123.1-83.9-131.3-88.1-8.8-4.5-9.3.8-9.3 4.9v205c0 9.3 13.7 20.9 23.5 20.9h371c9.8 0 21.5-11.7 21.5-20.9v-205c0-4.2.6-9.4-8.3-4.9z" />
-                    </svg>
-                    <span class="pl-2 md:pt-0 pt-.5">{{ localized_contact_data:mail_address_de_DE }}</span>
-                  </div>
-                </a>
-              </li>
-              <li
                 class="px-2 text-gray-900 transition duration-150 visible-ch set-block group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
                 <a target="_blank" rel="noopener noreferrer"
                   href="mailto:{{ localized_contact_data:mail_address_de_CH }}{{ if localized_contact_data:mail_subject_de_CH }}?subject={{ localized_contact_data:mail_subject_de_CH }}{{ /if }}"
@@ -326,29 +189,6 @@
                   </div>
                 </a>
               </li>
-              <div class="visible-de">
-                {{ teamMember }}
-                {{ if email_address }}
-                <li
-                    class="px-2 text-gray-900 transition duration-150 group hover:bg-orange-500 sm:text-xs text-xxs hover:text-white">
-                    <a target="_blank" rel="noopener noreferrer" href="mailto:{{ email_address }}"
-                    class="flex h-10 cursor-pointer contact-entry">
-                    <div class="flex self-center pr-2">
-                        <svg xmlns="http://www.w3.org/2000/svg"
-                        class="self-center text-orange-500 fill-current group-hover:text-white" width="24" height="24"
-                        viewBox="0 0 512 512">
-                        <path
-                            d="M67 148.7c11 5.8 163.8 89.1 169.5 92.1 5.7 3 11.5 4.4 20.5 4.4s14.8-1.4 20.5-4.4c5.7-3 158.5-86.3 169.5-92.1 4.1-2.1 11-5.9 12.5-10.2 2.6-7.6-.2-10.5-11.3-10.5H65.8c-11.1 0-13.9 3-11.3 10.5 1.5 4.4 8.4 8.1 12.5 10.2z" />
-                        <path
-                            d="M455.7 153.2c-8.2 4.2-81.8 56.6-130.5 88.1l82.2 92.5c2 2 2.9 4.4 1.8 5.6-1.2 1.1-3.8.5-5.9-1.4l-98.6-83.2c-14.9 9.6-25.4 16.2-27.2 17.2-7.7 3.9-13.1 4.4-20.5 4.4s-12.8-.5-20.5-4.4c-1.9-1-12.3-7.6-27.2-17.2L110.7 338c-2 2-4.7 2.6-5.9 1.4-1.2-1.1-.3-3.6 1.7-5.6l82.1-92.5c-48.7-31.5-123.1-83.9-131.3-88.1-8.8-4.5-9.3.8-9.3 4.9v205c0 9.3 13.7 20.9 23.5 20.9h371c9.8 0 21.5-11.7 21.5-20.9v-205c0-4.2.6-9.4-8.3-4.9z" />
-                        </svg>
-                        <span class="pl-2 md:pt-0 pt-.5">{{ email_address }} ({{ title }})</span>
-                    </div>
-                    </a>
-                </li>
-                {{ /if }}
-                {{ /teamMember }}
-              </div>
             </ul>
           </div>
         </section>

@@ -31,6 +31,13 @@ ErrorDocument 403 /error-404/index.html
   #Header set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'report-sample' 'self' 'unsafe-inline' 'unsafe-eval' www.google-analytics.com www.googletagmanager.com www.provenexpert.com; style-src 'report-sample' 'self' data: 'unsafe-inline' www.provenexpert.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://statamic-dynamic.gwriters.de stats.g.doubleclick.net www.google-analytics.com; font-src 'self' data: www.google-analytics.com www.provenexpert.com; frame-src 'self' player.vimeo.com www.youtube-nocookie.com; img-src 'self' data: www.google.com www.google.at www.google.de www.google-analytics.com google-analytics.com www.provenexpert.com; manifest-src 'self'; media-src 'self'; frame-ancestors 'self' https://thesisbuddy.ch; report-uri https://gwriters.report-uri.com/r/d/csp/wizard; worker-src 'none';"
 </IfModule>
 
+# Set content-type for sitemaps
+<FilesMatch "\.xml$">
+    ForceType application/xml
+    Header set Content-Type "application/xml"
+    Header append Vary Accept-Encoding
+</FilesMatch>
+
 # Prohibit access to formular uploads
 RedirectMatch 403 ^/public/img/containers/formular_uploads/.?$
 
@@ -231,44 +238,44 @@ Redirect 301 /wiki/ghostwriter-oesterreich /faq/ghostwriter-oesterreich
 Redirect 301 /wiki/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben /faq/wissenschaftliche-arbeiten-artikel-masterarbeit-schreiben
 
 #14604
-Redirect 301 /fachrichtungen /ghostwriter
-Redirect 301 /fachrichtungen/elektrotechnik /ghostwriter/elektrotechnik
-Redirect 301 /fachrichtungen/anglistik /ghostwriter/anglistik
-Redirect 301 /fachrichtungen/psychologie /ghostwriter/psychologie
-Redirect 301 /fachrichtungen/sozialwissenschaften /ghostwriter/sozialwissenschaften
-Redirect 301 /fachrichtungen/sprachwissenschaften /ghostwriter/sprachwissenschaften
-Redirect 301 /fachrichtungen/chemie /ghostwriter/chemie
-Redirect 301 /fachrichtungen/medienwissenschaften /ghostwriter/medienwissenschaften
-Redirect 301 /fachrichtungen/literatur /ghostwriter/literatur
-Redirect 301 /fachrichtungen/germanistik-ghostwriter /ghostwriter/germanistik
-Redirect 301 /fachrichtungen/kunst /ghostwriter/kunst
-Redirect 301 /fachrichtungen/bauingenieurwesen /ghostwriter/bauingenieurwesen
-Redirect 301 /fachrichtungen/mathematik /ghostwriter/mathematik
-Redirect 301 /fachrichtungen/technomathematik /ghostwriter/technomathematik
-Redirect 301 /fachrichtungen/zahnmedizin /ghostwriter/zahnmedizin
-Redirect 301 /fachrichtungen/soziale-arbeit /ghostwriter/soziale
-Redirect 301 /fachrichtungen/biologie /ghostwriter/biologie
-Redirect 301 /fachrichtungen/marketing /ghostwriter/marketing
-Redirect 301 /fachrichtungen/maschinenbau /ghostwriter/maschinenbau
-Redirect 301 /fachrichtungen/philosophie /ghostwriter/philosophie
-Redirect 301 /fachrichtungen/erziehungswissenschaften-ghostwriter /ghostwriter/erziehungswissenschaften
-Redirect 301 /fachrichtungen/vwl /ghostwriter/vwl
-Redirect 301 /fachrichtungen/jura /ghostwriter/jura
-Redirect 301 /fachrichtungen/wirtschaftsinformatik /ghostwriter/wirtschaftsinformatik
-Redirect 301 /fachrichtungen/architektur /ghostwriter/architektur
-Redirect 301 /fachrichtungen/wirtschaftswissenschaften /ghostwriter/wirtschaftswissenschaften
-Redirect 301 /fachrichtungen/finanzwissenschaften /ghostwriter/finanzwissenschaften
-Redirect 301 /fachrichtungen/soziologie /ghostwriter/soziologie
-Redirect 301 /fachrichtungen/medizin /ghostwriter/medizin
-Redirect 301 /fachrichtungen/geowissenschaften /ghostwriter/geowissenschaften
-Redirect 301 /fachrichtungen/geologie /ghostwriter/geologie
-Redirect 301 /fachrichtungen/informatik /ghostwriter/informatik
-Redirect 301 /fachrichtungen/agrarwissenschaften /ghostwriter/agrarwissenschaften
-Redirect 301 /fachrichtungen/pflegewissenschaften /ghostwriter/pflegewissenschaften
-Redirect 301 /fachrichtungen/personalmanagement /ghostwriter/personalmanagement
-Redirect 301 /fachrichtungen/bwl /ghostwriter/bwl
-Redirect 301 /fachrichtungen/kommunikationswissenschaften /ghostwriter/kommunikationswissenschaften
-Redirect 301 /fachrichtungen/geschichte /ghostwriter/geschichte
+Redirect 301 /fachrichtungen/elektrotechnik /elektrotechnik
+Redirect 301 /fachrichtungen/anglistik /anglistik
+Redirect 301 /fachrichtungen/psychologie /psychologie
+Redirect 301 /fachrichtungen/sozialwissenschaften /sozialwissenschaften
+Redirect 301 /fachrichtungen/sprachwissenschaften /sprachwissenschaften
+Redirect 301 /fachrichtungen/chemie /chemie
+Redirect 301 /fachrichtungen/medienwissenschaften /medienwissenschaften
+Redirect 301 /fachrichtungen/literatur /literatur
+Redirect 301 /fachrichtungen/germanistik-ghostwriter /germanistik
+Redirect 301 /fachrichtungen/kunst /kunst
+Redirect 301 /fachrichtungen/bauingenieurwesen /bauingenieurwesen
+Redirect 301 /fachrichtungen/mathematik /mathematik
+Redirect 301 /fachrichtungen/technomathematik /technomathematik
+Redirect 301 /fachrichtungen/zahnmedizin /zahnmedizin
+Redirect 301 /fachrichtungen/soziale-arbeit /soziale
+Redirect 301 /fachrichtungen/biologie /biologie
+Redirect 301 /fachrichtungen/marketing /marketing
+Redirect 301 /fachrichtungen/maschinenbau /maschinenbau
+Redirect 301 /fachrichtungen/philosophie /philosophie
+Redirect 301 /fachrichtungen/erziehungswissenschaften-ghostwriter /erziehungswissenschaften
+Redirect 301 /fachrichtungen/vwl /vwl
+Redirect 301 /fachrichtungen/jura /jura
+Redirect 301 /fachrichtungen/wirtschaftsinformatik /wirtschaftsinformatik
+Redirect 301 /fachrichtungen/architektur /architektur
+Redirect 301 /fachrichtungen/wirtschaftswissenschaften /wirtschaftswissenschaften
+Redirect 301 /fachrichtungen/finanzwissenschaften /finanzwissenschaften
+Redirect 301 /fachrichtungen/soziologie /soziologie
+Redirect 301 /fachrichtungen/medizin /medizin
+Redirect 301 /fachrichtungen/geowissenschaften /geowissenschaften
+Redirect 301 /fachrichtungen/geologie /geologie
+Redirect 301 /fachrichtungen/informatik /informatik
+Redirect 301 /fachrichtungen/agrarwissenschaften /agrarwissenschaften
+Redirect 301 /fachrichtungen/pflegewissenschaften /pflegewissenschaften
+Redirect 301 /fachrichtungen/personalmanagement /personalmanagement
+Redirect 301 /fachrichtungen/bwl /bwl
+Redirect 301 /fachrichtungen/kommunikationswissenschaften /kommunikationswissenschaften
+Redirect 301 /fachrichtungen/geschichte /geschichte
+Redirect 301 /fachrichtungen /
 
 #14632
 Redirect 301 /blog/din-iso-690 /zitationsgenerator/din-iso-690
@@ -278,3 +285,97 @@ Redirect 301 /blog/internetquellen-zitieren /zitationsgenerator/internetquellen-
 Redirect 301 /blog/videos-zitieren /zitationsgenerator/videos-zitieren
 Redirect 301 /blog/gesetze-zitieren /zitationsgenerator/gesetze-zitieren
 Redirect 301 /blog/chicago-zitierweise /zitationsgenerator/chicago-zitierweise
+
+#01/03/2024
+Redirect 301 /ghostwriter/architektur /architektur
+Redirect 301 /ghostwriter/bauingenieurwesen /bauingenieurwesen
+Redirect 301 /ghostwriter/elektrotechnik /elektrotechnik
+Redirect 301 /ghostwriter/maschinenbau /maschinenbau
+Redirect 301 /ghostwriter/technomathematik /technomathematik
+Redirect 301 /ghostwriter/informatik /informatik
+Redirect 301 /ghostwriter/ingenieurwissenschaften /ingenieurwissenschaften
+Redirect 301 /ghostwriter/biologie /biologie
+Redirect 301 /ghostwriter/chemie /chemie
+Redirect 301 /ghostwriter/geologie /geologie
+Redirect 301 /ghostwriter/mathematik /mathematik
+Redirect 301 /ghostwriter/geowissenschaften /geowissenschaften
+Redirect 301 /ghostwriter/agrarwissenschaften /agrarwissenschaften
+Redirect 301 /ghostwriter/erziehungswissenschaften-ghostwriter /erziehungswissenschaften-ghostwriter
+Redirect 301 /ghostwriter/soziale-arbeit /soziale-arbeit
+Redirect 301 /ghostwriter/soziologie /soziologie
+Redirect 301 /ghostwriter/sprachwissenschaften /sprachwissenschaften
+Redirect 301 /ghostwriter/sozialwissenschaften /sozialwissenschaften
+Redirect 301 /ghostwriter/kommunikationswissenschaften /kommunikationswissenschaften
+Redirect 301 /ghostwriter/medizin /medizin
+Redirect 301 /ghostwriter/pflegewissenschaften /pflegewissenschaften
+Redirect 301 /ghostwriter/psychologie /psychologie
+Redirect 301 /ghostwriter/zahnmedizin /zahnmedizin
+Redirect 301 /ghostwriter/kunst /kunst
+Redirect 301 /ghostwriter/anglistik /anglistik
+Redirect 301 /ghostwriter/jura /jura
+Redirect 301 /ghostwriter/philosophie /philosophie
+Redirect 301 /ghostwriter/literatur /literatur
+Redirect 301 /ghostwriter/geschichte /geschichte
+Redirect 301 /ghostwriter/germanistik-ghostwriter /germanistik-ghostwriter
+Redirect 301 /ghostwriter/marketing /marketing
+Redirect 301 /ghostwriter/personalmanagement /personalmanagement
+Redirect 301 /ghostwriter/wirtschaftswissenschaften /wirtschaftswissenschaften
+Redirect 301 /ghostwriter/wirtschaftsinformatik /wirtschaftsinformatik
+Redirect 301 /ghostwriter/vwl /vwl
+Redirect 301 /ghostwriter/medienwissenschaften /medienwissenschaften
+Redirect 301 /ghostwriter/finanzwissenschaften /finanzwissenschaften
+Redirect 301 /ghostwriter/bwl /bwl
+Redirect 301 /ghostwriter /
+
+#Blog redirects -> 04/03/2024
+Redirect 301 /blog/vortrag-halten-tipps-akademische-ghostwriter /arbeiten/vortrag
+Redirect 301 /blog/ghostwriter-abschlussarbeit-schreiben-lassen /arbeiten/abschlussarbeit-schreiben-lassen
+Redirect 301 /blog/wissenschaftliche-arbeiten-schreiben /arbeiten
+Redirect 301 /blog/praktikumsbericht-vorlage /arbeiten/praktikumsbericht
+Redirect 301 /blog/praktikumsbericht-schreiben /arbeiten/praktikumsbericht
+Redirect 301 /blog/expose-erstellen /expose
+Redirect 301 /blog/masterarbeit-thema-finden /blog/masterarbeit-thema
+Redirect 301 /blog/auslandssemester /
+Redirect 301 /blog/masterarbeit-ausland-schreiben-was-du-beachten-musst /blog/masterarbeit-ausland
+Redirect 301 /blog/studenten-lektorat-korrektorat /blog/korrektorat-lektorat-textredaktion
+Redirect 301 /blog/ghostwriting-lektorat-korrektorat /blog/korrektorat-lektorat-textredaktion
+Redirect 301 /blog/mathe-app-studium /blog/apps-fuer-studenten
+Redirect 301 /blog/qualitative-inhaltsanalyse-voraussetzungen /blog/qualitative-inhaltsanalyse
+Redirect 301 /blog/qualitative-inhaltsanalyse-auswertungsverfahren /blog/qualitative-inhaltsanalyse
+Redirect 301 /blog/bwl-logistik /logistik
+Redirect 301 /blog/tabellen-abbildungen-zitieren /blog/tabellen-zitieren
+Redirect 301 /blog/abbildungen-in-wissenschaftlichen-arbeiten /blog/abbildungen-zitieren
+
+#redirects -> 02/04/2024
+Redirect 301 /blog/abschlussarbeit-thema /bachelorarbeit-thema
+Redirect 301 /blog/bachelorarbeit-schreiben /blog/bachelorarbeit-in-zwei-wochen
+Redirect 301 /blog/bewerbung-ghostwriter-gwriters /jobs
+Redirect 301 /blog/erfahrungsbericht-ghostwriter-gwriters /gwriters-erfahrung
+Redirect 301 /blog/fh-oder-uni-unterschiede /blog/fh-vs-uni-gehalt-vs-karrierechancen
+Redirect 301 /blog/ghostwriter-jobs-copywriter-webtexte-blogbeitraege-schreiben /ghostwriter-job
+Redirect 301 /blog/ghostwriter-mustervorlage /ghostwriting-beispielarbeiten
+Redirect 301 /blog/ghostwriting-agentur-homeoffice /blog/autoren-jobs-homeoffice
+Redirect 301 /blog/hypothesen-aufstellen-ohne-angst /blog/hypothese-forschungsfrage
+Redirect 301 /blog/internes-rechnungswesen /ghostwriter/bwl
+Redirect 301 /blog/literaturrecherche /blog/literaturrecherche-datenbanken-quellen
+Redirect 301 /blog/nadel-im-heuhaufen-bachelorarbeit-thema-finden /bachelorarbeit-thema
+Redirect 301 /blog/texte-ueberarbeiten-lassen /lektorat
+Redirect 301 /blog/wissenschaftliche-publikationen-voraussetzungen /blog/wissenschaftliches-paper-schreiben
+Redirect 301 /blog/wissenschaftliche-quellen-finden-online /blog/literaturrecherche-datenbanken-quellen
+Redirect 301 /blog/wissenschaftliches-arbeiten-regeln /arbeiten
+Redirect 301 /blog/wissenschaftliches-schreiben-fur-schule-und-studium /arbeiten
+
+RewriteCond %{REQUEST_URI} ^/blog/selbststaendigkeit-im-studium$
+RewriteRule ^ - [L,R=410]
+RewriteCond %{REQUEST_URI} ^/blog/quereinsteiger-jobwechsel$
+RewriteRule ^ - [L,R=410]
+RewriteCond %{REQUEST_URI} ^/blog/homeoffice-online-praktikum$
+RewriteRule ^ - [L,R=410]
+RewriteCond %{REQUEST_URI} ^/blog/schneller-lesen-lernen$
+RewriteRule ^ - [L,R=410]
+
+
+
+
+# BEGIN Dynamic Redirects
+# END Dynamic Redirects

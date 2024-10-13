@@ -22,4 +22,9 @@ return [
         ],
 
     ],
+
+    'openai' => [
+        'api_key' => env('OPENAI_API_KEY', 'default-api-key'),
+        'api_url' => env('OPENAI_API_URL', 'https://api.openai.com/v1/chat/completions'),
+    ],
 ];

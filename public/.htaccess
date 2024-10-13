@@ -19,3 +19,54 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+#01/03/2024
+Redirect 301 /ghostwriter/architektur /architektur
+Redirect 301 /ghostwriter/bauingenieurwesen /bauingenieurwesen
+Redirect 301 /ghostwriter/elektrotechnik /elektrotechnik
+Redirect 301 /ghostwriter/maschinenbau /maschinenbau
+Redirect 301 /ghostwriter/technomathematik /technomathematik
+Redirect 301 /ghostwriter/informatik /informatik
+Redirect 301 /ghostwriter/ingenieurwissenschaften /ingenieurwissenschaften
+Redirect 301 /ghostwriter/biologie /biologie
+Redirect 301 /ghostwriter/chemie /chemie
+Redirect 301 /ghostwriter/geologie /geologie
+Redirect 301 /ghostwriter/mathematik /mathematik
+Redirect 301 /ghostwriter/geowissenschaften /geowissenschaften
+Redirect 301 /ghostwriter/agrarwissenschaften /agrarwissenschaften
+Redirect 301 /ghostwriter/erziehungswissenschaften-ghostwriter /erziehungswissenschaften-ghostwriter
+Redirect 301 /ghostwriter/soziale-arbeit /soziale-arbeit
+Redirect 301 /ghostwriter/soziologie /soziologie
+Redirect 301 /ghostwriter/sprachwissenschaften /sprachwissenschaften
+Redirect 301 /ghostwriter/sozialwissenschaften /sozialwissenschaften
+Redirect 301 /ghostwriter/kommunikationswissenschaften /kommunikationswissenschaften
+Redirect 301 /ghostwriter/medizin /medizin
+Redirect 301 /ghostwriter/pflegewissenschaften /pflegewissenschaften
+Redirect 301 /ghostwriter/psychologie /psychologie
+Redirect 301 /ghostwriter/zahnmedizin /zahnmedizin
+Redirect 301 /ghostwriter/kunst /kunst
+Redirect 301 /ghostwriter/anglistik /anglistik
+Redirect 301 /ghostwriter/jura /jura
+Redirect 301 /ghostwriter/philosophie /philosophie
+Redirect 301 /ghostwriter/literatur /literatur
+Redirect 301 /ghostwriter/geschichte /geschichte
+Redirect 301 /ghostwriter/germanistik-ghostwriter /germanistik-ghostwriter
+Redirect 301 /ghostwriter/marketing /marketing
+Redirect 301 /ghostwriter/personalmanagement /personalmanagement
+Redirect 301 /ghostwriter/wirtschaftswissenschaften /wirtschaftswissenschaften
+Redirect 301 /ghostwriter/wirtschaftsinformatik /wirtschaftsinformatik
+Redirect 301 /ghostwriter/vwl /vwl
+Redirect 301 /ghostwriter/medienwissenschaften /medienwissenschaften
+Redirect 301 /ghostwriter/finanzwissenschaften /finanzwissenschaften
+Redirect 301 /ghostwriter/bwl /bwl
+Redirect 301 /ghostwriter /
+
+#Blog redirects -> 04/03/2024
+Redirect 301 /blog/vortrag-halten-tipps-akademische-ghostwriter /arbeiten/vortrag
+Redirect 301 /blog/ghostwriter-abschlussarbeit-schreiben-lassen /arbeiten/abschlussarbeit-schreiben-lassen
+Redirect 301 /blog/wissenschaftliche-arbeiten-schreiben /arbeiten
+Redirect 301 /blog/praktikumsbericht-vorlage /arbeiten/praktikumsbericht
+Redirect 301 /blog/praktikumsbericht-schreiben /arbeiten/praktikumsbericht
+Redirect 301 /blog/expose-erstellen /expose
+Redirect 301 /blog/masterarbeit-thema-finden /blog/masterarbeit-thema
+Redirect 301 /blog/auslandssemester /

@@ -19,7 +19,7 @@
     "statamic/cms": "4.31.0",
     "statamic/ssg": "2.2.0",
     "uscreen/cpssg": "dev-feature/next",
-    "uscreen/better-statamic-bard-text-color": "*",
+    "uscreen/better-statamic-bard-text-color": "dev-next",
     "withcandour/aardvark-seo": "3.0.0"
   },
   "require-dev": {
@@ -75,7 +75,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://gitlab.uscreen.net/uscreen/statamic-addons/cpssg"
+      "url": "https://github.com/KnowlanceAG/statamic-addons-cpssg"
     },
     {
       "type": "path",

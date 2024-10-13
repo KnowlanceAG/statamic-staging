@@ -175,7 +175,7 @@ return [
     App\Providers\EventServiceProvider::class,
     App\Providers\RouteServiceProvider::class,
     App\Providers\Custom\ValidationServiceProvider::class,
-
+    App\Providers\ViewServiceProvider::class,
   ],
 
   /*

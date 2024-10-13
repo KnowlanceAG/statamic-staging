@@ -39,6 +39,11 @@ return [
 
     'widgets' => [
         'getting_started',
+	'openai_settings' => [
+            'type' => 'form',
+            'form' => 'openai_settings',
+            'width' => 50,
+        ],
     ],
 
     /*
