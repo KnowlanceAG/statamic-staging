@@ -222,3 +222,4 @@ super_admin:
   permissions:
     - super
     - 'access default site'
+    - 'access ch site'
