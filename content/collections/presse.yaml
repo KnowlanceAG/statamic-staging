@@ -1,4 +1,8 @@
 title: Presse
+sites:
+  - default
+  - ch
+propagate: false
 template: presse-item
 layout: layout
 revisions: false
