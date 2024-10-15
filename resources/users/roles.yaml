@@ -216,6 +216,7 @@ admin:
     - 'assign roles'
     - 'configure form fields'
     - 'access default site'
+    - 'access ch site'
 super_admin:
   title: 'Super Admin'
   permissions:
