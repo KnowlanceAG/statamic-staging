@@ -1,4 +1,8 @@
 title: Blog
+sites:
+  - default
+  - ch
+propagate: false
 template: blog-item
 layout: layout
 taxonomies:
