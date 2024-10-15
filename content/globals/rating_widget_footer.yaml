@@ -1,15 +1,1 @@
 title: 'Footer Rating Widget'
-data:
-  widget_code_html: |-
-    <script type="application/ld+json">{
-    "@context": "https://schema.org/",
-    "@type": "CreativeWorkSeries",
-    "name": "GWriters",
-    "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": " 4.93",
-    "bestRating": "5",
-    "ratingCount": " 1279"
-    }
-    }
-    </script>
