@@ -1,4 +1,8 @@
 title: Akademie
+sites:
+  - default
+  - ch
+propagate: false
 template: academy-item
 layout: layout
 revisions: false
@@ -10,4 +14,3 @@ date_behavior:
 structure:
   root: false
   max_depth: 1
-  tree: {  }
