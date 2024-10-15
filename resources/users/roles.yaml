@@ -96,6 +96,7 @@ redakteure:
     - 'access cache utility'
     - 'access search utility'
     - 'access default site'
+    - 'access ch site'
 admin:
   title: Admin
   permissions:
