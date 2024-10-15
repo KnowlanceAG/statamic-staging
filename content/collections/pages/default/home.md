@@ -3,9 +3,6 @@ id: home
 blueprint: pages
 title: Startseite
 template: default
-sites:
-  - default
-  - ch
 teaser:
   - type: heading
     attrs:
